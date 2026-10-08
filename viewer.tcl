@@ -6,9 +6,9 @@
 #
 # Click a heading to fold its section; folding a heading also folds the
 # deeper headings under it. Fold all gives the table of contents. Ctrl-F
-# finds text, into folded sections and table cells. Links open: http in the
-# system browser, a relative .md in this window, #anchor by scrolling to
-# the section. F5 reloads the file from disk, Ctrl-O opens another.
+# finds text, into folded sections and table cells. Links open: anything
+# with a URL scheme in the system browser, a relative .md in this window,
+# #anchor by scrolling to the section. F5 reloads the file from disk, Ctrl-O opens another.
 
 package require Tcl 9
 package require Tk
@@ -46,8 +46,8 @@ proc heading_slug {title} {
 oo::class create Viewer {
     superclass ::streamdoc::StreamDoc
     variable Host        ;# the frame holding the toolbar and the document
-    variable Doc         ;# the frame streamdoc built the document into
-    variable Text        ;# the document text widget, from textwidget
+    variable Doc         ;# the frame the viewer made for streamdoc to build into
+    variable Text        ;# the document text widget
     variable Path        ;# the open file, "" before the first open
     variable Anchors     ;# dict: heading slug -> region index
     variable Images      ;# dict: image path -> Tk image, for the open file
@@ -186,8 +186,6 @@ oo::class create Viewer {
         }
         my measure
     }
-    # Open a section: close the one before, open a region whose header line
-    # is the glyph and the title, and record the title's anchor.
     method open_section {level title} {
         if {[my live] >= 0} { my region_close }
         set n [my region_open [dict create level $level title $title]]
