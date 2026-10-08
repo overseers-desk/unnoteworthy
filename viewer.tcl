@@ -122,10 +122,21 @@ oo::class create Viewer {
         wm title [winfo toplevel $Top] [file tail $path]
         my render $text
     }
+    # Reload keeps the reader's place: the scroll position, and the folds
+    # by heading title, so a file under edit does not unfold on every save.
     method reload {} {
         if {$Path eq ""} return
         set view [lindex [$Text yview] 0]
+        set folded [list]
+        for {set n 0} {$n < [my region_count]} {incr n} {
+            if {[my folded $n]} { lappend folded [dict get [my payload $n] title] }
+        }
         my open_file $Path
+        my batch {
+            for {set n 0} {$n < [my region_count]} {incr n} {
+                if {[dict get [my payload $n] title] in $folded} { my fold $n }
+            }
+        }
         $Text yview moveto $view
     }
     method open_dialog {} {
