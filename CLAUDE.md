@@ -1,0 +1,1 @@
+- `vendor/` holds exact copies of upstream module releases, replaced whole and not edited here, since a version number names one content everywhere; the procedure is teatotal's docs/vendoring.md.
