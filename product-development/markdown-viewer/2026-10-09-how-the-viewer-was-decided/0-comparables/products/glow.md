@@ -7,7 +7,7 @@ Name as published: "Glow" (all pages); apt "glow"; Snap "glow".
 
 - https://alternativeto.net/software/typora/?p=12 : list page; plain curl to AlternativeTo returns HTTP 403 ("Just a moment..."); read by headless browser dump (exit 0). Page text: "Typora alternatives page was last updated Aug 31, 2026".
 - https://alternativeto.net/software/marked/?p=4 : same method (exit 0). Page text: "Marked alternatives page was last updated May 17, 2026".
-- apt-cache show glow : run on this host, Ubuntu 25.04 (plucky) archive index; output below.
+- apt-cache show glow : run on the collection host (Ubuntu 25.04 (plucky) archive index; output below.
 - https://formulae.brew.sh/formula/glow : HTTP 200
 - https://snapcraft.io/glow : HTTP 200
 - https://github.com/charmbracelet/glow : linked from apt Homepage, Homebrew and Snap; read through https://api.github.com/repos/charmbracelet/glow (200), .../readme (200), .../releases?per_page=5 (200). The github.com HTML page was not fetched. charm.sh (linked from README and Snap as contact) was not read.
