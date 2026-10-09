@@ -1,0 +1,4 @@
+card 0: 5 figured options; prior match: True; held value: matches; third derivation: True; rests on: market; chosen: One program | runner-up: A family of related tools from one maker
+NOTE card 1: the stamp says nothing held and the script reads a match
+card 1: 11 figured options; prior match: False; held value: none held; third derivation: True; rests on: market; chosen: Developers and coders | runner-up: Writers and authors
+2 cards; 1 hold a value; 1 match it; 0 leave it; 0 withheld; 1 third derivations; 0 outstanding; 0 mismatched margin units; 7 legs marked differs

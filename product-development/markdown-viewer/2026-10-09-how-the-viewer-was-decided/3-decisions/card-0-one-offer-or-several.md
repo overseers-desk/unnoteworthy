@@ -18,7 +18,7 @@ Undecidable on V04, counted once and in no option: SHAPE 14/204, ALL 36/496. Sil
 
 **Ruled:** open
 
-**Chip:** unstamped; the priors clerk stamps it
+**Chip:** derived. First derivation (this card) and third derivation (`3-decisions/third-card-0.md`) both land on One program, the held value, the first by 144 comparables over a family of related tools and the third by 144 over a family of programs (162 against 18 of 204); agreement on the held value is evidence about the market.
 
 **Measured in:** SHAPE, the shape note's free sub-population (204 rows, unweighted), V04: single program 162/204, family 18/204, editions 9/204, program and component 2/204, component only 0/204, undecidable 14/204. Against the shape note: D1 shared for the 89 GitHub-topic rows, differs for the 115 store-only rows; D2 shared; D3 shared; D4 shared. The free-core-with-paid-tier option turns on D2 and D3, on which ALL (496 weighted; D1, D2 and D3 differ, D4 shared) differs from the operator; the leg was therefore re-measured within the sub-population that shares the shape, the first of the three things, reporting its count (9/204 editions). SHAPE holds only free rows by definition, so it cannot see a paid tier at all; for that option the nearest re-measure is the GitHub-topic cells, which share the shape on reach: 7 of their 96 rows state a payment (free use with payment for more, or a trial; findings, cell table), and those 7 are the count the option stands on beside the ALL rates, which are kept as context only.
 
@@ -38,8 +38,10 @@ Undecidable on V04, counted once and in no option: SHAPE 14/204, ALL 36/496. Sil
 
 **Buyer:** Glow (R9) reaches its buyers as one terminal program through many package channels: 59,634 Homebrew installs in 365 days, 285,591 release-asset downloads in the last year (N1, N5). The register does not carry V04, so the prediction is against its distribution, not its coded shape: a developer meets this viewer as one program in the tap and nobody asks for the modules; the prediction fails if the modules in teatotal draw stars or questions that the program does not.
 
-**Held:** unstamped; the priors clerk stamps it
+**Held:** keeps. The recommended One program says what the present practice and the notes say: `viewer.tcl` is one program and the notes call it "the viewer" and "this app". The owner has not ruled and nothing is on sale. The sibling products hold other shapes (see Priors) but are not this offering.
 
-**Third derivation:** none recorded
+**Third derivation:** `3-decisions/third-card-0.md`; agrees; One program, margin 144 comparables over a family of programs (SHAPE 162/204 against 18/204); runner-up in ALL is editions (314 against 100 weighted), kept as context. One program is deliverable by the capability record, so no cost line beside the landing.
 
 **Corrections:** none
+
+**Priors:** `viewer.tcl` header, 2026-10-09: "A markdown file viewer"; one program launched as `wish9.0 viewer.tcl README.md`. Session memory note of 2026-10-09 (design agreement): "a consumer of two modules"; "the viewer builds on the two modules and vendors each draft"; find bar and table grid "kept out of viewer code". Session memory note of 2026-10-09 -xdev (name): "the viewer" or "this app". Old branch README, 2019: "software"; one program. Sibling product README, 2026-08-29: "A native GUI"; "Modules authored here", two modules "reusable outside it by copying the `.tm` file"; "MIT". Module repository README, 2026-09-08: "Each module is MIT licensed, self-contained in one `.tm` file"; modules published as "the shelf" apart from the applications they were "cut out" of. tkdown man page, 2026-10-09: "a pragmatic markdown renderer for a Tk text widget"; "THE HOST OWNS THE CHROME". Method test case, 2026-10-09: "a software product"; "a Tcl/Tk Markdown viewer"; owner's words "what small changes can be made to make it sell".
