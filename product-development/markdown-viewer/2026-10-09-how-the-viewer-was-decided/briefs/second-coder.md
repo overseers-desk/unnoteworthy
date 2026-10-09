@@ -1,4 +1,4 @@
-# Second coder: the blind reliability sample
+# Second coding clerk: the blind reliability sample
 
 Read `briefs/standing-brief-block.md` first, then `0-comparables/codebook-v1.md`, then the profiles the launch message assigns you under `0-comparables/products/`. Nothing else in the repository is open to you, and in particular nothing under `0-comparables/coded/`: you have not seen the first coding and you do not look for it.
 
