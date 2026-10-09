@@ -57,7 +57,7 @@ Died. Brew itself marks 14 of 48 markdown casks `disabled: true` and 10 `depreca
 
 Complaints. Not carried by this source. It publishes counts only.
 
-Designer against generator: a generator would read the table as "markdown tools are popular"; a designer reads that the biggest readers are flat to falling, and that the visible movement is a thin layer of new small viewers (nine entries) each at 14 to 2600 installs a year.
+Designer against generator: a generator would read the table as "markdown tools are popular"; a designer reads that the biggest readers are flat to falling, and that the visible movement is a thin layer of new small viewers (seven entries) each at 14 to 2600 installs a year.
 
 ---
 
@@ -135,7 +135,7 @@ Designer against generator: a generator reads 14.7 million installs as demand fo
 
 ## N4. PyPI, downloads over the last month (2026-10-09)
 
-Source: `https://pypistats.org/api/packages/<name>/recent` (`last_month`), release dates from `https://pypi.org/pypi/<name>/json`. Downloads include mirrors and CI installs, which pypistats says it does not strip in this endpoint.
+Source: `https://pypistats.org/api/packages/<name>/recent` (`last_month`), release dates from `https://pypi.org/pypi/<name>/json`. Downloads include mirrors and CI installs; I did not check whether the endpoint strips them.
 
 | package | last month | last release | note |
 |---|---|---|---|
@@ -195,7 +195,7 @@ Source: `gh api repos/<owner>/<repo>` and `repos/<owner>/<repo>/releases?per_pag
 | rhysd/Shiba | no | 2026-07-20 | 16 (v2.0.0-alpha.4, 2026-03-28) | 5, 743 |
 | BoostIO/BoostNote-App | **yes** | 2026-03-17 | 53 (v0.23.1, 2021-11-29) | 0 (all-time 1,035,582 in one release; 2,859,669 across all) |
 
-Not found among the repositories: no `obsidian-releases` or `typora-issues` product source; both are release/issue channels only. `uranusjr/macdown` redirects to MacDownApp/macdown.
+obsidian-releases and typora-issues returned no product source on the releases endpoint beyond what the table shows. `uranusjr/macdown` redirects to MacDownApp/macdown.
 
 Growing. Cadence and download counts agree for marktext (v0.20.0 on 2026-10-02, 41,247 downloads on that release alone, v0.21.0 and v0.21.1 on 2026-10-08), MarkEdit (1,183,007 in the year), QLMarkdown (232,974), Zettlr (884,503) and glow (285,591 from two releases, v3.0.0 on 2026-08-11 at 94,334). Newly created viewers releasing weekly: mdfried (41 releases in the year, 2,233 downloads), treemd (42 releases in 11 months, 3,350), mcat (17, 13,174), clearance (20 releases since 2026-03-05, 28,632).
 
@@ -226,7 +226,7 @@ Ten most-rated:
 | 6720708363 | Obsidian Web Clipper | Dynalist Inc. | 103 | 4.31 | Free | 2026-07-22 |
 | 1496067471 | Quick Draft: Notes & Markdown | giddyapp, LLC | 102 | 4.65 | Free | 2025-03-22 |
 
-Read.md (id 6760943472, Pavel Abin, 84 ratings, 4.96, first released 2026-03-25, current 2026-10-05) is the one entry in the top eleven described as a reader by name. Rating counts across the whole 170 are small: only 17 entries have 20 or more.
+Read.md (id 6760943472, Pavel Abin, 84 ratings, 4.96, first released 2026-03-25, current 2026-10-05) is the one entry in the top eleven described as a reader by name. Rating counts across the whole 170 are small: only 15 entries have 20 or more.
 
 Growing. Dated by first release in the result: Read.md (2026-03-25), .Md Viewer (2026-03-23, 6 ratings), Marklens: Markdown Reader (2026-06-10), MarkFlow:Read Markdown files (2025-11-17), MD Flow - Markdown Reader (2026-04-21), Just a Markdown Viewer (2026-08-04), Quick Markdown Viewer (2026-04-07). Seven viewers-by-name first released within 19 months, none with more than 84 ratings.
 
