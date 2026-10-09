@@ -24,14 +24,11 @@ Condition obeyed (collection-list.tsv): alternativeto:Marked (entry for Marked):
 - Disagreement noted: AlternativeTo entry GitHub section "Updated Dec 18, 2019" and "this page was last updated Apr 7, 2021"; the repository page shows no date text.
 
 ## V01 Eligibility
-> Preview markdown files in a separate window. Markdown is formatted exactly the same as on GitHub.
-> — https://github.com/yoshuawuyts/vmd
+> Preview markdown files in a separate window. Markdown is formatted exactly the same as on GitHub. — https://github.com/yoshuawuyts/vmd
 
 ## V02 Name as published
-> vmd
-> — https://github.com/yoshuawuyts/vmd
-> 🙏 preview markdown files
-> — https://github.com/yoshuawuyts/vmd (About field)
+> vmd — https://github.com/yoshuawuyts/vmd
+> 🙏 preview markdown files — https://github.com/yoshuawuyts/vmd (About field)
 
 ## V03 Name form
 silent
@@ -40,74 +37,51 @@ silent
 silent
 
 ## V05 Whom the product sells to
-> This makes it ideal for writing documents in your favorite text editor and get a live preview.
-> — https://github.com/yoshuawuyts/vmd
-> Front Matter: Renders Front Matter in YAML and, if enabled, in TOML and JSON so you can preview your Jekyll and Hugo content in vmd.
-> — https://github.com/yoshuawuyts/vmd
+> This makes it ideal for writing documents in your favorite text editor and get a live preview. — https://github.com/yoshuawuyts/vmd
+> Front Matter: Renders Front Matter in YAML and, if enabled, in TOML and JSON so you can preview your Jekyll and Hugo content in vmd. — https://github.com/yoshuawuyts/vmd
 
 ## V06 Audience text outside the classes
 silent
 
 ## V07 What the page asks the buyer to do to get it
-> $ npm install -g vmd
-> — https://github.com/yoshuawuyts/vmd
+> $ npm install -g vmd — https://github.com/yoshuawuyts/vmd
 
 ## V08 Product kind
-> Preview markdown files in a separate window.
-> — https://github.com/yoshuawuyts/vmd
-> Open Source (MIT); Free; Platforms: Mac, Windows, Linux, BSD, npm
-> — https://alternativeto.net/software/vmd/about (AlternativeTo labels)
+> Preview markdown files in a separate window. — https://github.com/yoshuawuyts/vmd
+> Open Source (MIT); Free; Platforms: Mac, Windows, Linux, BSD, npm — https://alternativeto.net/software/vmd/about (AlternativeTo labels)
 
 ## V09 Reader only, or also editor
-> Preview markdown files in a separate window.
-> — https://github.com/yoshuawuyts/vmd
+> Preview markdown files in a separate window. — https://github.com/yoshuawuyts/vmd
 
 ## V10 Platforms
-> --window-autohidemenubar=true: ... Linux and Windows only.
-> — https://github.com/yoshuawuyts/vmd
-> Select "Edit -> Find" from the menu or hit Ctrl+F (or Cmd+F on OS X).
-> — https://github.com/yoshuawuyts/vmd
-> "Mac," "Windows," "Linux," "BSD," and "npm" (platform list)
-> — https://alternativeto.net/software/marked/?p=6 (AlternativeTo labels: "Mac," "Windows," "Linux," "BSD," and "npm")
+> Select "Edit -> Find" from the menu or hit Ctrl+F (or Cmd+F on OS X). — https://github.com/yoshuawuyts/vmd
+> Platforms: "Mac," "Windows," "Linux," "BSD," and "npm" — https://alternativeto.net/software/marked/?p=6 (AlternativeTo labels)
 
 ## V11 Prerequisites
-> $ npm install -g vmd
-> — https://github.com/yoshuawuyts/vmd
-> --versions: Display version numbers of different internal components such as Electron.
-> — https://github.com/yoshuawuyts/vmd
+> $ npm install -g vmd — https://github.com/yoshuawuyts/vmd
+> --versions: Display version numbers of different internal components such as Electron. — https://github.com/yoshuawuyts/vmd
 
 ## V12 Install and keep current
-> Installation  $ npm install -g vmd
-> — https://github.com/yoshuawuyts/vmd
+> Installation  $ npm install -g vmd — https://github.com/yoshuawuyts/vmd
 
 ## V13 Markdown forms claimed
-> GitHub style: The markdown content is rendered as close to the way it's rendered on GitHub as possible.
-> — https://github.com/yoshuawuyts/vmd
-> Checklists: Renders GitHub-style checklists.
-> — https://github.com/yoshuawuyts/vmd
-> Front Matter: Renders Front Matter in YAML and, if enabled, in TOML and JSON
-> — https://github.com/yoshuawuyts/vmd
-> Emoji: Displays emoji, such as :sweat_drops:.
-> — https://github.com/yoshuawuyts/vmd
+> GitHub style: The markdown content is rendered as close to the way it's rendered on GitHub as possible. — https://github.com/yoshuawuyts/vmd
+> Checklists: Renders GitHub-style checklists. — https://github.com/yoshuawuyts/vmd
+> Front Matter: Renders Front Matter in YAML and, if enabled, in TOML and JSON — https://github.com/yoshuawuyts/vmd
+> Emoji: Displays emoji, such as :sweat_drops:. — https://github.com/yoshuawuyts/vmd
 
 ## V14 Whether files stay local
 silent
 
 ## V15 Network and data leaving
-> Standard input: View any markdown text from other programs by piping another program's output in to vmd.
-> — https://github.com/yoshuawuyts/vmd
-> open links to directories in your file manager and external links in your default browser.
-> — https://github.com/yoshuawuyts/vmd
+> Standard input: View any markdown text from other programs by piping another program's output in to vmd. — https://github.com/yoshuawuyts/vmd
+> open links to directories in your file manager and external links in your default browser. — https://github.com/yoshuawuyts/vmd
 
 ## V16 Price and licence
-> MIT
-> — https://github.com/yoshuawuyts/vmd (License section)
-> MIT license
-> — https://github.com/yoshuawuyts/vmd (licence field)
-> Free; Open Source (MIT)
-> — https://alternativeto.net/software/marked/?p=6 (AlternativeTo labels)
-> Free product.
-> — https://alternativeto.net/software/vmd/about
+> MIT — https://github.com/yoshuawuyts/vmd (License section)
+> MIT license — https://github.com/yoshuawuyts/vmd (licence field)
+> Free; Open Source (MIT) — https://alternativeto.net/software/marked/?p=6 (AlternativeTo labels)
+> Free product. — https://alternativeto.net/software/vmd/about
 
 ## V17 Cost beyond the price
 silent
@@ -122,14 +96,11 @@ silent
 silent
 
 ## V21 Distribution channels named
-> $ npm install -g vmd
-> — https://github.com/yoshuawuyts/vmd
-> Official Website (links github.com/yoshuawuyts/vmd)
-> — https://alternativeto.net/software/vmd/about
+> $ npm install -g vmd — https://github.com/yoshuawuyts/vmd
+> Official Website (links github.com/yoshuawuyts/vmd) — https://alternativeto.net/software/vmd/about
 
 ## V22 Shape dimension 1: how the buyer reaches the offering
-> $ npm install -g vmd
-> — https://github.com/yoshuawuyts/vmd
+> $ npm install -g vmd — https://github.com/yoshuawuyts/vmd
 
 ## V23 Shape dimension 2: whether anything is paid before it is reached
 silent
@@ -144,47 +115,35 @@ silent
 silent
 
 ## V27 Last release and archived status
-> Updated Dec 18, 2019
-> — https://alternativeto.net/software/vmd/about (AlternativeTo GitHub section)
-> this page was last updated Apr 7, 2021.
-> — https://alternativeto.net/software/vmd/about
+> Updated Dec 18, 2019 — https://alternativeto.net/software/vmd/about (AlternativeTo GitHub section)
+> this page was last updated Apr 7, 2021. — https://alternativeto.net/software/vmd/about
 
 ## V28 Finding the way around a long document
-> Navigation: Navigate within linked sections in a document, open relative links to other documents in the same window or in a new one (shift-click), and always be able to go back in the history.
-> — https://github.com/yoshuawuyts/vmd
+> Navigation: Navigate within linked sections in a document, open relative links to other documents in the same window or in a new one (shift-click), and always be able to go back in the history. — https://github.com/yoshuawuyts/vmd
 
 ## V29 Finding a word
-> Search in page: Search within your markdown file and scroll to the results. Select "Edit -> Find" from the menu or hit Ctrl+F (or Cmd+F on OS X).
-> — https://github.com/yoshuawuyts/vmd
+> Search in page: Search within your markdown file and scroll to the results. Select "Edit -> Find" from the menu or hit Ctrl+F (or Cmd+F on OS X). — https://github.com/yoshuawuyts/vmd
 
 ## V30 Links, images and references to other files
-> open relative links to other documents in the same window or in a new one (shift-click)
-> — https://github.com/yoshuawuyts/vmd
-> Clipboard: Copy links and local file paths to the clipboard, and even copy images in binary format to paste them in to your image editing software.
-> — https://github.com/yoshuawuyts/vmd
+> open relative links to other documents in the same window or in a new one (shift-click) — https://github.com/yoshuawuyts/vmd
+> Clipboard: Copy links and local file paths to the clipboard, and even copy images in binary format to paste them in to your image editing software. — https://github.com/yoshuawuyts/vmd
 
 ## V31 Keeping up with a file edited elsewhere
-> File watching: Local files opened in vmd are watched for changes and the viewer will automatically update when a file has been changed.
-> — https://github.com/yoshuawuyts/vmd
+> File watching: Local files opened in vmd are watched for changes and the viewer will automatically update when a file has been changed. — https://github.com/yoshuawuyts/vmd
 
 ## V32 Appearance
-> Customization: Select different themes and provide your own styles to make vmd look the way you want.
-> — https://github.com/yoshuawuyts/vmd
-> --zoom=NUM: Set a zoom factor to make the content larger or smaller.
-> — https://github.com/yoshuawuyts/vmd
-> --highlight-theme=NAME: Use a different syntax highlighting theme for code blocks.
-> — https://github.com/yoshuawuyts/vmd
+> Customization: Select different themes and provide your own styles to make vmd look the way you want. — https://github.com/yoshuawuyts/vmd
+> --zoom=NUM: Set a zoom factor to make the content larger or smaller. — https://github.com/yoshuawuyts/vmd
+> --highlight-theme=NAME: Use a different syntax highlighting theme for code blocks. — https://github.com/yoshuawuyts/vmd
 
 ## V33 Print, export, send on
 silent
 
 ## V34 Help and what happens when it breaks
-> -d, --devtools: Open with the developer tools open.
-> — https://github.com/yoshuawuyts/vmd
+> -d, --devtools: Open with the developer tools open. — https://github.com/yoshuawuyts/vmd
 
 ## V35 Who else uses it
-> Authors: Max Kueng, Yoshua Wuyts and contributors.
-> — https://github.com/yoshuawuyts/vmd
+> Authors: Max Kueng, Yoshua Wuyts and contributors. — https://github.com/yoshuawuyts/vmd
 
 ## V36 AI-related claims
 silent
