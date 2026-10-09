@@ -225,3 +225,410 @@ Adjusted agreement (layout discounted, no credit for corrections) is lowest on V
 # Index
 
 F1 corpus size. F2 audience by class. F3 the operator's three buyer rows. F4 reader against editor. F5 kinds. F6 platforms. F7 free share by cell. F8 price shapes, prices, licence, work use. F9 sale mechanism and invitations. F10 surfaces and reach. F11 units. F12 install, update, prerequisites. F13 markdown forms. F14 long-document navigation. F15 search. F16 links and images. F17 following a file under edit. F18 appearance. F19 export. F20 files local, network. F21 recency and archival. F22 AI claims. F23 support. F24 usage figures. F25 names. F26 one program or several. F27 place held. F28 operator-shaped rows and their readers. F29 second-coding agreement. F30 reach of the corrections and the rule gaps.
+
+# Findings by buyer
+
+Written under `briefs/synthesis-clerk-by-buyer.md`. `3-decisions/leading-buyers.md` found that no finding above breaks a variable down by buyer. Under each of its fifteen parameters it named the variable to cross with V05 (whom the page addresses) to separate a difference between buyers from a difference between cells. Findings 31 to 49 are those cross-tabulations. They are counts over codebook v1 as coded and corrected, and no row was recoded. `0-comparables/by-buyer.py` reads the two TSV files and prints every table cited here, and the reader can rerun it.
+
+A text generator would read a gap between two buyer columns as what each buyer wants. A product designer first asks whether the gap belongs to a cell. Buyers are named mostly on Mac App Store listings and AlternativeTo entries, and those cells print some things whoever the buyer is.
+
+## How the by-buyer counts are made
+
+- **Buyer columns (V05).**
+  - **D-only:** names developers and coders, not writers and authors.
+  - **W-only:** names writers and authors, not developers.
+  - **D+W:** names both. This is the documentation reader of `leading-buyers.md`.
+  - **AI:** names readers of what AI agents write. It overlaps the first three where a row names both, which happens in 3 rows: inkdrop is also D-only, and markviewer and viewmd are also D+W.
+  - **other:** names at least one class but none of developers, writers or AI readers. Every other buyer class is pooled here.
+  - **silent:** V05 "not stated", each row counted once.
+  - **undecidable:** V05 undecidable and nothing else (3 rows), shown in the script's tables.
+- **Populations, weights and silence.** These are as in "How the counts are made" above. SHAPE has 204 rows, unweighted. ALL has 427 rows, weighted 496. Silence on a variable is counted once per row. A rate is given on a base of ten or more; under ten, the count is given and the base is called a handful.
+- **Cell strata.** The script also crosses each variable inside four strata:
+  - MAS: the Mac App Store cell, 134 rows.
+  - MAS-free: SHAPE's Mac App Store rows, 52.
+  - not-MAS: ALL outside the Mac App Store, 293 rows weighted 362.
+  - AT: any AlternativeTo cell, 129 rows weighted 198.
+
+  A buyer difference **survives the cell** when it holds between buyer columns inside one stratum. It **is the cell** when it vanishes there. The dimension marks are MAS, not-MAS and AT [d d d s]; MAS-free [d s s s]; SHAPE [s/d s s s]; ALL [d d d s].
+- **Comparisons not made.** The list under "How the counts are made" stands. In addition:
+  - No buyer column in one stratum is set against a buyer column in another.
+  - The four AlternativeTo lists are pooled as one stratum. They are never set against each other or against a store.
+  - V10 is read by buyer only inside one stratum or one population, never as one platform's buyers against another's through the cell.
+  - No rate is given on a base under ten.
+  - TCL is not pooled. Its one eligible row, shtmlview, names developers but sits in no application cell, so it is in no column.
+- **Products behind the weights.** In ALL the columns hold:
+  - D-only: 22 products, weighted 27.
+  - W-only: 22 products, weighted 32.
+  - D+W: 36 products, weighted 39.
+  - AI: 12 products, weighted 12.
+
+  In AT, W-only's weighted 22 is 12 products, 10 of them sampled at weight 2. D-only's 13 is 8 products, 5 of them sampled at weight 2.
+- **Reading.** This reading counts a few more coded values than `taxonomy.md` did (finding 49).
+- **Weak variables** are named from findings 29 and 30 where a finding rests on one.
+
+**F31. In SHAPE, only the rows naming developers and writers together reach a base of ten. Developers alone, writers alone and readers of AI output are each a handful.**
+- V05, SHAPE (204): D-only 9, W-only 4, D+W 19, AI 4 (markviewer is also D+W), other 18, silent 150, undecidable only 1.
+- V05, ALL (496 weighted): D-only 27, W-only 32, D+W 39, AI 12, other 38, silent 348, undecidable only 3.
+
+Every SHAPE figure below for D-only, W-only and AI is therefore a count on a handful. Leaving out the one overlap, the leading buyers' SHAPE rows number 35. Measured in: SHAPE [s/d s s s]; ALL [d d d s].
+
+**F32. Each leading buyer column sits mostly in one cell.**
+- **D+W:** 24 of its 39 weighted ALL rows are Mac App Store listings. In SHAPE, 16 of its 19 rows are store-only rows. 12 of those are MAS-free, and the other 4 are on Snap, Flathub, the Ubuntu archive and Homebrew (dillinger, easyeditor, formiko, markviewer). Its 3 GitHub-topic rows are solomd, thisis-developer-markdown-viewer and vaibhav-kakde-in-mdhero.
+- **W-only:** 22 of its 32 weighted ALL rows are in the AlternativeTo cells (12 products), and 7 are in MAS. Its 4 SHAPE rows are jottr (FH), markdown (MAS), laogou717-md-wechat (GH-E) and tizuio-tizumark-markdown-editor (GH-V, GH-E).
+- **D-only:** 13 of its 27 weighted ALL rows are in AT (8 products), and 5 are in MAS. Its 9 SHAPE rows are 3 GitHub-topic rows and 6 store-only rows, 3 of those MAS-free.
+- **AI:** 6 of its 12 rows are MAS listings. The other 6 are on Homebrew (inkdrop, macmd-viewer, markviewer, mdserve), the Snap Store (inkdrop, markdown-hot-reload, markview-markview-reader) and AlternativeTo (inkdrop, macmd-viewer). Its 4 SHAPE rows are 2 MAS-free, 1 Snap and 1 Homebrew cask. None is a GitHub-topic row.
+- **Shared on all four dimensions:** of the 32 SHAPE rows that name developers or writers, 8 are GitHub-topic rows (D-only 3, W-only 2, D+W 3). Of the 150 silent SHAPE rows, 71 are.
+
+Measured in: cells as in the register; SHAPE [s/d s s s].
+
+**F33. Developers and writers are mostly named together, and naming them together is a Mac App Store habit.**
+
+V05, by how many rows name developers and writers:
+
+| population | both | developers only | writers only | neither, a class named | silent | undecidable only | total |
+|---|---|---|---|---|---|---|---|
+| SHAPE | 19 | 9 | 4 | 21 | 150 | 1 | 204 |
+| ALL (weighted) | 39 | 27 | 32 | 47 | 348 | 3 | 496 |
+
+- In SHAPE, a row that names developers also names writers in 19 of 28. A row that names writers also names developers in 19 of 23.
+- In ALL, the same shares are 39 of 66 and 39 of 71.
+- Inside MAS, 24 of the 36 rows naming either name both. Outside MAS, 15 of the 62 weighted rows naming either name both. Most of the rest are writers alone or developers alone on AlternativeTo.
+- The documentation reader as a market phrase is therefore mostly what App Store listings print.
+
+Measured in: SHAPE [s/d s s s]; ALL [d d d s]; MAS and not-MAS [d d d s].
+
+**F34. Parameter 1, the name: the markdown token follows the cell, not the buyer.** V03, markdown token in name:
+
+| | D+W | silent |
+|---|---|---|
+| ALL | 25/39 (64%) | 148/348 (43%) |
+| inside MAS | 21/24 (88%) | 75/86 (87%) |
+| outside MAS | 4/15 (27%) | 73/262 (28%) |
+| SHAPE | 11/19 (58%) | 58/150 (39%) |
+| MAS-free | 10/12 | 26/31 |
+
+- 10 of D+W's 11 SHAPE rows with the token are MAS-free.
+- Handfuls in SHAPE: D-only 6 of 9, W-only 2 of 4, AI 2 of 4.
+- In ALL: D-only 10/27 (37%), W-only 14/32 (44%), AI 6/12, 5 of the 6 being its MAS rows.
+- The one gap inside a stratum is developers alone in AT: 1/13 weighted carry the token, against W-only 8/22 and AT silent 36/135. That rests on 8 products.
+- The difference between buyers does not survive the cell.
+
+V03 is not a weak variable. Measured in: ALL, MAS, not-MAS [d d d s]; SHAPE [s/d s s s]; MAS-free [d s s s].
+
+**F35. Parameter 2, where it is got: page surface and route differ by buyer only as the cells differ.**
+
+V20, ALL, D+W against silent:
+- Application store listing: 29/39 (74%) against 141/348 (41%).
+- Code repository page: 8/39 (21%) against 175/348 (50%).
+
+Every MAS row is a store listing. Outside MAS:
+- Store listing: 5/15 (33%) against 55/262 (21%).
+- Repository page: 8/15 (53%) against 169/262 (65%).
+
+In SHAPE, D+W's repository page is 5/19 (26%) against 106/150 (71%), and its store listing is 15/19, 12 of them MAS-free.
+
+V22 reach through a package repository or manager:
+
+| | D+W | silent |
+|---|---|---|
+| ALL | 7/39 (18%) | 132/348 (38%) |
+| outside MAS | 7/15 (47%) | 130/262 (50%) |
+
+That gap is the cell.
+- **AI:** package registry page 5/12 against 53/348 (15%), and reach by package manager 6/12. These are its Homebrew and Snap rows.
+- **D-only against W-only:** reach by package manager is 10/27 (37%) against 6/32 (19%) in ALL. Inside AT it is 3/13 against 5/22, so it does not survive.
+- **SHAPE handfuls:** D-only package manager 4, release download 4, clone 2 and store 3 of 9. W-only release 2, clone 2, store 1 and package manager 0 of 4. AI package manager 2, release 2 and store 1 of 4.
+
+V22 is a classing of V21, a weak variable (adjusted agreement 0.78; finding 29). Measured in: ALL, MAS, not-MAS [d d d s]; SHAPE [s/d s s s]. This speaks to dimension 1.
+
+**F36. Parameter 3, the unit and the install: writers alone are offered a store install more than developers alone, and that holds inside AlternativeTo. Developers alone lead on a package-manager command, but that lead does not hold there.**
+
+V12(a), store install:
+
+| | W-only | D+W | D-only | silent |
+|---|---|---|---|---|
+| ALL | 16/32 (50%) | 16/39 (41%) | 4/27 (15%) | 83/348 (24%) |
+| inside AT | 12/22 (55%) | | 3/13 (23%) | 36/135 (27%) |
+| inside MAS | | 11/24 (46%) | | 28/86 (33%) |
+
+The AT figures rest on 12 and 8 products.
+
+V12(a), package-manager command:
+
+| | D-only | W-only | D+W | silent |
+|---|---|---|---|---|
+| ALL | 10/27 (37%) | 4/32 (12%) | 7/39 (18%) | 126/348 (36%) |
+| inside AT | 3/13 | 3/22 | | |
+
+- **SHAPE:** package-manager command D-only 4 of 9, W-only 0 of 4, D+W 6/19 (32%) against silent 56/150 (37%). Store install D+W 7/19 (37%, 5 of them MAS-free) against 42/150 (28%).
+- **V19, a package the system maintains:** D-only 5/27, W-only 0/32, D+W 5/39, silent 91/348 (26%) in ALL. In SHAPE: D-only 3 of 9, W-only 0 of 4, D+W 5/19 (26%) against 41/150 (27%).
+- **V12(b), how updates arrive, is silent nearly everywhere:** D+W 38/39, W-only 26/32, D-only 22/27, AI 7/12 and silent 286/348 in ALL; D+W 18/19 in SHAPE.
+
+V12 (adjusted 0.78) and V19 (0.80) are weak variables. Measured in: ALL, AT, MAS [d d d s]; SHAPE [s/d s s s]. This speaks to dimensions 1 and 3.
+
+**F37. Parameter 4, the cost: rows naming writers alone are paid more often than any other column, and the gap holds inside AlternativeTo, where most of them sit. In SHAPE every leading buyer column is free by construction.**
+
+Paid, by the finding 7 rule:
+
+| | W-only | AI | D+W | other | D-only | silent |
+|---|---|---|---|---|---|---|
+| ALL | 22/32 (69%) | 6/12 | 17/39 (44%) | 16/38 (42%) | 11/27 (41%) | 92/348 (26%) |
+| inside AT | 16/22 (73%) | | 6/11 (55%) | 10/16 (62%) | 7/13 (54%) | 42/135 (31%) |
+
+- **Inside MAS:** W-only 6 of 7 are paid, and D+W is 12/24 (50%) against 55/86 (64%) for silent rows.
+- **V16(b), inside AT:** one-time purchase W-only 13/22 against D-only 4/13 and silent 17/135. Subscription 7/22 against 3/13 and 16/135.
+- **AI:** 4 of its 6 MAS rows are paid. One-time purchase 5/12 and freemium 3/12 in ALL.
+- **SHAPE:** D-only 8 of 9 free and 1 silent on price, W-only 3 of 4 and 1, D+W 18/19 and 1, AI 4 of 4. D+W states a price more often than the silent rows (18/19 against 111/150, 74%) only because 12 of its 19 rows are MAS-free listings, whose price field is always filled.
+- **V24 and V07 in SHAPE:**
+  - No sale taken: D-only 3 of 9, D+W 7/19 (37%), silent 34/150 (23%).
+  - Sponsor or donate: D-only 4 of 9, W-only 0 of 4, D+W 4/19 (21%), silent 28/150 (19%).
+  - Star: D-only 2 of 9.
+- **V07 in ALL:** sponsor or donate D-only 6/27 (22%) against W-only 1/32.
+
+V07 and V24 have cells the rule cannot decide (finding 29). Measured in: ALL, AT, MAS [d d d s]; SHAPE [s/d s s s]. This speaks to dimensions 2 and 3.
+
+**F38. Parameter 5, licence and work use: the documentation reader's silence on licence comes from the App Store. Writers alone and developers alone state proprietary terms alike inside AlternativeTo. Work use is unstated for every buyer.**
+
+V16(c), named open-source licence:
+
+| | D+W | silent |
+|---|---|---|
+| ALL | 7/39 (18%) | 190/348 (55%) |
+| outside MAS | 7/15 (47%) | 185/262 (71%) |
+| SHAPE | 4/19 (21%) | 109/150 (73%) |
+| MAS-free | 0/12 | 4/31 |
+
+- D+W is silent on licence in 25/39, and 22 of those 25 are MAS rows. Inside MAS, licence silence is 22/24 for D+W and 71/86 for silent rows.
+- The gap that remains outside MAS rests on 12 products.
+- SHAPE handfuls: open-source D-only 6 of 9, W-only 3 of 4, AI 1 of 4.
+- Proprietary: W-only 16/32 (50%) and D-only 10/27 (37%) in ALL. Inside AT they are 14/22 and 9/13, so the two do not separate.
+- V18 is silent for D-only 23/27, W-only 29/32, D+W 39/39, AI 11/12 and silent rows 338/348. A team or business licence is offered by D-only 4/27, W-only 2/32 and other 8/38. In SHAPE, every leading-buyer row is silent on V18.
+
+Measured in: ALL, not-MAS, AT [d d d s]; SHAPE [s/d s s s]; MAS-free [d s s s].
+
+**F39. Parameter 6, platforms and prerequisites: the documentation reader's lean to macOS, and away from Windows and Linux, is the Mac App Store. Outside it, no buyer column differs from the silent rows.**
+
+V10, D+W against silent:
+
+| | macOS | Windows | Linux |
+|---|---|---|---|
+| SHAPE | 15/19 (79%) against 84/150 (56%) | 3/19 (16%) against 53/150 (35%) | 5/19 (26%) against 63/150 (42%) |
+| outside MAS | 8/15 (53%) against 149/262 (57%) | 6/15 (40%) against 121/262 (46%) | 7/15 (47%) against 144/262 (55%) |
+
+12 of D+W's 15 macOS rows in SHAPE are MAS-free.
+- **SHAPE handfuls:** D-only macOS 7, Windows 4, Linux 4 of 9. W-only 3, 3 and 1 of 4. AI 3, 1 and 1 of 4.
+- **Linux, D-only against W-only:** 10/27 (37%) against 7/32 (22%) in ALL; 4/13 against 4/22 inside AT. It does not survive.
+- **AI:** iOS 6/12, all of them its MAS rows.
+- **V11:**
+  - Minimum operating-system version: D+W 32/39 (82%) against 144/348 (41%). Every MAS row states one (86/86 silent rows, 24/24 D+W), so this is the cell.
+  - None needed, stated: D+W 4/39 against 7/348. 3 of the 4 are AlternativeTo rows (dillinger, zerdo). In SHAPE, 2/19 against 5/150.
+  - Runtime or interpreter named in SHAPE: D-only 1, W-only 2 of 4, D+W 3/19 (16%) against 26/150 (17%).
+
+V11 has cells the rule cannot decide (finding 29). Measured in: SHAPE [s/d s s s]; not-MAS, MAS, AT [d d d s]; MAS-free [d s s s].
+
+**F40. Parameter 7, markdown forms: readers of AI output claim more forms than any other column, both in and out of the App Store. Inside the App Store, no form separates the documentation reader from the silent rows.**
+
+AI against silent, in ALL and inside MAS:
+
+| form | AI, ALL | silent, ALL | AI inside MAS | silent inside MAS |
+|---|---|---|---|---|
+| tables | 11/12 | 137/348 (39%) | 6 of 6 | 54/86 (63%) |
+| diagrams | 10/12 | 115/348 (33%) | 5 of 6 | 37/86 (43%) |
+| syntax-highlighted code blocks | 10/12 | 86/348 (25%) | 5 of 6 | 29/86 (34%) |
+| GitHub Flavored Markdown | 8/12 | 75/348 (22%) | 3 of 6 | 22/86 (26%) |
+| task lists | 8/12 | 94/348 (27%) | | |
+| math | 7/12 | 130/348 (37%) | 4 of 6 | 34/86 (40%) |
+| footnotes | 5/12 | 50/348 (14%) | | |
+
+AI in SHAPE: tables 4, GFM 3, code blocks 3, task lists 3, diagrams 2 and math 2 of 4.
+
+D+W against silent:
+
+| form | SHAPE | inside MAS |
+|---|---|---|
+| tables | 9/19 (47%) against 55/150 (37%) | 17/24 against 54/86 |
+| task lists | 9/19 (47%) against 44/150 (29%) | 10/24 against 38/86 |
+| diagrams | 7/19 (37%) against 56/150 (37%) | 10/24 against 37/86 |
+| math | 6/19 (32%) against 67/150 (45%) | 7/24 against 34/86 |
+| GFM | 4/19 (21%) against 37/150 (25%) | |
+
+The SHAPE gaps are the cell.
+
+D-only against W-only:
+- **Code blocks:** 12/27 (44%) against 3/32 (9%) in ALL, and 6/13 against 0/22 inside AT. This survives there, on 8 and 12 products. The SHAPE handfuls run the other way: D-only 4 of 9, W-only 3 of 4.
+- **Math:** W-only 14/32 (44%) against D-only 10/27 (37%); 13/22 against 5/13 inside AT.
+- **Other named flavour:** W-only 4/32 against D-only 1/27; 3/22 against 0/13 inside AT.
+
+V13(b) is silent in at least 97% of every column, and in all 35 leading-buyer rows in SHAPE.
+
+V13 is weak (adjusted 0.78, 8 cells the rule cannot decide), and "markdown named, no form named" is its least firm value. Measured in: ALL, MAS, AT [d d d s]; SHAPE [s/d s s s].
+
+**F41. Parameter 8, reader or editor: the readers sit with the documentation reader and the AI reader, and that holds inside the App Store. A row naming writers alone or developers alone is an editor.**
+
+V09, readers (both reader values), in ALL:
+
+| | AI | D+W | D-only | W-only | other | silent |
+|---|---|---|---|---|---|---|
+| readers | 9/12 | 12/39 (31%) | 2/27 | 1/32 | 2/38 | 62/348 (18%) |
+
+Reader, stated read-only: AI 8/12, D+W 7/39 (18%), silent 6/348 (2%).
+
+| | D+W | silent |
+|---|---|---|
+| readers inside MAS | 9/24 (38%) | 15/86 (17%) |
+| readers in SHAPE | 5/19 (26%) | 27/150 (18%) |
+| readers in MAS-free | 5/12 | 7/31 |
+
+- All 5 D+W readers in SHAPE are MAS-free rows.
+- Inside MAS, AI is read-only in 5 of 6.
+- SHAPE handfuls: AI read-only 2 of 4, D-only reader 1 of 9, W-only 0 of 4.
+- Editors (either editor value): W-only 31/32, D-only 25/27.
+
+V09 has 4 cells the rule cannot decide (finding 29). Measured in: ALL, MAS [d d d s]; SHAPE [s/d s s s]; MAS-free [d s s s].
+
+**F42. Parameter 9, keeping up with a file edited elsewhere: reload on a change on disk is stated mostly by the AI reader's Homebrew and Snap rows, not its App Store rows. The documentation reader does not differ from other App Store rows.**
+
+V31, reloads when the file changes on disk, alone or with live preview, in ALL: AI 6/12, D+W 9/39 (23%), W-only 6/32 (19%), D-only 3/27 (11%), silent 56/348 (16%).
+- **AI:** 5 of its 6 rows outside MAS state reload (macmd-viewer, markdown-hot-reload, markview-markview-reader, markviewer, mdserve). Only 1 of its 6 MAS rows does (md-flow-markdown-reader), against 24/86 of silent MAS rows.
+- **D+W:** 6/24 against 24/86 inside MAS. 5/19 (26%) against 24/150 (16%) in SHAPE, but 3/12 against 10/31 in MAS-free, so the SHAPE gap is the cell.
+- **SHAPE handfuls:** AI 2 of 4, D-only 1 of 9, W-only 1 of 4.
+- **Live preview of the product's own typing:** D+W 13/39, W-only 9/32, D-only 8/27, AI 0/12, silent 61/348 (18%).
+
+V31 has 2 cells the rule cannot decide, and finding 17 already marks it. Measured in: ALL, MAS, not-MAS [d d d s]; SHAPE [s/d s s s]; MAS-free [d s s s].
+
+**F43. Parameter 10, a long document: an outline is claimed most by the AI reader and the documentation reader. Inside the App Store the documentation reader's lead is nil. Outside it the lead is large, but rests on 8 products.**
+
+V28, outline, in ALL: AI 9/12, D+W 22/39 (56%), D-only 9/27 (33%), W-only 8/32 (25%), other 7/38 (18%), silent 106/348 (30%).
+
+| D+W against silent | outline |
+|---|---|
+| inside MAS | 11/24 (46%) against 40/86 (47%) |
+| outside MAS | 11/15 (73%) against 66/262 (25%) |
+| inside AT | 9/11 against 32/135 (24%); D-only 4/13, W-only 4/22 |
+| SHAPE | 9/19 (47%) against 50/150 (33%) |
+| MAS-free | 5/12 against 9/31 |
+
+- AI claims an outline in 5 of its 6 MAS rows.
+- SHAPE handfuls: AI 3 of 4, D-only 4 of 9, W-only 1 of 4.
+- Folding of sections: AI 0/12, D+W 5/39, silent 20/348.
+
+Measured in: ALL, MAS, not-MAS, AT [d d d s]; SHAPE [s/d s s s]; MAS-free [d s s s].
+
+**F44. Parameter 11, finding a word: search within the document is claimed most by the AI reader, and that holds inside the App Store. Find and replace belongs to writers alone, and that holds inside AlternativeTo.**
+
+V29, in ALL:
+
+| | AI | D-only | D+W | W-only | silent |
+|---|---|---|---|---|---|
+| search within the document | 6/12 | 8/27 (30%) | 9/39 (23%) | 7/32 (22%) | 62/348 (18%) |
+| find and replace | 0/12 | 5/27 (19%) | 2/39 (5%) | 10/32 (31%) | 41/348 (12%) |
+
+- **Search within the document inside MAS:** AI 4 of 6 against 23/86 (27%); D+W 8/24.
+- **Find and replace inside AT:** W-only 6/22 against D-only 3/13 and silent 9/135.
+- **Regular-expression search:** W-only 5/32; every other column 2 or fewer.
+- **SHAPE handfuls:** within the document D-only 3 of 9, W-only 2 of 4, AI 3 of 4, and D+W 4/19 (21%) against 24/150 (16%). Find and replace D-only 3 of 9, W-only 2 of 4, and D+W 2/19 against 25/150.
+- **Weakness:** an unscoped "search" codes undecidable (finding 30). That is D-only 6/27 and D+W 4/39, so these counts are soft.
+
+Measured in: ALL, MAS, AT [d d d s]; SHAPE [s/d s s s].
+
+**F45. Parameter 12, network and files: every named buyer states that files stay local more often than the silent rows. Inside the App Store only the AI reader and the documentation reader keep that lead, and inside SHAPE's App Store rows neither does.**
+
+V14, local (stated), in ALL: AI 7/12, W-only 15/32 (47%), D+W 16/39 (41%), other 12/38 (32%), D-only 7/27 (26%), silent 68/348 (20%).
+- **Inside MAS:** D+W 12/24 (50%) against 29/86 (34%); AI 5 of 6; W-only 3 of 7.
+- **Inside AT:** W-only 11/22 (50%), D-only 3/13, D+W 3/11, silent 21/135 (16%). V14 is silent in 10/63 weighted AT rows that name any class, against 70/135 of AT's silent rows. So in that cell, naming a buyer goes with saying where files are kept.
+- **In SHAPE:** D+W 6/19 (32%) against 30/150 (20%), but 5/12 against 14/31 in MAS-free, so that is the cell.
+- **SHAPE handfuls:** AI 3 of 4; D-only 2 of 9, plus 3 local with optional upload; W-only 1 of 4.
+- **V15, no telemetry inside MAS:** D+W 20/24 against 63/86. That is the store's privacy declaration (finding 20).
+- **V15, telemetry sent:** D+W 6/19 against 6/150 in SHAPE, and 4/12 against 4/31 in MAS-free. This survives the cell on 12 rows.
+
+V14 is weak (adjusted 0.89, 5 cells; sync to the user's own cloud fits no value). Measured in: ALL, MAS, AT [d d d s]; SHAPE [s/d s s s]; MAS-free [d s s s].
+
+**F46. Parameter 13, appearance: writers alone claim light and dark modes more than developers alone, and developers alone claim a custom stylesheet more. Both differences hold inside AlternativeTo, on 12 and 8 products.**
+
+V32, in ALL and inside AT:
+
+| | W-only | D-only | D+W | AI | silent |
+|---|---|---|---|---|---|
+| light and dark, ALL | 19/32 (59%) | 7/27 (26%) | 18/39 (46%) | 8/12 | 110/348 (32%) |
+| light and dark, inside AT | 12/22 | 2/13 | | | 43/135 (32%) |
+| custom stylesheet, ALL | 3/32 (9%) | 7/27 (26%) | 2/39 (5%) | | 48/348 (14%) |
+| custom stylesheet, inside AT | 1/22 | 5/13 | | | 21/135 (16%) |
+
+- Follows the system appearance: W-only 7/32, D-only 2/27, AI 5/12.
+- Font or size choice: W-only 12/32 (38%) against D-only 4/27 (15%). Inside AT it is 5/22 against 2/13, too close to separate.
+- Themes: 44% to 58% in every named column, 40% in silent rows.
+- SHAPE handfuls: W-only themes 4 of 4 and font 3 of 4; D-only light and dark 3 of 9 and custom stylesheet 1 of 9.
+- D+W custom stylesheet in SHAPE: 0/19 against 25/150 (17%). In MAS-free it is 0/12 against 1/31, so that is the cell.
+
+V32 is weak (adjusted 0.80, 7 cells the rule cannot decide). Measured in: ALL, AT [d d d s]; SHAPE [s/d s s s]; MAS-free [d s s s].
+
+**F47. Parameter 14, print and export: writers alone claim export to other formats and sending on more than any other column. The lead holds inside both the App Store and AlternativeTo. In SHAPE the writers are four rows, and the documentation reader's App Store rows claim export less than other App Store rows.**
+
+V33, in ALL:
+
+| | W-only | D-only | D+W | AI | silent |
+|---|---|---|---|---|---|
+| another named format | 21/32 (66%) | 12/27 (44%) | 11/39 (28%) | 1/12 | 98/348 (28%) |
+| share or send | 13/32 (41%) | 5/27 | 5/39 | | 51/348 (15%) |
+| HTML | 16/32 (50%) | | | | 99/348 (28%) |
+| PDF | 17/32 (53%) | 13/27 (48%) | 18/39 (46%) | | 128/348 (37%) |
+
+- **Inside AT:** another format W-only 14/22 against D-only 6/13 and silent 38/135. Share or send 11/22 against 0/13 and 22/135.
+- **Inside MAS:** W-only 6 of 7 each for PDF, HTML and another format, against 47/86, 32/86 and 36/86 for silent rows.
+- **Print:** AI 5/12, D+W 10/39 (26%), silent 49/348 (14%). Inside MAS, D+W 8/24 against 22/86.
+- **SHAPE handfuls:** W-only another format 3 of 4, HTML 2, PDF 1 and copy as rich text 2; D-only PDF 5 of 9.
+- **D+W in SHAPE:** PDF 8/19 (42%) against 57/150 (38%). Silent on V33 in 9/19, and in 8/12 in MAS-free against 8/31 of silent rows.
+
+Measured in: ALL, MAS, AT [d d d s]; SHAPE [s/d s s s]; MAS-free [d s s s].
+
+**F48. Parameter 15, one thing or several: none of the 35 leading-buyer rows in SHAPE is offered in editions. In ALL, editions are commoner where any buyer is named, and inside the App Store the documentation reader is offered in editions less often than other rows.**
+
+V04, one program in editions, in ALL: W-only 10/32 (31%), D-only 7/27 (26%), D+W 9/39 (23%), AI 3/12, silent 62/348 (18%).
+- **Inside MAS:** D+W 6/24 (25%) against 27/86 (31%); W-only 5 of 7.
+- **Inside AT:** D-only 6/13, W-only 6/22, D+W 4/11, silent 30/135 (22%).
+- **SHAPE:** single program D-only 8 of 9, W-only 4 of 4, D+W 18/19, AI 3 of 4 (one undecidable). Editions are 0 in all four columns, against 7/150 of silent rows.
+
+V04 is the weakest variable (9 cells the rule cannot decide; 36 rows undecidable overall, 3 of the 12 AI rows). Measured in: ALL, MAS, AT [d d d s]; SHAPE [s/d s s s].
+
+**F49. The instrument: this reading counts a few more coded values than `taxonomy.md`. The buyer columns move by one row.**
+
+V05 in ALL counts these classes higher than finding 2:
+- developers 66 (finding 2: 64)
+- students 44 (42)
+- note-takers 15 (13)
+
+The cause is the reader, not the coding. Three AlternativeTo-sampled rows, each at weight 2, separated their V05 values with a single "|": phasoric, ownsync-note and pocketmark. The earlier count read that as text. Only phasoric changes buyer column, into developers alone.
+
+The same layout, and values joined inside one element ("Windows, macOS"; "tables, task lists, footnotes"), raise this reading's ALL totals above the taxonomy's on other variables:
+- V03 function word in name: 232 against 218 (+14). The cause of part of this surplus was not traced, because the earlier count's code is not open to this clerk.
+- V13(a) task lists: +13.
+- Math: +12.
+- V10 Linux: +11.
+- V13(a) diagrams: +10.
+- V33 another named format: +10.
+
+SHAPE moves by at most 5. Four counts come out lower: "markdown named, no form named" (127 against 131), host program's extension manager (21 against 22), the system package (107 against 108), and silence by one row on several variables. SHAPE (204), STORE-NS (145) and the price status are reproduced exactly: V16(b) free 248 and silent 97, and V23 identical.
+
+So the by-buyer tables and findings 2 to 28 may disagree by these amounts. Neither reading recodes anything, and `by-buyer.py` prints both readings of V05. Measured in: all coded rows; no dimension.
+
+## Index of the findings by buyer
+
+- F31: bases by buyer.
+- F32: the cells each buyer sits in.
+- F33: developers and writers named together.
+- F34: name.
+- F35: surface and reach.
+- F36: unit and install.
+- F37: cost.
+- F38: licence and work use.
+- F39: platforms and prerequisites.
+- F40: markdown forms.
+- F41: reader or editor.
+- F42: keeping up with a file.
+- F43: long-document navigation.
+- F44: search.
+- F45: files local and network.
+- F46: appearance.
+- F47: print and export.
+- F48: one program or several.
+- F49: this reading against the taxonomy's.
