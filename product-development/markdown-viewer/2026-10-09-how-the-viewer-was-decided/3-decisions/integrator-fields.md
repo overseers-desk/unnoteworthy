@@ -4,7 +4,7 @@ The only prose the integrator writes, read by `tools/assemble-review.py` under t
 
 ## Unlock
 
-Card 1, the buyer, is ruled in the same round as every other card. Its own recommendation is withheld between developers and writers together (the documentation reader, 19 of 204 comparables) and developers without writers (9 of 204); the market-only reading withholds between the documentation reader and readers of what AI agents write (8 of 86 reader rivals). So the buyer you rule is one of those three, and cards 2 to 14 were written for the documentation reader, with each card's Joint line saying where the other two land.
+Card 1, the buyer, is ruled in the same round as every other card. Its own recommendation is withheld between developers and writers together (the documentation reader, 19 of the 204 free products shaped like this viewer) and developers without writers (9 of the 204); the market-only reading withholds between the documentation reader and readers of what AI agents write (8 of 86 reader rivals). So the buyer you rule is one of those three, and cards 2 to 14 were written for the documentation reader, with each card's Joint line saying where the other two land.
 
 Cards whose recommendation does not change with the buyer ruling: card 6 (an open-source licence), card 7 (all three systems), card 11 (a contents outline) and card 13 (nothing leaves the machine). On each, the Joint line gives developers without writers and AI readers the same answer, or says the evidence does not separate them from the documentation reader.
 
@@ -13,7 +13,7 @@ Cards whose recommendation or standing changes with the buyer ruling:
 - Card 9 (an editor) reverses for AI readers, who land on a reader that never edits, 8 of 12 against at most 3 editors.
 - Card 14 (export to PDF) loses its recommendation under developers, where no export option is carried; under AI readers it is withheld between PDF (4) and print with no file export (2).
 - Card 3 (where it is had) sends developers to the package manager, which is neither of the two options the documentation reader's card is withheld between (release page, store listing). AI readers tie the package manager with the store.
-- Cards 2, 4, 5, 8, 10 and 12 are withheld for the documentation reader. Developers and AI readers each land on one side or the other, so the buyer ruling settles which reading applies: card 2 (developers: the coined name over the markdown word), card 4 (developers: package manager; AI readers: a tie), card 5 (developers: free with nothing asked; AI readers: a tie), card 8 (developers: diagrams and maths together; AI readers: the program as it stands is carried against), card 10 (developers: updates as you type; AI readers: reloads by itself) and card 12 (developers and AI readers both: search within the document).
+- Cards 2, 4, 5, 8, 10 and 12 are withheld for the documentation reader. Under developers and under AI readers each card lands on one reading, on another option, or on a tie, so the buyer ruling settles which applies: card 2 (developers: the coined name over the markdown word), card 4 (developers: package manager; AI readers: a tie), card 5 (developers: free with nothing asked; AI readers: a tie), card 8 (developers: diagrams and maths together; AI readers: the program as it stands is carried against), card 10 (developers: updates as you type; AI readers: reloads by itself) and card 12 (developers and AI readers both: search within the document).
 
 Cards that wait on another card's ruling, where their own Joint lines say so:
 - Cards 10 and 12 wait on card 9. Card 10's Joint line states "it follows card 9, where this buyer is offered editors". Card 12's states "find and replace exists only if card 9 rules an editor".
@@ -21,7 +21,7 @@ Cards that wait on another card's ruling, where their own Joint lines say so:
 - Card 4 waits on card 3. Card 4's Joint line states "the place a buyer gets it from sets the install form (a store gives a store install, a tap gives a package command)".
 - Card 3 itself says it cannot be ruled without the search-demand leg, and no search volume exists this month. So cards 2 and 4, which wait on it, are also held until you rule it with that fact in view, or leave it open.
 
-Appearance has no card. Only the writers' sentence contained it, and writers without developers (4 of 204 comparables) are not among card 1's leading buyers, though the market claims themes or light and dark in about half its comparables (49 of the 88 reader rows, finding 18). It stays design freedom by that rule.
+Appearance has no card. A card exists only for a parameter that a leading buyer's seller's sentence contains (`3-decisions/leading-buyers.md`). Only the sentence written to writers contained appearance, and writers without developers (4 of the 204 free products shaped like this viewer) are not among card 1's leading buyers. So appearance stays design freedom by that rule, though the market claims themes or light and dark in about half its comparables (49 of the 88 coded comparables that read without editing, finding 18).
 
 ## Collisions
 
@@ -51,11 +51,11 @@ Card 11's Joint line states "the find bar reaches into folded sections and opens
 
 Card 12's Joint line states "an outline pane added under card 11 leaves the find bar as it is". So card 11's outline recommendation, 9 of 12 AI-reader rows against 0 for folding, does not disturb card 12.
 
-**Card 3 with cards 2, 4, 6, 7 and 13: where it is had.** Card 3 is withheld between a release page (47 to 17 in the market) and a store listing (29 to 8 among the documentation reader's pages, which is the App Store). The ruling on it carries five other cards.
+**Card 3 with cards 2, 4, 6, 7 and 13: where it is had.** Card 3 is withheld between a release page (47 to 17 in the market) and a store listing (29 to 8 among the 39 pages that name the documentation reader, nearly all App Store listings; outside the App Store 5 to 8 the other way). The ruling on it carries five other cards, and card 1 bears on it.
 
 Card 2's Joint line states "card 3's ruling chooses between the two readings here".
 
-Card 3's Joint line states "the name form follows the place".
+Card 3's Joint line states "the name form follows the place". A store ruling on card 3 favours a name with the markdown word on card 2; a release or package ruling favours a coined name.
 
 Card 3's Joint line states "the install form follows the place".
 
@@ -63,15 +63,15 @@ Card 4's Joint line states "the place a buyer gets it from sets the install form
 
 Card 7's Joint line states "a Mac App Store listing sells to macOS alone, and a Homebrew formula to macOS and Linux". Card 7 and card 3 are therefore ruled together where card 3 lands on a store.
 
-Card 6's Joint line states "a paid licence for work is a price".
+Card 6's Joint line states "a paid licence for work is a price". A paid licence for work on card 6 would put a price option before card 5.
 
 Card 13's Joint line states "a store listing carries a privacy declaration whether or not the seller writes a sentence, and the sentence needs a page".
 
 Card 1's Joint line states "A ruling for the joint option therefore asks the surface card about a store listing, of which the operator has none (cost lines)". The joint option is developers and writers together, the documentation reader. Ruling card 1 for the documentation reader therefore puts the store listing in front of card 3 with no store presence behind it.
 
-**Card 4 with card 5 and card 3: unit and price.**
+**Card 5 with card 4: unit and price.**
 
-Card 5's Joint line states "a licence per person is a unit".
+Card 5's Joint line states "a licence per person is a unit". A per-person price on card 5 would add a per-person licence to card 4's options, which card 4 counts at 0 of the 204 free products shaped like this viewer.
 
 **Card 7 with cards 4 and 13: what runs where.**
 
