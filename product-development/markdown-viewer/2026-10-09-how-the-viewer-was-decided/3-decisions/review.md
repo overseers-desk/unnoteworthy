@@ -21,7 +21,7 @@ Card 1 also collides with the surface question it names: "Decided with the surfa
 
 ## What passed through
 
-2 cards. Every card offers at least two ways the market sells this, each with a figure. 1 recommendations keep a value the business already holds, 0 leave one. On 1 of the 2 the business held nothing, whatever the line reads. Keeping and leaving were asked for the same proof, a market-only reading by a fresh clerk who saw neither the business's records nor the first clerk's work. Of 2 such readings, 1 agree with the card, 1 agree on one half of the question and not the other (Card 1). The measured-in lines mark a measured population as differing from this business's shape 7 times.
+2 cards. Every card offers at least two ways the market sells this, each with a figure. 1 recommendations keep a value the business already holds, 0 leave one. On 1 of the 2 the business held nothing, whatever the line reads. Keeping and leaving were asked for the same proof, a market-only reading by a fresh clerk who saw neither the business's records nor the first clerk's work. Of 2 such readings, 1 agree with the card, 1 split across the two halves of the question (Card 1: differs / declines). The measured-in lines mark a measured population as differing from this business's shape 7 times.
 
 ## Open cards
 
