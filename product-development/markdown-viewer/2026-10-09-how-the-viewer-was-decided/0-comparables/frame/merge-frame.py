@@ -4,7 +4,8 @@
 Usage: merge-frame.py <frame-dir>
 Reads every *.tsv in the directory except frame.tsv. A row is one list entry; a comparable
 is one product, which may sit in several lists. Rows are joined into one comparable when
-their normalised names match exactly or their identifiers share a host and path; a pair of
+their normalised names match exactly or their identifiers share a host and path (an identifier several rows of one list share is
+that list's own page and joins nothing); a pair of
 names where one contains the other is not joined but flagged for the frame reviewer.
 Writes frame.tsv (one row per comparable: product, cells, identifiers, eligibility per cell,
 descriptions per cell) and frame-cells.md (counts per cell, in/out/undecidable, and the
@@ -48,6 +49,8 @@ def main():
                 if rk.startswith(k):
                     return row[rk]
         return ""
+    # an identifier shared by several rows of one list is that list's page, not a product's, and joins nothing
+    shared = collections.Counter((r['_file'], ident_key(get(r, 'identifier', 'url'))) for r in rows)
     comps = {}          # key -> comparable
     name_index = {}     # normalised name -> key
     ident_index = {}    # ident key -> key
@@ -56,6 +59,8 @@ def main():
         ident = get(row, "identifier", "url")
         cell = (get(row, "list") or row["_file"]) + (":" + get(row, "cell") if get(row, "cell") else "")
         nk, ik = norm(name), ident_key(ident)
+        if ik is not None and shared[(row['_file'], ik)] > 1:
+            ik = None
         key = None
         if ik is not None and ik in ident_index:
             key = ident_index[ik]

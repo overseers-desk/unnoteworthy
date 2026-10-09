@@ -25,11 +25,16 @@ One comparable is one product; a product in several lists sits in several cells.
 | teatotal | 1 | 0 | 0 | 0 |
 | vscode | 13 | 64 | 23 | 0 |
 
-Comparables in the merged frame: 900, from 1852 list rows.
+Comparables in the merged frame: 1531, from 1852 list rows.
 
 ## Possible duplicates not joined (one name inside another), for the reviewer
 
+- Apostrophe / ApostropheEditor/Apostrophe
+- Bear / Bear: Markdown Notes
 - blag / blag-doc
+- Blank / Blank - A new writing-experience
+- Blank / Blank Slate
+- Caliu / Caliu - Markdown Notes
 - cmark / cmark-gfm
 - cmark / libghc-cmark-dev
 - cmark / libghc-cmark-doc
@@ -46,37 +51,59 @@ Comparables in the merged frame: 900, from 1852 list rows.
 - CommonMark / r-cran-commonmark
 - CommonMark / ruby-jekyll-commonmark
 - comrak / librust-comrak-dev
+- Dendron / dendronhq/dendron
 - discount / libtext-markdown-discount-perl
 - discount / lua-discount
 - dvorka/mindforger / dvorka/mindforger-repository
+- Easy Markdown / Easy Notes
+- Easy Markdown / Ionaru/easy-markdown-editor
+- Markdown Edit / Enso - Write now,  edit later.
+- Markdown Edit / georgeOsdDev/markdown-edit
 - Markdown Viewer Editor / Editor - Markdown Notes
 - Markdown Viewer Editor / em — Markdown Writer & Editor
 - Markdown Viewer Editor / FATE - Formatted Article & Text Editor
 - Markdown Viewer Editor / FuseText – Text Editor
+- Markdown Viewer Editor / Hemingway Editor
 - Markdown Viewer Editor / HTML Editor
 - Markdown Viewer Editor / imzbf/md-editor-rt
 - Markdown Viewer Editor / imzbf/md-editor-v3
+- Markdown Viewer Editor / Ivirius Text Editor
 - Markdown Viewer Editor / kkfor/for-editor
 - Markdown Viewer Editor / kolkov/angular-editor
 - Markdown Viewer Editor / liuzi6612/awesome-web-editor
+- Markdown Viewer Editor / Md Editor
 - Markdown Viewer Editor / MDash: Markdown Notes Editor
 - Markdown Viewer Editor / mdx-editor/editor
 - Markdown Viewer Editor / pandao/editor.md
+- Markdown Viewer Editor / Markdown Preview Editor
+- Markdown Viewer Editor / Qilin Editor
 - Markdown Viewer Editor / Quirely Markdown+LaTeX Editor
 - Markdown Viewer Editor / Markdown Reader & Editor: MD
 - Markdown Viewer Editor / Rho MD - Markdown Viewer & Editor
+- Markdown Viewer Editor / Markdown Shell Extensions and Editor
+- Markdown Viewer Editor / SSuite NoteBook Editor
 - Markdown Viewer Editor / Text Editor - App
 - Markdown Viewer Editor / Twain - Markdown & MDX Editor
 - Markdown Viewer Editor / uiwjs/react-md-editor
 - Markdown Viewer Editor / WriteWeft Notes and Editor
+- Markdown Viewer Editor / Zen Editor
+- Edmund / I7T5/Edmund
+- Markdown Emoji / golang-github-yuin-goldmark-emoji-dev
+- Markdown Viewer Enhanced / Markdown Preview Enhanced
 - Markdown Viewer Enhanced / shd101wyy/markdown-preview-enhanced
+- Excel / Excel to Markdown table
 - Markdown Export / MarkView: Markdown Viewer with Mermaid Diagrams, Math & Export
+- Ferrite / OlaProeis/Ferrite
+- Foam / foambubble/foam
 - Folio / Folio: Markdown Library
 - Folio / Folio: Markdown+RST+Code+PDF
+- Folio / ToolStack Folio
 - gitit / libghc-gitit-data
 - gitit / libghc-gitit-dev
 - gitit / libghc-gitit-doc
 - gitit / libghc-gitit-prof
+- Markdown Image / NoteIM: Fast Image & Markdown Sharing
+- Markdown Image / Paste Image
 - jekyll / ruby-jekyll-commonmark
 - jekyll / ruby-jekyll-default-layout
 - jekyll / ruby-jekyll-optional-front-matter
@@ -89,7 +116,11 @@ Comparables in the merged frame: 900, from 1852 list rows.
 - kramdown / ruby-kramdown
 - kramdown / ruby-kramdown-parser-gfm
 - kramdown / ruby-kramdown-rfc2629
+- LaTeX / LaTeX Workshop
+- LaTeX / Quirely Markdown+LaTeX Editor
+- LaTeX / texlive-latex-extra
 - leaf-markdown-viewer / RivoLink/leaf
+- learn-markdown / learn-preview
 - libjs-markdown-it / libjs-markdown-it-html5-embed
 - libjs-markdown-it / libjs-markdown-it-sub
 - libjs-markdown-it / libjs-markdown-it-sup
@@ -97,18 +128,36 @@ Comparables in the merged frame: 900, from 1852 list rows.
 - libmd4c-html0 / libmd4c-html0-dev
 - libmdx-ocaml / libmdx-ocaml-dev
 - libomd-ocaml / libomd-ocaml-dev
+- Markdown Life / My Life OS
+- Lockbook / Lockbook: Private Notes
+- MacDown / MacDown 3000
+- MacDown / MacDownApp/macdown
 - mark / mark-text
 - mark / Marky Mark Markdown Editor
 - mark / Mud: Mark Up or Down
 - markdownlint / markdownlint-cli
 - markdownlint / markdownlint-cli2
+- MarkDrop / MarkDrop - Markdown Converter
+- Marked / Marked 2 - Markdown Preview
+- Marked / Marked QL - Markdown Preview
+- Marked / node-marked
+- Marked / node-marked-man
+- MarkEdit / MarkEdit-app/MarkEdit
 - MarkLens — Markdown Viewer / Marklens: Markdown Reader
+- MarkMyWords / Markdown Suite - MarkMyWords
+- Marknote / Shouheng88/MarkNote
 - Marko: Markdown Viewer / Marko Viewer
+- Markpad - Markdown Editor / sftwrdotdev/Markpad
+- MarkText / marktext/muya
+- MarkView / MarkView: Markdown Viewer with Mermaid Diagrams, Math & Export
+- Markdown+Math / python3-mdx-math
 - Markdown Viewer - MD Reader / md-reader/md-reader
 - md Viewer: Markdown / md Viewer: Markdown & Mermaid
 - md2pdf / md2pdf-client
 - md2pdf / md2pdf-webserver
+- MDash / MDash: Markdown Notes Editor
 - mdhero / vaibhav-kakde-in/mdhero
+- mdSilo / mdSilo/mdSilo-app
 - miaoyan / tw93/MiaoYan
 - mkdocs / mkdocs-autorefs
 - mkdocs / mkdocs-bootstrap
@@ -127,6 +176,10 @@ Comparables in the merged frame: 900, from 1852 list rows.
 - mkdocs-material / mkdocs-material-extensions
 - mkdocstrings / mkdocstrings-python-handlers
 - mkdocstrings / mkdocstrings-python-legacy
+- Monod / TailorDev/monod
+- MultiMarkdown Composer / MultiMarkdown Composer 4
+- MWeb / mweb-pro
+- MWeb / MWeb - Markdown Writing, Notes
 - nanoc / ruby-nanoc-checking
 - nanoc / ruby-nanoc-cli
 - nanoc / ruby-nanoc-core
@@ -135,13 +188,52 @@ Comparables in the merged frame: 900, from 1852 list rows.
 - nanoc / ruby-nanoc-live
 - nanoc / ruby-nanoc-org-mode
 - node-marked / node-marked-man
+- Nodes App / Nodes - markdown by WERK 42
+- Notes (PFA) / notes-better
+- Notes (PFA) / Markdown Notes & Memo
+- Notes (PFA) / markdown notes - Smolpad
+- Notes (PFA) / NotesHub: Notes, Kanban Boards
+- Notes (PFA) / Prism Notes
+- Notes (PFA) / Quick Draft: Notes & Markdown
+- Notes (PFA) / Rebel Notes
+- Notes (PFA) / River Notes
+- Notes (PFA) / Secure Notes Vault
+- Notes (PFA) / Simple Notes - Markdown Notes
+- Notes (PFA) / Skein Notes
+- Notes (PFA) / sNotes – Students Notes
+- Notes (PFA) / Solo Notes
+- Notes (PFA) / Soma AI Notes
+- Notes (PFA) / Standard Notes
+- Notes (PFA) / SteelNote: Markdown Notes
+- Notes (PFA) / Steno Notes
+- Notes (PFA) / Sticky Notes
+- Notes (PFA) / Swifty Notes
+- Notes (PFA) / Tangent Notes
+- Notes (PFA) / Topilo Notes
+- Notes (PFA) / Trilium Notes
+- Notes (PFA) / Understory: Writing Notes
+- Notes (PFA) / WriteWeft Notes and Editor
+- Notes (PFA) / Zen Notes
+- Notes (PFA) / Zotero Better Notes
+- Notion / Notion Electron
 - obsidian / Obsidian Web Clipper
+- Markdown Viewer Offline / Offline Markdown Preview
 - Open Markdown Editor / r3bl-org/r3bl-open-core
 - pandoc / pandoc-data
 - pandoc / pandoc-filter-diagram
+- pandoc / vscode-pandoc
+- Paper / Paper - Writing App
+- Markdown Paste / Paste Image
 - PDF to Markdown Converter / PDF to Markdown Converter－Fast
 - pelican / pelican-doc
 - php-parsedown / php-parsedown-extra
+- prettier / Prettier - Code formatter
+- prettier / Prettier ESLint
+- prettier / Prettier-Standard - JavaScript formatter
+- markdown-preview / Markdown Preview Editor
+- markdown-preview / Markdown Preview Enhanced
+- markdown-preview / Markdown Preview Github Styling
+- markdown-preview / Markdown Preview Mermaid Support
 - markdown-preview / Markdown Preview - Quick Look
 - markdown-preview / shd101wyy/markdown-preview-enhanced
 - markdown-preview / uiwjs/react-markdown-preview
@@ -224,6 +316,7 @@ Comparables in the merged frame: 900, from 1852 list rows.
 - Markdown Reader / Markdown Reader & Editor: MD
 - Markdown Reader / MarkDown Reader - MD Viewer
 - Markdown Reader / Markdown Reader - Ream
+- ReText / retext-project/retext
 - ronn / ronn-ng
 - ronn / ruby-ronn
 - ruby-github-markdown / ruby-github-markup
@@ -235,8 +328,17 @@ Comparables in the merged frame: 900, from 1852 list rows.
 - ruby-rails-assets-markdown-it / ruby-rails-assets-markdown-it-sanitizer
 - ruby-rails-assets-markdown-it / ruby-rails-assets-markdown-it-sub
 - ruby-rails-assets-markdown-it / ruby-rails-assets-markdown-it-sup
+- SoloMD / zhitongblog/solomd
 - Markdown Sticky / Sticky Notes
+- Markdown Sticky / Sticky Wall
 - storm-lang-markdown / storm-lang-doc
+- Markdown Table / Markdown Table Prettifier
+- Tangent / Tangent Notes
+- texts / Texts.io
 - Typora / typora@dev
 - uiwjs/react-markdown-editor / uiwjs/react-md-editor
 - uiwjs/react-markdown-editor / uiwjs/react-markdown-preview
+- Ulysses / Ulysses: Writing App
+- Markdown Writer / Writer for Markdown
+- Markdown Writer / Yu Writer Pro
+- ZenWriter / ZenWriter Online
