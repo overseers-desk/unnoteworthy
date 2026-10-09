@@ -163,7 +163,8 @@ oo::class create Viewer {
     # ---- rendering ----
     method render {text} {
         # Reference definitions are document-scoped, so they resolve before
-        # the heading split; a title's reference resolves with them.
+        # the heading split; a reference-style link in a heading title
+        # resolves with them.
         set text [::tkdown::resolve_refs $text]
         my reset
         ::tkdown::forget $Text
@@ -216,7 +217,7 @@ oo::class create Viewer {
         }
     }
 
-    # ---- links: tkdown calls follow_link with the url of a clicked link ----
+    # ---- links: tkdown's -link_cmd hands these the url of a clicked link ----
     method follow_link {url} {
         if {[regexp {^[a-z][a-z0-9+.-]*:} $url]} {
             exec xdg-open $url &
