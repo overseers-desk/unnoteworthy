@@ -1,0 +1,34 @@
+writer
+writers
+author
+authors
+blogger
+bloggers
+publisher
+publishers
+student
+students
+academic
+academics
+developer
+developers
+coder
+coders
+note-taker
+note-takers
+knowledge manager
+knowledge managers
+team
+teams
+business
+businesses
+organisation
+organisations
+terminal reader
+terminal readers
+reader
+readers
+AI agent
+AI agents
+application developer
+application developers
