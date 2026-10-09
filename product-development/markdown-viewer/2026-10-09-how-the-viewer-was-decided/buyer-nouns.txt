@@ -26,9 +26,9 @@ organisation
 organisations
 terminal reader
 terminal readers
-reader
-readers
 AI agent
 AI agents
 application developer
 application developers
+plain reader
+plain readers

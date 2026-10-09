@@ -4,7 +4,7 @@ Written by the orchestrator from the owner's words and four market-side pulls; r
 
 **Owner's words, verbatim:** "the current name was a placeholder." and "not only if the product can be sold as is, but also what small changes can be made to make it sell."
 
-**Returned:** <awaiting the owner; written 2026-10-09>
+**Returned:** 2026-10-09, unmarked. The owner was away and did not read the list, which under the method means every row below is in. He strikes on the buyer card at the second gate.
 
 | buyer | what they type | who addresses them | our records | rivals selling to them | strike |
 |---|---|---|---|---|---|
