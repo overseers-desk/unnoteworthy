@@ -99,7 +99,7 @@ Maker's own website https://www.stik.ink (download page); code repository page.
 
 ## V21 Distribution channels named
 
-README: "stik.ink/download" ; "Homebrew" ; "the Releases page" ; "Raycast" is named in search results only, not in pages read.
+README: "stik.ink/download" ; "Homebrew" ; "the Releases page"
 
 ## V22 Shape dimension 1: how the buyer reaches the offering
 

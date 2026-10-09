@@ -1,6 +1,6 @@
 # Steno Notes (slug steno-notes)
 
-Shard-13. Cell conditions: re-check eligibility on own page; rates dated to the list. Weight 2 (AlternativeTo sampling rule, position 139 of 147). Mac App Store cell conditions do not apply (not drawn from it).
+Shard-13. Cell conditions: re-check eligibility on own page; rates dated to the list. Weight 2 (AlternativeTo sampling rule, position 139 of 147).
 Name as published: "Steno Notes" (App Store listing title); "Steno" (own site and listing text).
 
 ## How the product's own page was found
