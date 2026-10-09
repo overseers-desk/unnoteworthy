@@ -50,8 +50,7 @@ silent
 > Multiple editting modes: instant Rendering mode (Recommand!) / WYSIWYG mode / split screen mode — https://github.com/zaaack/vscode-markdown-editor
 
 ## V10 Platforms
-> Markdown Editor... right click on markdown file then click Open with markdown editor (VS Code commands) — https://github.com/zaaack/vscode-markdown-editor
-> type ctrl+shift+alt+m for win or cmd+shift+alt+m for mac — https://github.com/zaaack/vscode-markdown-editor
+silent
 
 ## V11 Prerequisites
 silent
