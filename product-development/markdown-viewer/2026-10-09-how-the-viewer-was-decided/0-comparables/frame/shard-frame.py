@@ -3,8 +3,8 @@
 
 Usage: shard-frame.py <frame-dir> <shard-size> <cell-spec>...
 A cell-spec is  <cell-name>            every comparable the cell marks in (a census), or
-                <cell-name>:every=<k>  every k-th such comparable in the cell's own row order (a systematic sample), or
-                <cell-name>:undecidable  the cell's undecidable rows as well as its in rows.
+                <cell-name>@every=<k>  every k-th such comparable in the cell's own row order (a systematic sample), or
+                <cell-name>@undecidable  the cell's undecidable rows as well as its in rows.
 Cell names match the cell column of frame.tsv by prefix. A comparable drawn by any passing cell is collected once.
 Writes collection-list.tsv (slug, product, cells, identifiers, drawn-by) and shards.md (shard -> slugs).
 """
@@ -20,7 +20,7 @@ def main():
     rows = list(csv.DictReader((d / "frame.tsv").open(newline=""), delimiter="\t"))
     drawn = {}  # slug -> row, drawn-by
     for spec in specs:
-        name, _, opt = spec.partition(":")
+        name, _, opt = spec.partition("@")
         step = int(opt.split("=")[1]) if opt.startswith("every=") else 1
         want = ("in", "undecidable") if opt == "undecidable" else ("in",)
         members = []
