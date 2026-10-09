@@ -1,0 +1,44 @@
+## Third derivation of Card 12
+
+Derived 2026-10-09 by the third-derivation clerk under `briefs/third-derivation-clerk-cards.md`, from the market side alone. Read: the same files in the same order as `3-decisions/third-card-9.md` lists. Not read: the sales record, the capability note, any other card. The register's per-section counts were made by a script over the register's text; the 22 readers that print search within the document, and the 26 that print any search, match finding 15.
+
+Reading, generator against designer: a generator would add up every "search" claim and call search universal. A designer separates the scopes. A reader finds a word on the page it is showing. A notes app searches the folder. Replacing a word needs an editor.
+
+**Question:** How do I find a word in it?
+
+### The populations the counts are read in
+
+V29 is multi-valued, so exclusive options are counted over the register's sections, as on card 11: the 86 reader rivals, the 28 operator-shaped readers, and, as context, the 35 top-five comparables not coded as readers. The taxonomy's any-value prevalences for ALL and SHAPE, and finding 44 by buyer, are context.
+
+### Options
+
+| option | figure | source | capability | sentence |
+|---|---|---|---|---|
+| Find within the open document only | reader rivals 18/86; operator-shaped readers 3/28 (md-tui, MarkView R45, leaf); top-five non-readers 2/35. Context, any-value: ALL 94/496, SHAPE 37/204 | register; taxonomy V29; finding 15 | not read by this clerk | No profile. To a developer reading docs, as Markdown Peek (R22: "Find with Command-F Every match lights up with a count") and Marko (R43: "Find in page with a live match count") put it: "Ctrl+F finds every match on the rendered page, with a count." Likely answer: expects exactly this |
+| Search across files or a folder only | reader rivals 4/86 (ekphos R4, mo R15, MD Flow R48, Mdly R57); operator-shaped readers 1/28 (mo); top-five non-readers 3/35. Context, any-value: ALL 100/496, SHAPE 32/204 | register; taxonomy V29 | not read | No profile. To someone keeping a folder of notes: "Search every markdown file in the folder." Likely answer: wants it for a folder; not for one file received |
+| Both: within the document and across files | reader rivals 4/86 (FlyCrys R6, MarkLook R40, Meva R62, Quick Markdown Viewer R72); operator-shaped readers 2/28 (FlyCrys, Quick Markdown Viewer) | register | not read | No profile. To a technical writer with a docs folder, as Meva puts it ("In-document search"; "Search everything ... Across all your files"): "Find on this page, or across the folder." Likely answer: takes it |
+| Find and replace | reader rivals 0/86; top-five non-readers 6/35. Context, any-value: ALL 66/496, SHAPE 37/204, STORE-NS 14/145 | register; taxonomy V29; finding 15 | not read; needs an editing surface (card 9) | No profile. To a writer, as Markdown゜ puts it ("Search through a document and replace as you go"): "Find and replace through the document." Likely answer: an editor buyer expects it; a reader cannot replace |
+| Search by regular expression | reader rivals 0/86 as coded. Context, any-value: ALL 18/496, SHAPE 11/204. Marked's own page, in the day-one pull, says "search with wildcards and regular expressions", but its register section codes search within the document only | taxonomy V29; day-one pull; register R35 | not read | No profile. To a developer: "Search with a regular expression." Likely answer: a nicety; writers alone print it most (5/32, finding 44) |
+
+Undecidable, a bare "search" with no scope named: reader rivals 5/86, operator-shaped readers 3/28, ALL 70/496, SHAPE 24/204. Silent, counted once and in no figure above: reader rivals 55/86, operator-shaped readers 19/28, top-five non-readers 17/35, ALL 241/496, SHAPE 107/204. No page prints "no search", so having none has no figure and is not an option.
+
+**Recommended:** Find within the open document only; margin: 14 rows over either runner-up (18 against 4 for "across files only" and 4 for "both", of 86 reader rivals); rests on: the market; seen by: V29 read per register section. V29 sees all three scopes as printed claims. The 5 unscoped searches could belong to any scope. If all 5 were across files, the count would stand at 18 against 9, so they cannot account for the lead. Finding 30 marks V29's unscoped searches as soft. Among the 28 operator-shaped readers the count is 3 against 2 against 1, with 3 unscoped, and that is no lead: **withheld there; between "within the document only" and "both"; standing at: 3–2 of 28, with 3 unscoped and 19 silent; carried by: the 3 unscoped searches' scope, read from those products' own documentation (mdfried, Mud, shiba).** Under card 9's other ruling ("write"), the population changes. In SHAPE, find within the document and find and replace are claimed equally (37 and 37 of 204, any-value). In ALL, search across files (100) is claimed about as often as within the document (94), a gap of 6 weighted rows between counts that are not exclusive, so it does not rank the two scopes. For a product that writes, the card would stand withheld between "within the document" and "find and replace", carried by an exclusive count of V29 over the editor rows, which the taxonomy does not print.
+
+**By leading buyer** (finding 44, ALL weighted, any-value counts, so one row may claim several; the reader rivals by their V05 lines; finding 44 prints no "across files" count by buyer):
+
+- **Readers of what AI agents write:** find within the document. ALL 6/12 against find and replace 0/12; inside the App Store, 4 of its 6 rows against 23/86 of the App Store rows that name no buyer. Among its 8 reader rivals: 4 within the document, 1 across files, 3 silent.
+- **The documentation reader:** find within the document. ALL 9/39 against find and replace 2/39, a lead of 7 that survives one weight-2 operator coded the other way. Among its 11 reader rivals: 3 within the document only, 1 across files only, 1 both, 1 unscoped, 5 silent.
+- **Developers and coders (alone):** withheld; between "within the document" and "find and replace"; standing at: 8–5 weighted rows in ALL (5 of its 22 products are sampled at weight 2, so one such operator coded the other way erases the lead); both of its reader rivals print within the document; carried by: card 9's ruling, since find and replace exists only for a product that writes.
+- **Writers and authors (alone):** withheld; between "find and replace" and "within the document"; standing at: 10–7 weighted rows in ALL, a lead that one of its 10 weight-2 products would erase; its one reader rival, Marked, prints within the document; carried by: card 9's ruling, as above. Writers alone are also the column that prints regular-expression search (5/32).
+
+**Measured in:** reader rivals R1 to R86, mixed cells (Mac App Store 31 of the 86; within the document only, 11 of the 31 App Store readers and 7 of the 55 others), D1 to D3 differs for the store and directory rows and shared for the GitHub-topic and free release rows, D4 shared, 18/86 against 4/86; re-measured among the 28 operator-shaped readers [s s s s], 3/28 against 2/28, a handful with no lead. Context: ALL [d d d s] and SHAPE [s/d s s s], any-value prevalences. The card rules none of the four dimensions.
+
+**Cost lines:** not read by this clerk; the holder of the capability record adds them beside this landing. Flagged for that holder: find and replace needs the editing surface that card 9 flags.
+
+**Opposite:** Why not the opposite scope, across files only? That is the notes app's scope. In ALL, where notes apps and editors sit, it is printed about as often as within the document. Among readers, which open one file at a time, it is 4 against 18. No page prints "no search", and 55 of the 86 readers say nothing about search, so having none has buyers who are not counted.
+
+**Further:** Why not go further, to both scopes (4/86) or to regular expressions (0/86 among readers as coded)? Both scopes are the documentation reader's further step when they keep a folder. Regular expressions are a writer's and a developer's nicety, printed by 18 of 496 rows in all.
+
+**Joint:** Decided with card 9: find and replace exists only if card 9 rules "write", and under that ruling this card is withheld as above. Decided with card 11: a search that jumps to a section is also a way around a long document (Marked, R35: "Use typeahead search to rapidly jump to any section").
+
+**Buyer:** No live buyer is held (register D3), and no instrument in this run ties a search claim to what buyers did. Prediction against a named rival: Read.md (R73), the most-rated reader on the Mac App Store (84 ratings at 4.96, current version 2026-10-05, N6), prints "Search within any document with match highlighting". If in-document search is what the AI-output reader expects, Read.md's rating count keeps rising at the next store pull. A store pull a month on settles that for Read.md alone.
