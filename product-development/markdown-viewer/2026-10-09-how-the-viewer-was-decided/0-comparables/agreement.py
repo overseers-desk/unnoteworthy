@@ -12,7 +12,7 @@ import re
 def value(cell):
     """The coded value alone: the text before the first bracketed quote or page tag, lower-cased and trimmed."""
     c = re.sub(r"^\s*\((?:[a-z]|\d)\)\s*", "", cell.strip())   # a leading sub-field marker such as "(a) "
-    v = re.split(r"\s*[\[(\{]", c, maxsplit=1)[0]
+    v = re.split(r"\s*(?:[\[(\{]|::|\|\||@)", c, maxsplit=1)[0]
     return v.strip(" ;:.").lower()
 
 def read(p):
