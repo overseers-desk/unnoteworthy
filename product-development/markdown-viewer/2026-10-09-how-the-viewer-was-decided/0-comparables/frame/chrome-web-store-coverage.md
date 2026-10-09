@@ -1,0 +1,13 @@
+# Coverage note: the Chrome Web Store
+
+Rows: `chrome-web-store.tsv`. Admits plain readers of received markdown files (RULED strike-list:plain-readers-of-received-markdown-files).
+
+- **Who runs it.** Google.
+- **Opened.** 2026-10-09. `https://chromewebstore.google.com/search/markdown%20viewer` and `https://chromewebstore.google.com/search/markdown`, each by a plain curl fetch (HTTP 200) and the "markdown viewer" page again through the serialised-browsing ad-hoc dump. The page carries its result data in its server-sent `AF_initDataCallback` block, so the plain fetch was enough to read cards; the dump returned the same 10 cards.
+- **Entries the list held.** Not stated. Neither page prints a result count. Each search page returned exactly 10 listings and a continuation token (a base64 string followed by `null, null, 336` on the "markdown viewer" page and `null, null, 674` on the "markdown" page). I do not know what those two numbers are; I record them and do not read them as totals.
+- **Finding: the store could not be enumerated.** Ten listings per query were reachable without scrolling. The remainder sits behind a continuation call that a fetch or a one-shot dump does not make, and I did not substitute another search or another store for it. The frame from this list is therefore the first page of two searches, which is a search hit, not a denominator (SAGE Survey section 1 step 2: a search hit carries no denominator). It should go to the declared convenience list unless a later clerk can page the store.
+- **Who is structurally shut out.** Firefox, Safari and Edge-only users (the other stores); anyone who reads Markdown outside a browser; people who open `.md` files in the browser without a store extension (Chrome shows raw text); listings the store's relevance ranking does not put in the first ten.
+- **Steps from list size to frame size.** Unknown list size. Two queries x 10 = 20 cards read; 2 appear in both ("Markdown Viewer" ckkdlimh... and "Markdown Reader"), so 18 distinct listings. Eligible: 12 in, 2 undecidable, 4 out.
+- **Census or sample.** Neither: a convenience read of the store's own top ten for each of two queries, ranked by the store's relevance order, which the page does not explain. No rate should be computed on it.
+- **Counts kept.** User count as the store's rounded figure in the data block (for example 500000, 100000, 92), rating average and rating count where shown (two listings show none), the store's description line, and the rank on each query.
+- **Eligibility.** The browser extensions that say they render or preview Markdown files are in. Markdown Here (writes email in Markdown) and GitHub Markdown Printer are undecidable. Clipboard and page converters are out.
