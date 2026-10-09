@@ -131,14 +131,29 @@ Listing fields on A: "by Calvinlin"; "@letslearn-app on GitHub"; "91 MiB Downloa
 
 - silent (A shows no version or date; B shows a "Releases" heading with no entries captured)
 
-## V28 to V33
+## V28 Finding the way around a long document
 
-- V28 Finding the way around a long document: C: "Subnote" only
-- V29 Finding a word: A: "Searching"; C: "Search (title & tag & content)"
-- V30 Links, images and references to other files: silent
-- V31 Keeping up with a file edited elsewhere: silent
-- V32 Appearance: A: "tidy look" ("A opensource note application with tidy look")
-- V33 Print, export, send on: silent
+- C: "Subnote" only
+
+## V29 Finding a word
+
+- A: "Searching"; C: "Search (title & tag & content)"
+
+## V30 Links, images and references to other files
+
+- silent
+
+## V31 Keeping up with a file edited elsewhere
+
+- silent
+
+## V32 Appearance
+
+- A: "tidy look" ("A opensource note application with tidy look")
+
+## V33 Print, export, send on
+
+- silent
 
 ## V34 Help and what happens when it breaks
 

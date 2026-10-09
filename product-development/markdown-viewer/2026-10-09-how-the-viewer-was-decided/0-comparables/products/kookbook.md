@@ -132,14 +132,29 @@ Description on A, in full:
 
 - A: "Version: 0.2.1-3build2"; no release date field. Archived status: silent
 
-## V28 to V33
+## V28 Finding the way around a long document
 
-- V28 Finding the way around a long document: silent
-- V29 Finding a word: A: "search by title or ingredient"
-- V30 Links, images and references to other files: silent
-- V31 Keeping up with a file edited elsewhere: silent
-- V32 Appearance: silent
-- V33 Print, export, send on: silent (A: "Depends" includes "libqt5printsupport5t64")
+- silent
+
+## V29 Finding a word
+
+- A: "search by title or ingredient"
+
+## V30 Links, images and references to other files
+
+- silent
+
+## V31 Keeping up with a file edited elsewhere
+
+- silent
+
+## V32 Appearance
+
+- silent
+
+## V33 Print, export, send on
+
+- silent (A: "Depends" includes "libqt5printsupport5t64")
 
 ## V34 Help and what happens when it breaks
 
