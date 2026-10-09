@@ -56,7 +56,11 @@ def main():
         ident = get(row, "identifier", "url")
         cell = (get(row, "list") or row["_file"]) + (":" + get(row, "cell") if get(row, "cell") else "")
         nk, ik = norm(name), ident_key(ident)
-        key = (ik and ident_index.get(ik)) or (nk and name_index.get(nk))
+        key = None
+        if ik is not None and ik in ident_index:
+            key = ident_index[ik]
+        elif nk and nk in name_index:
+            key = name_index[nk]
         if key is None:
             key = len(comps)
             comps[key] = {"product": name, "names": set(), "cells": [], "idents": set(), "elig": [], "desc": []}
