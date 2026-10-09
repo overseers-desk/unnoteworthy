@@ -34,7 +34,7 @@ Counts are comparables after the duplicate resolutions (section 3) and the undec
 | homebrew:formula | 15 / 54 / 4 | 17 / 56 | 17 | conditional | As cask. The formula `marked` (a JavaScript parser) is not the Marked app and is split from it. |
 | tcl-wiki-markdown | 5 / 2 / 6 | 5 / 8 | 5 | conditional | Admits a different buyer (developers embedding a view) under a different eligibility (a component built into a program). Never pooled with application cells. Census of a 2022 wiki page; report counts, not rates. |
 | tcl-wiki-markdown; tklib | 1 / 0 / 0 | 1 / 0 | 1 | conditional | Not a cell: a merge-label artefact for shtmlview, which sits on the wiki page and in tklib. Fold into tcl-wiki-markdown with tklib as a second membership. |
-| teatotal | 1 / 0 / 0 | named row | 0 | no-go | A one-entry cell from a shelf the coverage note could not attribute, whose sole entry (tkdown) is described as rendering chat and transcript bodies, which is the operator's own buyer row. The repository's standing instructions name teatotal as the upstream whose module releases the operator vendors, so tkdown is the operator's supply, not a comparable. It is collected as a named row outside the draw (step 5): coded, excluded from every numerator and denominator. |
+| teatotal | 1 / 0 / 0 | excluded | 0 | no-go | A one-entry cell from a shelf the coverage note could not attribute, whose sole entry (tkdown) is described as rendering chat and transcript bodies, which is the operator's own buyer row. The repository's standing instructions name teatotal as the upstream whose module releases the operator vendors, so tkdown is the operator's supply, not a comparable. It is the operator's own component, excluded from collection and from every count (ruled by the orchestrator on 2026-10-09 on this review's question). |
 | vscode | 13 / 64 / 23 | 20 / 80 | 20 | conditional | A top-N cut stated as a mechanical rule with the uncapped count beside it (first 100 by installs of 4,720): a sample of the head, declared as such. Rates describe the head only. VS Code's built-in preview, the strongest incumbent for this buyer, is not on the list; no finding may read the cell's prevalence as the market's. Installs include bundled and auto-installed extensions. |
 
 No cell carries an eligibility or cell rule built on a status mark. Flathub verification and Snap publisher validation are kept as provenance and stay so; AlternativeTo's paid "Official Partner" placement was correctly kept out of the list. Nothing to strike.
@@ -137,7 +137,7 @@ Until the page set fills a "not stated" cell, a rate turning on dimensions 1 to 
 | with an in-membership in a passing cell | 522 |
 | AlternativeTo-only stratum, 147, sampled to 74 | less 73 |
 | **page sets collection runs on** | **449** |
-| named row outside the draw (tkdown) | 1, not in any count above |
+| the operator's own component (tkdown), excluded | 0 |
 
 ## Rows of the large TSVs read
 
