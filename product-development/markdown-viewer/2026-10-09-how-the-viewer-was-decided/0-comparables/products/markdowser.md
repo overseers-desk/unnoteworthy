@@ -14,7 +14,7 @@ Captured 2026-10-09. Quotes are verbatim from the page named after each; line br
 
 ## Capture notes
 - The snap page and the GitHub release page give no year for the GitHub release ("released this 04 Jun").
-- Snap Store status mark on the page (provenance): "Stone_Red (stone-red)"; "(Ownership verified) The publisher has verified that they own this domain. It does not guarantee the Snap is an official upload from the upstream project." appears if the page shows it beside the website link.
+- Snap Store status mark on the page (provenance): "(Ownership verified) The publisher has verified that they own this domain. It does not guarantee the Snap is an official upload from the upstream project." (beside the GitHub website link).
 - The snap page states no price; its price field is not on the page.
 
 ## V02 Name as published
