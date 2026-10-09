@@ -7,7 +7,7 @@ Cell and condition: vscode (head of 4,720 by installs; the built-in preview is a
 - Md Editor (Visual Studio Marketplace listing title; extension id seepine.md-editor)
 
 ## Pages read (captured 2026-10-09)
-- [1] https://marketplace.visualstudio.com/items?itemName=seepine.md-editor | HTTP 200 on the attempt captured (curl default request in a second try and a Firefox user-agent request both returned 200; an earlier test on the first run returned 403 for the sibling Marketplace pages with the default request). Text is in Chinese. | Marketplace listing
+- [1] https://marketplace.visualstudio.com/items?itemName=seepine.md-editor | HTTP 200 on a plain curl request and on a second request with a Firefox user-agent and an Accept: text/html header; the captured text is from the second. The text is in Chinese. | Marketplace listing
 
 ## V02 Name as published
 From https://marketplace.visualstudio.com/items?itemName=seepine.md-editor:
