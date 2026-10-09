@@ -36,6 +36,7 @@ def main():
             if m: keys.append(("V" + m.group(1), m.group(2) or ""))
             elif h.lower().startswith("slug"): keys.append(("slug", ""))
             elif h.lower().startswith("note"): keys.append(("notes", ""))
+            elif re.match(r"^[Rr]\d", h): keys.append(("notes", h.split()[0].upper()))   # a record column folds into notes
             else: keys.append((None, h))
         unmapped = [h for (k, _), h in zip(keys, header) if k is None]
         if unmapped: problems.append(f"{f.name}: unmapped columns {unmapped}")
@@ -47,7 +48,9 @@ def main():
             for (k, sub), val in zip(keys, row):
                 if k is None: continue
                 val = val.strip()
-                if sub:
+                if sub and k == "notes":
+                    if val: cells[k] = (cells.get(k, "") + ("; " if cells.get(k) else "") + f"{sub}: {val}").strip()
+                elif sub:
                     cells[k] = (cells.get(k, "") + ("; " if cells.get(k) else "") + f"({sub}) {val}").strip()
                 else:
                     cells[k] = (cells.get(k, "") + ("; " if cells.get(k) else "") + val).strip() if val else cells.get(k, "")
