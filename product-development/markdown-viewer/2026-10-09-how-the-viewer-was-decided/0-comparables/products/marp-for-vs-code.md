@@ -38,7 +38,6 @@ silent
 From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
 > Create slide deck written in Marp Markdown on VS Code
 > Create slide deck written in Marp Markdown on VS Code.
-> We will enhance your VS Code as the slide deck writer. Mark marp: true, and write your deck!
 
 ## V07 What the page asks the buyer to do to get it
 From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
@@ -47,20 +46,18 @@ From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
 ## V08 Product kind
 From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
 > Visual Studio Code>Other>Marp for VS CodeNew to Visual Studio Code? Get it now.
-> Create slide deck written in Marp Markdown on VS Code
+> Create slide deck written in Marp Markdown on VS Code.
 
 ## V09 Reader only, or also editor
 From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
-> Create slide deck written in Marp Markdown on VS Code
-> The key of recognized directives are highlighted in the different color from the around. This visualization may help to find out meaningless definitions.
+> We will enhance your VS Code as the slide deck writer. Mark marp: true, and write your deck!
 
 ## V10 Platforms
 silent
 
 ## V11 Prerequisites
 From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
-> 🧪 slide-content-overflow
-> Warn when the slide content in a preview overflows the safe area defined by the slide’s padding
+> Exporting PDF, PPTX, and image formats requires to install any one of Google Chrome, Chromium, Microsoft Edge, or Firefox. You may control using browser and the custom path for the browser by markdown.marp.browser and markdown.marp.browserPath settings.
 
 ## V12 Install and keep current
 From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
@@ -70,7 +67,6 @@ From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
 ## V13 Markdown forms claimed
 From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
 > Marp features will be enabled when marp: true is written in a front-matter of Markdown document.
-> Preview Marp Markdown
 > While enabled Marp features by marp: true, Marp for VS Code can preview your Marp Markdown with the same way as a built-in Markdown preview.
 
 ## V14 Whether files stay local
@@ -86,8 +82,7 @@ From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
 
 ## V17 Cost beyond the price
 From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
-> 🧪 slide-content-overflow
-> Warn when the slide content in a preview overflows the safe area defined by the slide’s padding
+> Exporting PDF, PPTX, and image formats requires to install any one of Google Chrome, Chromium, Microsoft Edge, or Firefox. You may control using browser and the custom path for the browser by markdown.marp.browser and markdown.marp.browserPath settings.
 
 ## V18 Use at work
 silent
@@ -130,7 +125,9 @@ From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
 > [page data, version history] latest: version 3.6.1, lastUpdated Tue, 11 Aug 2026 11:59:16 GMT; oldest listed: version 3.5.0, lastUpdated Sun, 03 May 2026 19:20:16 GMT
 
 ## V28 Finding the way around a long document
-silent
+From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
+> Outline view for each slide
+> We extend the outline view to support slide pages in Marp Markdown.
 
 ## V29 Finding a word
 silent
@@ -139,21 +136,11 @@ silent
 silent
 
 ## V31 Keeping up with a file edited elsewhere
-From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
-> While enabled Marp features by marp: true, Marp for VS Code can preview your Marp Markdown with the same way as a built-in Markdown preview.
-> In the preview, an active slide is highlighted based on the current position of the editor, as like as the regular Markdown preview. To disable this highlight, you can set markdown.preview.markEditorSelection setting to false.
+silent
 
 ## V32 Appearance
 From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
-> We extend the outline view to support slide pages in Marp Markdown.
-> [!TIP]
-> Please choose Sort By: Position from context menu of its panel if you see incorrect slide order.
-> Slide folding in editor
-> You can fold the content of slide in editor while editing Marp Markdown.
-> Security
-> Workspace Trust
-> Some features that may met malicious are restricted in the untrusted workspace/window. Please read VS Code's user guide for details.
-> Features may be restricted are marked by the shield icon 🛡️ in this documentation. Marp for VS Code is available even if the current workspace is not trusted but you can use only a basic Marp preview and IntelliSense.
+> You can register and use custom theme CSS for Marpit / Marp Core by setting markdown.marp.themes, that includes remote URLs, or relative paths to local files in the current workspace.
 
 ## V33 Print, export, send on
 From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
@@ -162,15 +149,6 @@ From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
 > To export the content of active Markdown editor, open the quick pick from Marp icon on toolbar and select "Export slide deck...". (markdown.marp.export)
 > You can also execute command from the Command Palette (F1 or Ctrl/Cmd+Shift+P).
 > Supported file types
-> HTML
-> PDF
-> PPTX (PowerPoint document)
-> PNG (First slide only)
-> JPEG (First slide only)
-> TXT (Notes only)
-> Default file type can choose by the markdown.marp.exportType setting.
-> [!IMPORTANT]
-> Exporting PDF, PPTX, and image formats requires to install any one of Google Chrome, Chromium, Microsoft Edge, or Firefox. You may control using browser and the custom path for the browser by markdown.marp.browser and markdown.marp.browserPath settings.
 
 ## V34 Help and what happens when it breaks
 From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
@@ -192,9 +170,9 @@ From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
 > By instructing in chat to export Markdown in the specified file format, AI agent can process the export using preferences in the current workspace.
 
 ## V37 Why the product exists
+From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
+> Create slide deck written in Marp Markdown on VS Code.
+> We will enhance your VS Code as the slide deck writer. Mark marp: true, and write your deck!
 From https://marp.app/:
 > Create beautiful slide decks using an intuitive Markdown experience
 > Marp (also known as the Markdown Presentation Ecosystem) provides an intuitive experience for creating beautiful slide decks. You only have to focus on writing your story in a Markdown document.
-From https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode:
-> Create slide deck written in Marp Markdown on VS Code
-> Installation
