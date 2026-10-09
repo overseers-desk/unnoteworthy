@@ -7,24 +7,23 @@ status: "Sentences and a parameter list. No parameter is given a value, an optio
 
 # How to read this file
 
-The leading buyers are the four the brief names from card 1: developers and coders (the recommendation), writers and authors (the runner-up), and the two between which the market-only reading in `3-decisions/third-card-1.md` withholds: developers and writers together as the documentation reader, and readers of what AI agents write. Card 0 (`3-decisions/third-card-0.md`) has one program for all four.
+The leading buyers are the three card 1 names. Its Recommended line withholds between developers and writers together, the documentation reader, and developers without writers; the market-only reading in `3-decisions/third-card-1.md` withholds between the documentation reader and readers of what AI agents write. Card 0 (`3-decisions/third-card-0.md`) has one program for all three.
 
 Each sentence is the one the market's own pages use to win that buyer, read from the reader rivals that name the buyer (rival register R1 to R86, "Whom its pages address") and from the findings. It is not a description of the program as it stands. Where a sentence promises something the program does not do today, the cost line from `1-competitions/capability-note.md` follows the sentence and travels with the parameter. A capability not yet built is a cost, not a bound.
 
 `‹name›` marks where the offering's name goes. The owner calls the present name a placeholder (`3-decisions/questions.md`), and a deriving clerk carries no name for an offering not yet on sale.
 
-The roster is the operator's 497-contact developer roster, dated 2026-04-04. A profile is named by its row number (its line in `roster.tsv`), the roster's own notes column, its star rating, response likelihood and warmth. The roster holds developers. For writers it holds no profile outside software documentation; the profile used there is the nearest one, and that fit is stated below.
+The roster is the operator's 497-contact developer roster, dated 2026-04-04. A profile is named by its row number (its line in `roster.tsv`), the roster's own notes column, its star rating, response likelihood and warmth. The roster holds developers.
 
 The reader rivals naming each buyer, as tallied from the register sections:
 
 - **Documentation reader.** 11 rivals name developers and writers together: R21, R22, R29, R30, R31, R50, R52, R57, R62, R84, R86. Nine of them are Mac App Store listings.
 - **Readers of AI-agent output.** 8 rivals: R17, R20, R43, R44, R45, R48, R60, R73. Four are Mac App Store listings, two are on Homebrew (R17, R60) and two on the Snap Store (R20, R45).
 - **Developers only.** 2 rivals: R7 and R76.
-- **Writers only.** 1 rival: R35 (Marked).
 
 Mac App Store listings name an audience far more often than pages in other cells (`third-card-1.md`: 16 of 31 App Store readers name one, against 8 of the other 55). So every per-buyer tally below leans toward what App Store listings print. Most of these rows also differ from the operator on shape dimensions 1 to 3.
 
-# Developers and coders
+# Developers and coders, without writers
 
 **Sentence.** "‹name› is a free, open-source markdown reader for Linux, macOS and Windows that installs with one package command: open a README or any doc and it shows it as GitHub would, with a contents outline and find, redrawing each time you save. It never edits the file and never touches the network."
 
@@ -33,7 +32,7 @@ Mac App Store listings name an audience far more often than pages in other cells
 **Likely answer.** He is warm, so he probably tries it if it really is one command away on his Ubuntu machines. On a server he reads a README in the terminal, where glow is the reader developers already install (59,634 Homebrew installs a year, N1). He reads one on GitHub itself when it is already pushed. So the window wins him only at a desktop. He may ask why not the editor's own preview (Markdown Preview Enhanced, 10,429,484 VS Code installs, N3).
 
 **Cited.**
-- **Whom it addresses.** Finding 2 (developers 28/204 in SHAPE, the leading named class there). Rival register R7 ("Document Reader for Developers") and R76 ("Designed for developers, CLI users, and AI-assisted workflows"). R31 ("Software Developers: Perfect for previewing README files") and R30 ("anyone who regularly opens README files or documentation"). R10, grip: "Render local readme files before sending off to GitHub"; "The styles and rendering come directly from GitHub".
+- **Whom it addresses.** Finding 33 (developers without writers 9/204 in SHAPE, 3 of the 89 GitHub-topic rows). Rival register R7 ("Document Reader for Developers") and R76 ("Designed for developers, CLI users, and AI-assisted workflows"). R31 ("Software Developers: Perfect for previewing README files") and R30 ("anyone who regularly opens README files or documentation"). R10, grip: "Render local readme files before sending off to GitHub"; "The styles and rendering come directly from GitHub".
 - **Install route.** Finding 12 (package-manager command 73/204 in SHAPE, the largest install route there). D1 and N1 (the Homebrew formula top five are all terminal or preview readers: glow, grip, mdcat, mcat, mdless).
 - **Free and open.** Findings 8 and 9 (SHAPE: free 156/204, a named open-source licence 137/204, no sale taken 51/204).
 - **Platforms.** Finding 6. R9, glow (Linux, macOS, Windows, BSD). R76, leaf (macOS, Linux, Windows).
@@ -48,31 +47,6 @@ Mac App Store listings name an audience far more often than pages in other cells
 - **"Redrawing each time you save".** The program does not watch the file; reload is F5.
 - **"Open-source".** The repository has no LICENSE file.
 - **Already in the program.** The outline (fold-all leaves the headings as a table of contents), find, read-only use and no network use.
-
-# Writers and authors
-
-**Sentence.** "Keep writing in the editor you like: ‹name›, a free reader for your Mac, sits beside it and shows your manuscript in whichever markdown flavour you write, as your readers will see it, in the style you pick, redrawing each time you save. When it's finished, print it or export it to PDF or HTML."
-
-**Profile.** Row 486: "DITA Technical Committee, standards and technical documentation"; star rating 2, response likelihood 5, warmth known_of.
-
-The fit is partial. The roster is a developer roster, and this is the one profile whose description names documentation work and not code. Rows 23 and 114 also name technical writing, but each beside development, so they belong to the documentation reader. The novelist, essayist and blogger whom the writer pages address (Typora, iA Writer, Ulysses, Marked on the strike list) have no row.
-
-**Likely answer.** At this warmth and likelihood, probably no answer. If he does reply, his documents live in a documentation standard's own toolchain. He would ask whether the reader handles his markup and whether its PDF matches his publishing output, and judge it on the export. The one writers-only reader rival takes payment (Marked, one-time $14.99, R35). The writer's search page is an editor's page (SD-11). Both say a writer weighs this against the editor he already pays for, not against other readers.
-
-**Cited.**
-- **Whom it addresses.** Finding 2 (writers 71/496 in ALL, 23/204 in SHAPE). Strike list row "Writers and authors" (10 of 37 day-one pages; 6 of the 10 carry a price).
-- **The sentence itself.** R35, Marked: "Marked 2 is a previewer (*not an editor*)"; "It updates live every time you save your document in your favorite text editor"; "9 preview styles built in"; "unlimited custom styles"; export "including HTML, PDF and Word"; "MultiMarkdown processing is provided for writers"; macOS only. R86, zerdo: "for authors who care about final output", PDF-first.
-- **Feature findings.** Finding 4 (editors are four in five of ALL). Finding 13 (other named flavour 41/496). Finding 17. Finding 18 (themes 215/496, custom stylesheet 65/496). Finding 19 (PDF 196/496, HTML 152/496, print 79/496).
-- **Platforms.** Finding 6, and taxonomy V05: the Mac App Store holds 31 of the 71 weighted rows naming writers, the largest share of any cell.
-- **Search demand.** SD-9 and SD-11 (writer-facing publishers appear only on the "markdown editor" page). N6 (writers' store complaints are about being charged before use and about edits that lose work).
-
-**Cost lines that travel with this sentence.**
-- **"For your Mac".** A macOS arm64 image, `.app` and `.dmg` come from the sibling pipeline. Intel Macs are not covered, and scheme links fail on macOS (`xdg-open`).
-- **"Whichever flavour you write".** tkdown is not full CommonMark, and no other flavour (MultiMarkdown, Discount) is in its stated coverage.
-- **"In the style you pick".** Colours are fixed in the code, light. There are no themes.
-- **"Redrawing each time you save".** There is no file watching.
-- **"Print it or export it".** There is no print, export or copy of any kind.
-- **"Free".** It holds for the operator, who has no means to take money. The writer market's readers take payment; that is the price parameter's business, not this sentence's.
 
 # Developers and writers together: the documentation reader
 
@@ -140,7 +114,7 @@ The fit is partial. The roster is a developer roster, and this is the one profil
 
 # The parameters the sentences contain
 
-Key to the sentence letters: **D** developers and coders, **W** writers and authors, **R** the documentation reader, **A** readers of what AI agents write.
+Key to the sentence letters: **D** developers and coders without writers, **R** the documentation reader, **A** readers of what AI agents write.
 
 "Differs by buyer" says whether the market evidence suggests the options or the recommendation would differ by buyer.
 - No finding cross-tabulates a variable by V05 (whom the page addresses), so the per-buyer evidence is the reader-rival tallies above.
@@ -151,7 +125,7 @@ Key to the sentence letters: **D** developers and coders, **W** writers and auth
 
 ### 1. What is it called, and what do I type to find it?
 
-- **Sentences:** D, W, R, A (the `‹name›` slot).
+- **Sentences:** D, R, A (the `‹name›` slot).
 - **Differs by buyer:** not shown.
   - 8 of the 8 AI-output rivals and 9 of the 11 documentation-reader rivals carry a markdown token in the name (MarkRead, Read.md, MD Flow, Markdown Peek, Mdly).
   - The developers' largest readers carry none (glow, grip, R9 and R10).
@@ -192,7 +166,7 @@ This is one parameter in the sentences: the unit is the form the install takes. 
 
 ### 4. What does it cost?
 
-- **Sentences:** D, W, R, A (each says free; A says "free to read").
+- **Sentences:** D, R, A (each says free; A says "free to read").
 - **Differs by buyer:** suggested.
   - Writers: the one writers-only reader charges (R35, one-time $14.99), and 6 of the 10 day-one writer pages carry a price.
   - Documentation reader: 5 of 11 state free only.
@@ -217,7 +191,7 @@ This is one parameter in the sentences: the unit is the form the install takes. 
 
 ### 6. Will it run on my machine: which systems, and what do I need installed first?
 
-- **Sentences:** D (Linux, macOS, Windows), W (Mac), R (Mac first, then Windows and Linux), A (implied by Homebrew).
+- **Sentences:** D (Linux, macOS, Windows), R (Mac first, then Windows and Linux), A (implied by Homebrew).
 - **Differs by buyer:** suggested, but confounded with cells.
   - Writers-only: R35 is macOS only.
   - Documentation reader: 9 of 11 are App Store listings, so macOS.
@@ -236,7 +210,7 @@ This is one parameter in the sentences: the unit is the form the install takes. 
 
 ### 7. Will it open my files: which markdown, and what happens to the parts it does not understand?
 
-- **Sentences:** D ("as GitHub would"), W ("whichever markdown flavour you write"), R (GitHub-flavoured, with tables, diagrams and maths), A ("diagrams and all").
+- **Sentences:** D ("as GitHub would"), R (GitHub-flavoured, with tables, diagrams and maths), A ("diagrams and all").
 - **Differs by buyer:** suggested.
   - Diagrams: 6 of 11 documentation-reader rivals and 6 of 8 AI-output rivals.
   - Maths: 5 of 11 and 4 of 8.
@@ -249,7 +223,7 @@ This is one parameter in the sentences: the unit is the form the install takes. 
 
 ### 8. Can I write in it, or only read?
 
-- **Sentences:** D, W, R, A.
+- **Sentences:** D, R, A.
 - **Differs by buyer:** suggested.
   - The writer market is an editor market: writers 71/496 in ALL, where four in five rows are editors (finding 4). The writer's search page asks for editing (SD-11).
   - The documentation-reader and AI-output rivals state read-only (R30, R57, R84; R17, R20, R43, R44, R48, R73).
@@ -259,7 +233,7 @@ This is one parameter in the sentences: the unit is the form the install takes. 
 
 ### 9. Does it keep up with a file I am editing elsewhere?
 
-- **Sentences:** D, W, R, A.
+- **Sentences:** D, R, A.
 - **Differs by buyer:** not shown. 5 of 8 AI-output rivals and 6 of 11 documentation-reader rivals state reload on disk change, and so do the writers-only R35 and the developer readers R10 and R76. The record that would show a difference is V31 by V05.
 - **Search cards:** none. SD-13: "reload" surfaces on the trade side only.
 - **More than one way:**
@@ -293,27 +267,18 @@ This is one parameter in the sentences: the unit is the form the install takes. 
   - Finding 20: local 124/496, local with optional upload 101, content leaves the device 13 (grip by default, R10), silent 227.
 - **Capability:** the program uses no network; only a link hands off to `xdg-open`.
 
-### 13. What does it look like, and can I change that?
+### 13. Can I print it, export it, or send it on?
 
-- **Sentences:** W ("in the style you pick").
-- **Differs by buyer:** not shown. The writers-only rival sells styles (R35: 9 built-in styles, custom styles), and reader rivals for every buyer claim light and dark. The record is V32 by V05.
-- **Search cards:** none.
-- **More than one way:**
-  - Finding 18: themes 215/496, light and dark 170, font or size 104, custom stylesheet 65, follows the system 59.
-- **Cost:** colours are fixed in the code, light; no themes.
-
-### 14. Can I print it, export it, or send it on?
-
-- **Sentences:** W (print, PDF, HTML), R (PDF).
-- **Differs by buyer:** suggested for writers. Output is the writers-only rival's selling point (R35: HTML, PDF and Word), and the technical-author rival is PDF-first (R86). Export is also claimed by 7 of 11 documentation-reader and 6 of 8 AI-output rivals. The record is V33 by V05.
+- **Sentences:** R (PDF).
+- **Differs by buyer:** suggested between writers alone, who are not a leading buyer, and the rest. Output is the writers-only rival's selling point (R35: HTML, PDF and Word), and the technical-author rival is PDF-first (R86). Export is also claimed by 7 of 11 documentation-reader and 6 of 8 AI-output rivals. The record is V33 by V05.
 - **Search cards:** none.
 - **More than one way:**
   - Finding 19: PDF 196/496, HTML 152, another format 145, share 81, print 79, copy as rich text 39, silent 193.
 - **Cost:** no print, export or copy exists.
 
-### 15. Is this one thing or several?
+### 14. Is this one thing or several?
 
-- **Sentences:** D, W, R, A. Each offers one program; a "Pro" edition or a sibling tool would change each sentence.
+- **Sentences:** D, R, A. Each offers one program; a "Pro" edition or a sibling tool would change each sentence.
 - **Differs by buyer:** not suggested. 14 of the 24 reader rivals that name any buyer name two or more for one program (`third-card-0.md`). The AI-output rivals that sell an edition still say reading is free (R44, R73).
 - **Search cards:** none.
 - **More than one way:**
@@ -326,6 +291,7 @@ This is one parameter in the sentences: the unit is the form the install takes. 
 
 These are in no sentence, so each is design freedom by construction.
 
+- **What does it look like, and can I change that?** Only the writers' sentence carried it (a style the reader picks), and writers without developers are not among card 1's leading buyers (4/204 in SHAPE, finding 33).
 - **When? (season, and the product's cadence).** No sentence names a time. The season leg exists (SD-14: June peaks and December troughs for most terms), but no sentence carries it, so the season card has no parameter to rule.
 - **What happens when I click a link, an image, or a reference to another file?** One documentation-reader rival claims following links to other markdown files (R21); no sentence carries it.
 - **Where do I get help, and what happens when it breaks?** No sentence carries it.
@@ -335,7 +301,7 @@ These are in no sentence, so each is design freedom by construction.
 
 # Readings, text generator against product designer
 
-- **Brief and standing block.** A generator would write four product descriptions; a designer writes what wins each buyer and puts a cost beside every promise the program cannot yet keep.
+- **Brief and standing block.** A generator would write a product description per buyer; a designer writes what wins each buyer and puts a cost beside every promise the program cannot yet keep.
 - **Method.** A generator would turn every feature into a card; a designer makes a card only of what changes a sentence, and leaves the rest open on purpose.
 - **Findings and taxonomy.** A generator reads the commonest values as what buyers want; a designer reads which population each rate was measured in, and notes that no finding cuts any variable by buyer.
 - **Rival register.** A generator would count every product that names a buyer; a designer sees that most of those that do are App Store listings, so the per-buyer tallies show what one store prints.
