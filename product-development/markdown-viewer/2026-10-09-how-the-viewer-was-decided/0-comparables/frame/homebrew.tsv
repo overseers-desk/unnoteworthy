@@ -1,0 +1,122 @@
+list	cell	entry	identifier_or_url	count_installs_30d_90d_365d	description	eligible	reason
+homebrew	formula	algernon	https://formulae.brew.sh/formula/algernon	30d=1; 90d=52; 365d=214	Pure Go web server with Lua, Markdown, HTTP/2 and template support	out	web server
+homebrew	formula	backlog-md	https://formulae.brew.sh/formula/backlog-md	30d=214; 90d=850; 365d=4,628	Markdown‑native Task Manager & Kanban visualizer for any Git repository	undecidable	"Markdown-native Task Manager & Kanban visualizer": description does not say whether a person opens or writes markdown files with it
+homebrew	formula	bulletty	https://formulae.brew.sh/formula/bulletty	30d=11; 90d=67; 365d=319	Pretty feed reader (ATOM/RSS) that stores articles in Markdown files	out	feed reader (ATOM/RSS) that stores articles as markdown; reads no markdown file by the user's act
+homebrew	formula	cbfmt	https://formulae.brew.sh/formula/cbfmt	30d=11; 90d=61; 365d=171	Format codeblocks inside markdown and org documents	out	formatter of codeblocks (linter/formatter class)
+homebrew	formula	cmark	https://formulae.brew.sh/formula/cmark	30d=31; 90d=119; 365d=875	Strongly specified, highly compatible implementation of Markdown	out	library/parser implementation
+homebrew	formula	cmark-gfm	https://formulae.brew.sh/formula/cmark-gfm	30d=29; 90d=133; 365d=530	C implementation of GitHub Flavored Markdown	out	library/parser implementation
+homebrew	formula	comrak	https://formulae.brew.sh/formula/comrak	30d=12; 90d=65; 365d=353	CommonMark + GFM compatible Markdown parser and renderer	out	parser and renderer library
+homebrew	formula	confluence-markdown-exporter	https://formulae.brew.sh/formula/confluence-markdown-exporter	30d=25; 90d=26; 365d=26	Export Atlassian Confluence pages as Markdown files	out	converter/exporter
+homebrew	formula	csvtomd	https://formulae.brew.sh/formula/csvtomd	30d=2; 90d=8; 365d=76	CSV to Markdown table converter	out	converter
+homebrew	formula	deck	https://formulae.brew.sh/formula/deck	30d=64; 90d=166; 365d=939	Creates slide deck using Markdown and Google Slides	undecidable	"Creates slide deck using Markdown and Google Slides": converter vs authoring application not settled
+homebrew	formula	discount	https://formulae.brew.sh/formula/discount	30d=40; 90d=204; 365d=902	C implementation of Markdown	out	library/parser implementation
+homebrew	formula	docmd	https://formulae.brew.sh/formula/docmd	30d=40; 90d=284; 365d=1,495	Minimal Markdown documentation generator	out	documentation generator (static-site class)
+homebrew	formula	ekphos	https://formulae.brew.sh/formula/ekphos	30d=49; 90d=98; 365d=756	Terminal-based markdown research tool inspired by Obsidian	in	terminal program for markdown research/notes (description: "Terminal-based markdown research tool")
+homebrew	formula	evernote2md	https://formulae.brew.sh/formula/evernote2md	30d=24; 90d=154; 365d=612	Convert Evernote .enex file to Markdown	out	converter
+homebrew	formula	feishu2md	https://formulae.brew.sh/formula/feishu2md	30d=3; 90d=49; 365d=200	Convert feishu/larksuite documents to markdown	out	converter
+homebrew	formula	gemgen	https://formulae.brew.sh/formula/gemgen	30d=not listed; 90d=23; 365d=70	Command-line tool for converting Commonmark Markdown to Gemtext	out	converter
+homebrew	formula	glow	https://formulae.brew.sh/formula/glow	30d=4,145; 90d=19,272; 365d=59,634	Render markdown on the CLI	in	terminal program that renders markdown ("Render markdown on the CLI")
+homebrew	formula	go-md2man	https://formulae.brew.sh/formula/go-md2man	30d=2,412; 90d=6,774; 365d=24,019	Converts markdown into roff (man pages)	out	converter
+homebrew	formula	grip	https://formulae.brew.sh/formula/grip	30d=345; 90d=667; 365d=5,370	GitHub Markdown previewer	in	previewer for markdown files ("GitHub Markdown previewer")
+homebrew	formula	gtree	https://formulae.brew.sh/formula/gtree	30d=6; 90d=45; 365d=422	Generate directory trees and directories using Markdown or programmatically	out	generates directory trees; not a markdown reader/writer
+homebrew	formula	helm-docs	https://formulae.brew.sh/formula/helm-docs	30d=73; 90d=282; 365d=1,346	Tool for automatically generating markdown documentation for helm charts	out	documentation generator
+homebrew	formula	hoedown	https://formulae.brew.sh/formula/hoedown	30d=not listed; 90d=2; 365d=9	Secure Markdown processing (a revived fork of Sundown)	out	library/parser
+homebrew	formula	html2markdown	https://formulae.brew.sh/formula/html2markdown	30d=11; 90d=86; 365d=567	Convert HTML to Markdown	out	converter
+homebrew	formula	inlyne	https://formulae.brew.sh/formula/inlyne	30d=15; 90d=103; 365d=451	GPU powered yet browserless tool to help you quickly view markdown files	in	viewer for markdown files ("quickly view markdown files")
+homebrew	formula	jtbl	https://formulae.brew.sh/formula/jtbl	30d=2; 90d=39; 365d=191	Convert JSON and JSON Lines to terminal, CSV, HTTP, and markdown tables	out	converter to tables
+homebrew	formula	jupytext	https://formulae.brew.sh/formula/jupytext	30d=60; 90d=179; 365d=851	Jupyter notebooks as Markdown documents, Julia, Python or R scripts	out	converter
+homebrew	formula	leaf-markdown-viewer	https://formulae.brew.sh/formula/leaf-markdown-viewer	30d=431; 90d=1,244; 365d=1,244	Terminal Markdown previewer with a GUI-like experience	in	terminal markdown viewer
+homebrew	formula	lowdown	https://formulae.brew.sh/formula/lowdown	30d=263; 90d=1,047; 365d=3,982	Simple markdown translator	out	translator (converter)
+homebrew	formula	ltex-ls	https://formulae.brew.sh/formula/ltex-ls	30d=2; 90d=11; 365d=232	LSP for LanguageTool with support for Latex, Markdown and Others	out	language server
+homebrew	formula	mado	https://formulae.brew.sh/formula/mado	30d=9; 90d=83; 365d=267	Fast Markdown linter written in Rust	out	linter
+homebrew	formula	mandown	https://formulae.brew.sh/formula/mandown	30d=4; 90d=18; 365d=202	Man-page inspired Markdown viewer	in	markdown viewer
+homebrew	formula	mark	https://formulae.brew.sh/formula/mark	30d=192; 90d=942; 365d=1,892	Sync your markdown files with Confluence pages	out	sync/converter service tool to Confluence
+homebrew	formula	markdown-toc	https://formulae.brew.sh/formula/markdown-toc	30d=7; 90d=57; 365d=461	Generate a markdown TOC (table of contents) with Remarkable	out	library/generator
+homebrew	formula	markdownlint-cli	https://formulae.brew.sh/formula/markdownlint-cli	30d=730; 90d=3,641; 365d=17,513	CLI for Node.js style checker and lint tool for Markdown files	out	linter
+homebrew	formula	markdownlint-cli2	https://formulae.brew.sh/formula/markdownlint-cli2	30d=1,119; 90d=3,448; 365d=9,624	Fast, flexible, config-based cli for linting Markdown/CommonMark files	out	linter
+homebrew	formula	marked	https://formulae.brew.sh/formula/marked	30d=112; 90d=460; 365d=1,956	Markdown parser and compiler built for speed	out	parser/compiler library
+homebrew	formula	marksman	https://formulae.brew.sh/formula/marksman	30d=290; 90d=1,077; 365d=7,747	Language Server Protocol for Markdown	out	language server
+homebrew	formula	marmite	https://formulae.brew.sh/formula/marmite	30d=not listed; 90d=31; 365d=160	Static Site Generator for Blogs using Markdown	out	static-site generator
+homebrew	formula	marp-cli	https://formulae.brew.sh/formula/marp-cli	30d=322; 90d=2,137; 365d=9,065	Easily convert Marp Markdown files into static HTML/CSS, PDF, PPT and images	out	converter
+homebrew	formula	mask	https://formulae.brew.sh/formula/mask	30d=30; 90d=153; 365d=1,798	CLI task runner defined by a simple markdown file	out	task runner
+homebrew	formula	mcat	https://formulae.brew.sh/formula/mcat	30d=36; 90d=631; 365d=3,125	Terminal image, video, directory, and Markdown viewer	in	description names a Markdown viewer among its functions
+homebrew	formula	md-tui	https://formulae.brew.sh/formula/md-tui	30d=73; 90d=181; 365d=421	Markdown renderer in the terminal written in rust	in	renders markdown in the terminal
+homebrew	formula	md2pdf	https://formulae.brew.sh/formula/md2pdf	30d=75; 90d=767; 365d=1,846	CLI utility that generates PDF from Markdown	out	converter
+homebrew	formula	md4c	https://formulae.brew.sh/formula/md4c	30d=11,162; 90d=23,529; 365d=100,882	C Markdown parser. Fast. SAX-like interface	out	parser library
+homebrew	formula	mdbook	https://formulae.brew.sh/formula/mdbook	30d=166; 90d=600; 365d=3,271	Create modern online books from Markdown files	out	static book/documentation generator
+homebrew	formula	mdcat	https://formulae.brew.sh/formula/mdcat	30d=683; 90d=2,522; 365d=5,360	Show markdown documents on text terminals	in	shows markdown documents on text terminals
+homebrew	formula	mdformat	https://formulae.brew.sh/formula/mdformat	30d=9; 90d=100; 365d=542	CommonMark compliant Markdown formatter	out	formatter (linter class)
+homebrew	formula	mdfried	https://formulae.brew.sh/formula/mdfried	30d=84; 90d=258; 365d=2,185	Terminal markdown viewer	in	terminal markdown viewer
+homebrew	formula	mdless	https://formulae.brew.sh/formula/mdless	30d=50; 90d=316; 365d=2,710	Provides a formatted and highlighted view of Markdown files in Terminal	in	formatted view of markdown files in terminal
+homebrew	formula	mdp	https://formulae.brew.sh/formula/mdp	30d=21; 90d=124; 365d=310	Command-line based markdown presentation tool	undecidable	"markdown presentation tool": reads a markdown file to present it; viewer vs converter not settled by the description
+homebrew	formula	mdq	https://formulae.brew.sh/formula/mdq	30d=9; 90d=74; 365d=979	Like jq but for Markdown	out	query/processing tool, not a reader or editor of documents
+homebrew	formula	mdserve	https://formulae.brew.sh/formula/mdserve	30d=11; 90d=43; 365d=371	Fast markdown preview server with live reload and theme support	in	markdown preview server for viewing files
+homebrew	formula	mdsh	https://formulae.brew.sh/formula/mdsh	30d=not listed; 90d=6; 365d=39	Markdown shell pre-processor	out	shell pre-processor
+homebrew	formula	mdt	https://formulae.brew.sh/formula/mdt	30d=3; 90d=8; 365d=27	Command-line markdown todo list manager	in	terminal program managing a markdown todo list (edits a markdown file)
+homebrew	formula	mdv	https://formulae.brew.sh/formula/mdv	30d=25; 90d=155; 365d=684	Styled terminal markdown viewer	in	styled terminal markdown viewer
+homebrew	formula	mkdocs	https://formulae.brew.sh/formula/mkdocs	30d=80; 90d=776; 365d=2,253	Project documentation with Markdown	out	static documentation generator
+homebrew	formula	mmark	https://formulae.brew.sh/formula/mmark	30d=10; 90d=42; 365d=120	Powerful markdown processor in Go geared towards the IETF	out	processor/converter
+homebrew	formula	mq	https://formulae.brew.sh/formula/mq	30d=313; 90d=998; 365d=4,176	Jq-like command-line tool for markdown processing	out	query/processing tool
+homebrew	formula	panache	https://formulae.brew.sh/formula/panache	30d=82; 90d=341; 365d=637	Language server, formatter, and linter for Markdown, Quarto, and R Markdown	out	language server, formatter and linter
+homebrew	formula	pandemics	https://formulae.brew.sh/formula/pandemics	30d=not listed; 90d=30; 365d=276	Converts your markdown document in a simplified framework	out	converter/framework
+homebrew	formula	papeer	https://formulae.brew.sh/formula/papeer	30d=1; 90d=53; 365d=296	Convert websites into eBooks and Markdown	out	converter (websites to ebooks/markdown)
+homebrew	formula	peg-markdown	https://formulae.brew.sh/formula/peg-markdown	30d=not listed; 90d=not listed; 365d=59	Markdown implementation based on a PEG grammar	out	parser implementation
+homebrew	formula	pelican	https://formulae.brew.sh/formula/pelican	30d=15; 90d=43; 365d=253	Static site generator that supports Markdown and reST syntax	out	static-site generator
+homebrew	formula	prettier	https://formulae.brew.sh/formula/prettier	30d=2,445; 90d=7,379; 365d=31,711	Code formatter for JavaScript, CSS, JSON, GraphQL, Markdown, YAML	out	code formatter for many languages
+homebrew	formula	python-markdown	https://formulae.brew.sh/formula/python-markdown	30d=155; 90d=455; 365d=1,848	Python implementation of Markdown	out	library/parser
+homebrew	formula	reveal-md	https://formulae.brew.sh/formula/reveal-md	30d=1; 90d=37; 365d=220	Get beautiful reveal.js presentations from your Markdown files	undecidable	"presentations from your Markdown files": server/converter vs viewer not settled
+homebrew	formula	ronn-ng	https://formulae.brew.sh/formula/ronn-ng	30d=4; 90d=27; 365d=215	Build man pages from Markdown	out	converter to man pages
+homebrew	formula	rumdl	https://formulae.brew.sh/formula/rumdl	30d=535; 90d=4,353; 365d=14,716	Markdown Linter and Formatter written in Rust	out	linter/formatter
+homebrew	formula	smu	https://formulae.brew.sh/formula/smu	30d=not listed; 90d=2; 365d=13	Simple markup with markdown-like syntax	out	parser/converter
+homebrew	formula	sourcedocs	https://formulae.brew.sh/formula/sourcedocs	30d=45; 90d=157; 365d=345	Generate Markdown files from inline source code documentation	out	documentation generator
+homebrew	formula	swagger2markup-cli	https://formulae.brew.sh/formula/swagger2markup-cli	30d=not listed; 90d=1; 365d=80	Swagger to AsciiDoc or Markdown converter	out	converter
+homebrew	formula	treemd	https://formulae.brew.sh/formula/treemd	30d=54; 90d=329; 365d=2,362	TUI and CLI dual pane markdown viewer	in	TUI/CLI markdown viewer
+homebrew	formula	xc	https://formulae.brew.sh/formula/xc	30d=2; 90d=37; 365d=163	Markdown defined task runner	out	task runner
+homebrew	cask	astro-editor	https://formulae.brew.sh/cask/astro-editor	30d=8; 90d=42; 365d=284	Markdown editor for Astro content collections	in	application/extension that edits or views markdown files, per description
+homebrew	cask	boost-note	https://formulae.brew.sh/cask/boost-note	30d=6; 90d=12; 365d=125	Markdown note editor for developers	in	application/extension that edits or views markdown files, per description
+homebrew	cask	calmly-writer	https://formulae.brew.sh/cask/calmly-writer	30d=3; 90d=12; 365d=77	Word processor with markdown formatting and select themes	in	application/extension that edits or views markdown files, per description
+homebrew	cask	clearance	https://formulae.brew.sh/cask/clearance	30d=12; 90d=62; 365d=328	Markdown viewer and editor	in	application/extension that edits or views markdown files, per description
+homebrew	cask	colamd	https://formulae.brew.sh/cask/colamd	30d=66; 90d=66; 365d=66	Markdown editor	in	application/extension that edits or views markdown files, per description
+homebrew	cask	deckset	https://formulae.brew.sh/cask/deckset	30d=7; 90d=38; 365d=310	Presentations from Markdown	undecidable	"Presentations from Markdown": presentation application; whether it is opened to read/write markdown files not settled
+homebrew	cask	eme	https://formulae.brew.sh/cask/eme	30d=not listed; 90d=3; 365d=39	Markdown editor	in	application/extension that edits or views markdown files, per description
+homebrew	cask	focused	https://formulae.brew.sh/cask/focused	30d=2; 90d=10; 365d=55	Markdown writing app	in	application/extension that edits or views markdown files, per description
+homebrew	cask	foldingtext	https://formulae.brew.sh/cask/foldingtext	30d=1; 90d=3; 365d=28	Markdown text editor with productivity features	in	application/extension that edits or views markdown files, per description
+homebrew	cask	haroopad	https://formulae.brew.sh/cask/haroopad	30d=1; 90d=3; 365d=17	Markdown editor	in	application/extension that edits or views markdown files, per description
+homebrew	cask	ia-markdown-dictionary	https://formulae.brew.sh/cask/ia-markdown-dictionary	30d=3; 90d=14; 365d=34	Markdown dictionary for Dictionary.app	out	dictionary data for Dictionary.app; reads no markdown file
+homebrew	cask	ia-presenter	https://formulae.brew.sh/cask/ia-presenter	30d=10; 90d=41; 365d=199	Create presentation slides from a Markdown document	undecidable	"Create presentation slides from a Markdown document": same as deckset
+homebrew	cask	inkdown	https://formulae.brew.sh/cask/inkdown	30d=2; 90d=7; 365d=30	WYSIWYG Markdown editor	in	application/extension that edits or views markdown files, per description
+homebrew	cask	inkdrop	https://formulae.brew.sh/cask/inkdrop	30d=3; 90d=29; 365d=121	Markdown editor	in	application/extension that edits or views markdown files, per description
+homebrew	cask	macdown	https://formulae.brew.sh/cask/macdown	30d=2; 90d=2,311; 365d=17,571	Open-source Markdown editor	in	application/extension that edits or views markdown files, per description
+homebrew	cask	macdown-3000	https://formulae.brew.sh/cask/macdown-3000	30d=498; 90d=1,945; 365d=6,325	Markdown editor with live preview and syntax highlighting	in	application/extension that edits or views markdown files, per description
+homebrew	cask	macmd-viewer	https://formulae.brew.sh/cask/macmd-viewer	30d=96; 90d=319; 365d=627	Markdown viewer with QuickLook and Mermaid support	in	application/extension that edits or views markdown files, per description
+homebrew	cask	mark-text	https://formulae.brew.sh/cask/mark-text	30d=23; 90d=4,302; 365d=22,164	Markdown editor	in	application/extension that edits or views markdown files, per description
+homebrew	cask	markdown-preview	https://formulae.brew.sh/cask/markdown-preview	30d=453; 90d=2,618; 365d=2,618	Markdown previewer with bundled Quick Look extension	in	application/extension that edits or views markdown files, per description
+homebrew	cask	markdown-service-tools	https://formulae.brew.sh/cask/markdown-service-tools	30d=3; 90d=27; 365d=138	Collection of services for Markdown-formatted text	undecidable	"Collection of services for Markdown-formatted text": macOS Services, operating on text, not stated to open files
+homebrew	cask	marked-app	https://formulae.brew.sh/cask/marked-app	30d=45; 90d=218; 365d=1,191	Previewer for Markdown, MultiMarkdown and other text markup languages	in	application/extension that edits or views markdown files, per description
+homebrew	cask	markedit	https://formulae.brew.sh/cask/markedit	30d=1,150; 90d=4,810; 365d=17,031	Markdown editor	in	application/extension that edits or views markdown files, per description
+homebrew	cask	markpad	https://formulae.brew.sh/cask/markpad	30d=186; 90d=186; 365d=186	Markdown viewer and editor	in	application/extension that edits or views markdown files, per description
+homebrew	cask	markright	https://formulae.brew.sh/cask/markright	30d=3; 90d=14; 365d=70	Markdown editor with live preview	in	application/extension that edits or views markdown files, per description
+homebrew	cask	markviewer	https://formulae.brew.sh/cask/markviewer	30d=101; 90d=244; 365d=244	Minimal markdown editor	in	application/extension that edits or views markdown files, per description
+homebrew	cask	mdhero	https://formulae.brew.sh/cask/mdhero	30d=208; 90d=208; 365d=208	Markdown viewer and editor	in	application/extension that edits or views markdown files, per description
+homebrew	cask	meridiem	https://formulae.brew.sh/cask/meridiem	30d=4; 90d=21; 365d=123	Markdown editor	in	application/extension that edits or views markdown files, per description
+homebrew	cask	miaoyan	https://formulae.brew.sh/cask/miaoyan	30d=86; 90d=482; 365d=1,971	Markdown editor	in	application/extension that edits or views markdown files, per description
+homebrew	cask	mindforger	https://formulae.brew.sh/cask/mindforger	30d=not listed; 90d=7; 365d=91	Thinking notebook and Markdown IDE	in	application/extension that edits or views markdown files, per description
+homebrew	cask	mweb-pro	https://formulae.brew.sh/cask/mweb-pro	30d=2; 90d=22; 365d=164	Markdown writing, note taking, and static blog generator app	in	application/extension that edits or views markdown files, per description
+homebrew	cask	nota	https://formulae.brew.sh/cask/nota	30d=3; 90d=18; 365d=112	Markdown files editor	in	application/extension that edits or views markdown files, per description
+homebrew	cask	notes-better	https://formulae.brew.sh/cask/notes-better	30d=3; 90d=12; 365d=80	Simple note-taking app for markdown and kanban	in	application/extension that edits or views markdown files, per description
+homebrew	cask	obsidian	https://formulae.brew.sh/cask/obsidian	30d=11,345; 90d=51,034; 365d=194,535	Knowledge base that works on top of a local folder of plain text Markdown files	in	application/extension that edits or views markdown files, per description
+homebrew	cask	octarine	https://formulae.brew.sh/cask/octarine	30d=29; 90d=168; 365d=918	Markdown-based note-taking app	in	application/extension that edits or views markdown files, per description
+homebrew	cask	panwriter	https://formulae.brew.sh/cask/panwriter	30d=not listed; 90d=15; 365d=172	Markdown editor with pandoc integration and paginated preview	in	application/extension that edits or views markdown files, per description
+homebrew	cask	pine	https://formulae.brew.sh/cask/pine	30d=not listed; 90d=29; 365d=360	Native markdown editor	in	application/extension that edits or views markdown files, per description
+homebrew	cask	qlcommonmark	https://formulae.brew.sh/cask/qlcommonmark	30d=not listed; 90d=7; 365d=98	Quick Look plugin for CommonMark and Markdown	in	application/extension that edits or views markdown files, per description
+homebrew	cask	qlmarkdown	https://formulae.brew.sh/cask/qlmarkdown	30d=2,087; 90d=8,552; 365d=32,911	Quick Look generator for Markdown files	in	application/extension that edits or views markdown files, per description
+homebrew	cask	shiba	https://formulae.brew.sh/cask/shiba	30d=1; 90d=1; 365d=26	Rich markdown live preview app with linter	in	application/extension that edits or views markdown files, per description
+homebrew	cask	tableflip	https://formulae.brew.sh/cask/tableflip	30d=2; 90d=7; 365d=77	Edit plain text tables in place: Markdown, CSV, JSON. LaTeX and HTML export	undecidable	"Edit plain text tables in place: Markdown, CSV, JSON": editor for tables inside several formats; markdown files not the sole or stated object
+homebrew	cask	telari	https://formulae.brew.sh/cask/telari	30d=14; 90d=14; 365d=14	Markdown reader built for typography	in	application/extension that edits or views markdown files, per description
+homebrew	cask	texts	https://formulae.brew.sh/cask/texts	30d=not listed; 90d=3; 365d=57	Word processor that uses plain text Markdown	in	application/extension that edits or views markdown files, per description
+homebrew	cask	tolaria	https://formulae.brew.sh/cask/tolaria	30d=121; 90d=853; 365d=4,029	Markdown knowledgebase manager	in	application/extension that edits or views markdown files, per description
+homebrew	cask	ttscoff-mmd-quicklook	https://formulae.brew.sh/cask/ttscoff-mmd-quicklook	30d=not listed; 90d=7; 365d=43	Quick Look plugin for viewing MultiMarkdown	in	application/extension that edits or views markdown files, per description
+homebrew	cask	typora	https://formulae.brew.sh/cask/typora	30d=605; 90d=2,545; 365d=12,014	Configurable document editor that supports Markdown	in	application/extension that edits or views markdown files, per description
+homebrew	cask	typora@dev	https://formulae.brew.sh/cask/typora@dev	30d=2; 90d=12; 365d=79	Configurable document editor that supports Markdown	in	application/extension that edits or views markdown files, per description
+homebrew	cask	uncolored	https://formulae.brew.sh/cask/uncolored	30d=not listed; 90d=not listed; 365d=49	Rich text (HTML & Markdown) editor that saves documents with themes	in	application/extension that edits or views markdown files, per description
+homebrew	cask	zettlr	https://formulae.brew.sh/cask/zettlr	30d=394; 90d=1,629; 365d=6,698	Open-source markdown editor	in	application/extension that edits or views markdown files, per description

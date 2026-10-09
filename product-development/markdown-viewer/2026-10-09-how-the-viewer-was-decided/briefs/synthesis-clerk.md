@@ -1,0 +1,13 @@
+# Synthesis clerk: numbered findings and the taxonomy
+
+Read `briefs/standing-brief-block.md` first, then `briefs/venue-situation.md`, then `/usr/local/src/aesop/pmf-sage/sage-S-survey.md` section 1 step 7 and the paragraph on the activity taxonomy and the standing caveat, then `0-comparables/shape-note.md`, then `0-comparables/codebook-v1.md`, then `0-comparables/frame-review.md`, then `0-comparables/frame/frame-cells.md`, then `0-comparables/coded-corpus.tsv`, then `0-comparables/second-coding.md`. Nothing else in the repository is open to you, and no product page: you read the coded corpus and nothing behind it.
+
+Write `0-comparables/findings.md`: numbered findings F1, F2 and so on, each one statement citing coded data by variable, cell and count (numerator over denominator), so that every later document writes "finding 12" instead of restating a claim. A finding states the cell it was measured in and marks that cell on the shape note's four dimensions as shared or differs against the operator. Where the frame review forbids a comparison, no finding makes it. Where a rate differs between the free sub-population that shares the operator's shape and the store populations that do not, give both.
+
+Findings cover at least: whom the comparables address, by buyer class, with the silent counted once; reader-only against editor; the kinds and platforms; the price shapes and the free share, by cell; the surfaces and units; the markdown forms claimed, each with its prevalence; the features the questions file asks about (finding one's way around a long document, finding a word, links and images, keeping up with a file under edit, appearance, export); whether files stay local; release recency and archival; AI-related claims; and what the second coding agreed and disagreed on, as a finding about the instrument.
+
+Then write `0-comparables/taxonomy.md`: for every product parameter the codebook codes, every value the corpus shows and the fraction of coded comparables carrying it, by cell and overall, with the silent counted once under each table. This is the option set every card starts from, and the scarcity claims later are measured against exactly this.
+
+State the standing caveat in the findings file in the method's words: the corpus reads what products publish, and what is bought is not always printed; absence in the corpus is absence from publication, never absence from the market.
+
+Your final message lists the findings by number with one line each, the count delivered against what you expected, and which findings rest on a cell marked differs on the dimension they speak to.
