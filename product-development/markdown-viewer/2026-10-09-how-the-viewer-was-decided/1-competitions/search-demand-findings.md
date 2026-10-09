@@ -105,8 +105,7 @@ Related searches, verbatim: Markdown editor online; Markdown editor Windows; Mar
 
 # Step 3: the season
 
-Not read. Relative interest for "markdown viewer" and "markdown editor", worldwide and one country, five years and twelve months: not made, because the serpapi skill offers no Trends access (see Instruments). No country was chosen for Trends. The calendars to hold the readings against, when the capture exists, are the teaching year (term starts and exam periods in the northern hemisphere) and the release cycles of the big editors; this clerk has no dates for either in the files open to it, so none are asserted.
-
+Read as relative interest over time through the serpapi skill's own request function against SerpApi's google_trends engine, on 2026-10-09: the ten captured or suggested terms of the term table, each alone worldwide over five years and twelve months, and two comparison groups of five over the same windows for the United States, Australia and Texas. The calendars held against the readings are the teaching year (September and February starts) and the December holiday; the big editors release monthly, which no weekly series could show. The reading, the table and its limits are SD-14; the raw responses are in `season/`.
 # Step 4: the ceiling
 
 From the venue situation: copies are unlimited, nothing is reserved or capped. There is no capacity ceiling for copies. The only ceiling is the maker's hours, which are unrecorded, so headroom in units cannot be stated and demand cannot be called above or below any ceiling.
@@ -158,7 +157,7 @@ The seasonality table. Method: SerpApi google_trends, data_type TIMESERIES, date
 
 SD-15. There is no capacity ceiling for copies; the maker's hours are unrecorded. Demand above a ceiling cannot be separated from opportunity, because no ceiling is recorded.
 
-SD-16. Where the signal stops, for the study as a whole: no volume exists this month; a capture is one buyer at one place on one day (Austin, Texas, 2026-10-09, desktop, English); interest is relative and never money, and none was read. Search says nothing about whether the operator can deliver, which is the capability leg's job.
+SD-16. Where the signal stops, for the study as a whole: no volume exists this month; a capture is one buyer at one place on one day (Austin, Texas, 2026-10-09, desktop, English); interest is relative to a term's own peak and never money. Search says nothing about whether the operator can deliver, which is the capability leg's job.
 
 # What the rank database would add when it has units again
 
