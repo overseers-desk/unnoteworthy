@@ -1,6 +1,6 @@
 # Profile: markdown-suite-markmywords
 
-Captured 2026-10-09. Quotes are verbatim from the page named after each; line breaks inside a quote are collapsed to single spaces, and "…" marks a cut.
+Captured 2026-10-09. Quotes are verbatim from the page named after each; line breaks inside a quote are collapsed to single spaces, and "…" marks a cut. Quotes from README files omit the ** bold markers; quotes from snap pages close up spacing before punctuation that the page markup separates.
 
 ## Names as published
 - Markdown Suite - MarkMyWords (App Store listing title)

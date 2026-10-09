@@ -1,6 +1,6 @@
 # Profile: markdown-pro
 
-Captured 2026-10-09. Quotes are verbatim from the page named after each; line breaks inside a quote are collapsed to single spaces, and "…" marks a cut.
+Captured 2026-10-09. Quotes are verbatim from the page named after each; line breaks inside a quote are collapsed to single spaces, and "…" marks a cut. Quotes from README files omit the ** bold markers; quotes from snap pages close up spacing before punctuation that the page markup separates.
 
 ## Names as published
 - Markdown Pro (App Store listing title; AlternativeTo entry title)
@@ -21,7 +21,7 @@ Captured 2026-10-09. Quotes are verbatim from the page named after each; line br
 - Cell condition "free/paid apart": listing price field reads 5.99 USD (paid).
 
 ## V02 Name as published
-- listing title: "title: Markdown Pro" — https://apps.apple.com/us/app/markdown-pro/id465965038?mt=12&uo=4
+- listing title: "Markdown Pro" — https://apps.apple.com/us/app/markdown-pro/id465965038?mt=12&uo=4
 - AlternativeTo title: "Markdown Pro" — https://alternativeto.net/software/markdown-pro/about/ (read through the fetch tool)
 
 ## V03 Name form

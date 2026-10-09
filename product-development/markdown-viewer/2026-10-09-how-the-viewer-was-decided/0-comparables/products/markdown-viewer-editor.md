@@ -1,6 +1,6 @@
 # Profile: markdown-viewer-editor
 
-Captured 2026-10-09. Quotes are verbatim from the page named after each; line breaks inside a quote are collapsed to single spaces, and "…" marks a cut.
+Captured 2026-10-09. Quotes are verbatim from the page named after each; line breaks inside a quote are collapsed to single spaces, and "…" marks a cut. Quotes from README files omit the ** bold markers; quotes from snap pages close up spacing before punctuation that the page markup separates.
 
 ## Names as published
 - Markdown Viewer Editor (App Store listing title and description text)
@@ -77,7 +77,7 @@ silent
 - Copyright field: "© OpenIoTHub" — https://apps.apple.com/us/app/markdown-viewer-editor/id6762539454?uo=4
 
 ## V17 Cost beyond the price
-- under the AI assistant (no key or account stated): "Custom prompts for any AI instruction" — https://apps.apple.com/us/app/markdown-viewer-editor/id6762539454?uo=4
+silent
 
 ## V18 Use at work
 silent

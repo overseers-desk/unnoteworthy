@@ -1,6 +1,6 @@
 # Profile: markdown-reader-editor-md
 
-Captured 2026-10-09. Quotes are verbatim from the page named after each; line breaks inside a quote are collapsed to single spaces, and "…" marks a cut.
+Captured 2026-10-09. Quotes are verbatim from the page named after each; line breaks inside a quote are collapsed to single spaces, and "…" marks a cut. Quotes from README files omit the ** bold markers; quotes from snap pages close up spacing before punctuation that the page markup separates.
 
 ## Names as published
 - Markdown Reader & Editor: MD (App Store listing title)
@@ -63,13 +63,12 @@ Captured 2026-10-09. Quotes are verbatim from the page named after each; line br
 
 ## V12 Install and keep current
 - description: "Opens .md, .markdown, .mdown, .mkd and .mkdn — from the Files app, iCloud Drive or a share sheet." — https://apps.apple.com/us/app/markdown-reader-editor-md/id6758854494?uo=4
-- site: "File association for" — https://www.natural-apps.com/MDReader/
 
 ## V13 Markdown forms claimed
 - "Opens .md, .markdown, .mdown, .mkd and .mkdn" — https://apps.apple.com/us/app/markdown-reader-editor-md/id6758854494?uo=4
 - "Full Markdown: headings, bold, italic, strikethrough, nested lists, tables, block quotes, links and images" — https://apps.apple.com/us/app/markdown-reader-editor-md/id6758854494?uo=4
 - "LaTeX mathematics typeset with KaTeX" — https://apps.apple.com/us/app/markdown-reader-editor-md/id6758854494?uo=4
-- FAQ (narrower list than the listing): "MD Reader opens Markdown documents with the .md and .markdown extensions." — https://www.natural-apps.com/MDReader/faq.html
+- FAQ: "MD Reader opens Markdown documents with the .md and .markdown extensions." — https://www.natural-apps.com/MDReader/faq.html
 
 ## V14 Whether files stay local
 - "Your files stay plain .md, yours, and on your device." — https://apps.apple.com/us/app/markdown-reader-editor-md/id6758854494?uo=4

@@ -1,6 +1,6 @@
 # Profile: markdown-viewer-md-reader
 
-Captured 2026-10-09. Quotes are verbatim from the page named after each; line breaks inside a quote are collapsed to single spaces, and "…" marks a cut.
+Captured 2026-10-09. Quotes are verbatim from the page named after each; line breaks inside a quote are collapsed to single spaces, and "…" marks a cut. Quotes from README files omit the ** bold markers; quotes from snap pages close up spacing before punctuation that the page markup separates.
 
 ## Names as published
 - Markdown Viewer - MD Reader (App Store listing title)
@@ -105,8 +105,7 @@ silent
 silent
 
 ## V26 Release cadence and timing
-- "Version 1.1" — https://apps.apple.com/us/app/markdown-viewer-md-reader/id6760256766?uo=4
-- latest version "Version 1.1" — https://apps.apple.com/us/app/markdown-viewer-md-reader/id6760256766?uo=4
+- latest version: "Version 1.1" — https://apps.apple.com/us/app/markdown-viewer-md-reader/id6760256766?uo=4
 - version 1.0 date: "Fri Jul 31 2026 05:27:23 GMT+0000 (Coordinated Universal Time)" — https://apps.apple.com/us/app/markdown-viewer-md-reader/id6760256766?uo=4
 
 ## V27 Last release and archived status

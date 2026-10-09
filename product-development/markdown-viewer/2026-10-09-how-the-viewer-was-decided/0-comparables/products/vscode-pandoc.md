@@ -126,7 +126,7 @@ silent
 
 ## V34 Help and what happens when it breaks
 > Report bugs and request features on the issue tracker. — https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vscode-pandoc
-> Pandoc reads... Rendering shows a cancellable progress notification. It times out after five minutes by default (pandoc.render.timeout) — https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vscode-pandoc
+> Rendering shows a cancellable progress notification. It times out after five minutes by default (pandoc.render.timeout) — https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vscode-pandoc
 
 ## V35 Who else uses it
 > 196,772 installs | (7) | Free | Sponsor — https://marketplace.visualstudio.com/items?itemName=ChrisChinchilla.vscode-pandoc (header, as printed)

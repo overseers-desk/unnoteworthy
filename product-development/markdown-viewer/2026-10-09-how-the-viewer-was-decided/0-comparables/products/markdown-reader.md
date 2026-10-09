@@ -1,6 +1,6 @@
 # Profile: markdown-reader
 
-Captured 2026-10-09. Quotes are verbatim from the page named after each; line breaks inside a quote are collapsed to single spaces, and "…" marks a cut.
+Captured 2026-10-09. Quotes are verbatim from the page named after each; line breaks inside a quote are collapsed to single spaces, and "…" marks a cut. Quotes from README files omit the ** bold markers; quotes from snap pages close up spacing before punctuation that the page markup separates.
 
 ## Names as published
 - Markdown Reader ® (App Store listing title)
@@ -58,7 +58,7 @@ silent
 
 ## V15 Network and data leaving
 - privacy field on the listing: "The developer does not collect any data from this app." — https://apps.apple.com/us/app/markdown-reader/id6782747906?mt=12&uo=4
-- Privacy Policy page linked from the listing (text concerns a different service): "We are designed for fast movie lookup and redirection to third-party streaming platforms." — https://draveonfl.com/privacy
+- Privacy Policy page linked from the listing: "We are designed for fast movie lookup and redirection to third-party streaming platforms." — https://draveonfl.com/privacy
 - same page: "We may collect limited technical information needed to operate, secure, and improve the Service, such as device type, app version, crash logs, and basic usage diagnostics." — https://draveonfl.com/privacy
 
 ## V16 Price and licence

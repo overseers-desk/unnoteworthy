@@ -99,7 +99,7 @@ silent
 GitHub releases (API): 2.5.0 2026-09-26T21:41:03Z; 2.4.0 2026-09-22T19:12:03Z; 2.3.0 2026-09-22T16:16:07Z; 2.2.0 2026-09-13T19:01:21Z; 2.1.0 2026-09-03T17:06:49Z. Site: "8+ Years Active since Dec 2017".
 
 ## V27 Last release and archived status (two fields)
-Latest release in list: 2.5.0, 2026-09-26T21:41:03Z. Snap: "Last updated 26 September 2026 - latest/stable". archived: false; pushed_at 2026-10-07T17:45:53Z (API). README: "Even if project's main development branch does not receive updates, be sure that I use it every day".
+Latest release in list: 2.5.0, 2026-09-26T21:41:03Z. Snap: "Last updated 26 September 2026 - latest/stable". archived: false; pushed_at 2026-10-07T17:45:53Z (API). Cask page heading "mindforger (disabled)"; the page's HTML title attribute on that heading reads "This cask has been disabled since 2026-09-01 because it does not pass the macOS Gatekeeper check". README: "Even if project's main development branch does not receive updates, be sure that I use it every day".
 
 ## V28 Finding the way around a long document (multi)
 "Knowledge graph" / "Hoisting" / "Recent notes" / "Tag navigator" (site feature list); "Refactoring: clone, promote, demote, move and extract Notes" (site)
