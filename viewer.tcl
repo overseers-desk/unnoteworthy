@@ -15,8 +15,8 @@ package require Tk
 
 set HERE [file dirname [file normalize [info script]]]
 ::tcl::tm::path add [file join $HERE vendor]
-package require streamdoc 1.2
-package require tkdown 2.0
+package require streamdoc 1.3
+package require tkdown 2.1
 
 # Heading faces step up from tkdown's body face; the rest of the dict is
 # the module's own, used only through its keys.
@@ -83,7 +83,8 @@ oo::class create Viewer {
         grid rowconfigure $Doc 0 -weight 0
         grid rowconfigure $Doc 1 -weight 1
         ::tkdown::tags $Text $Fonts -quotetags quote \
-            -image_cmd [list [self] image_for]
+            -image_cmd [list [self] image_for] \
+            -link_cmd [list [self] follow_link]
         $Text tag configure code -font [dict get $Fonts mono] -background #f3f4f6 \
             -spacing1 2 -spacing3 2
         $Text tag configure quote -foreground #5a6470
@@ -99,9 +100,6 @@ oo::class create Viewer {
         $Text tag bind hdr <Button-1> [list [self] hdr_click %x %y]
         $Text tag bind hdr <Enter> [list $Text configure -cursor hand2]
         $Text tag bind hdr <Leave> [list $Text configure -cursor {}]
-        $Text tag bind td-link <Button-1> [list [self] link_click %x %y]
-        $Text tag bind td-link <Enter> [list $Text configure -cursor hand2]
-        $Text tag bind td-link <Leave> [list $Text configure -cursor {}]
         bind $Text <Configure> +[list [self] measure_later]
         set top [winfo toplevel $parent]
         bind $top <F5> [list [self] reload]
@@ -164,6 +162,9 @@ oo::class create Viewer {
 
     # ---- rendering ----
     method render {text} {
+        # Reference definitions are document-scoped, so they resolve before
+        # the heading split; a title's reference resolves with them.
+        set text [::tkdown::resolve_refs $text]
         my reset
         ::tkdown::forget $Text
         dict for {path img} $Images { if {$img ne ""} { image delete $img } }
@@ -215,11 +216,7 @@ oo::class create Viewer {
         }
     }
 
-    # ---- links ----
-    method link_click {x y} {
-        set url [::tkdown::link_at $Text [$Text index @$x,$y]]
-        if {$url ne ""} { my follow_link $url }
-    }
+    # ---- links: tkdown calls follow_link with the url of a clicked link ----
     method follow_link {url} {
         if {[regexp {^[a-z][a-z0-9+.-]*:} $url]} {
             exec xdg-open $url &
