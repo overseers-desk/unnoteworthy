@@ -10,10 +10,11 @@ Pages read (all 2026-10-09):
 - [L3] https://alternativeto.net/software/glow/?p=4 : HTTP 403 by curl; unreachable
 - [R] https://github.com/TailorDev/monod : HTTP 200
 - [S] https://monod.lelab.tailordev.fr/ (the repository's About link and README "public instance") : unreachable, curl error "Could not resolve host: monod.lelab.tailordev.fr"
+- [A] https://alternativeto.net/software/monod/about/ (slug guessed from the product name, not found by search) : read through the WebFetch tool (summarising; quotes are as returned, not checked against raw HTML)
 
 ## V02 Name as published
 
-[R] "Monod"; "📓 Our cool, secure, and offline-first Markdown editor."
+[R] "Monod"; "📓 Our cool, secure, and offline-first Markdown editor."; [A] "Monod: Was a secure and offline-first, React-based Markdown editor."
 
 ## V03 Name form
 
@@ -45,7 +46,7 @@ silent
 
 ## V10 Platforms
 
-silent
+[A] Platforms "Online, Self-Hosted, React"
 
 ## V11 Prerequisites
 
@@ -57,7 +58,7 @@ silent
 
 ## V13 Markdown forms claimed
 
-silent
+[A] Features "Support for MarkDown"
 
 ## V14 Whether files stay local
 
@@ -69,7 +70,7 @@ silent
 
 ## V16 Price and licence
 
-[R] "Monod is released under the MIT License."; "MIT license"
+[R] "Monod is released under the MIT License."; "MIT license"; [A] "Open Source (MIT) and Free product."
 
 ## V17 Cost beyond the price
 
@@ -109,11 +110,11 @@ silent
 
 ## V26 Release cadence and timing
 
-silent
+[A] "Added: Jul 5, 2016"; "Last updated: Jun 10, 2022 (page)"
 
 ## V27 Last release and archived status
 
-[R] "This repository was archived by the owner on Apr 6, 2021. It is now read-only."
+[R] "This repository was archived by the owner on Apr 6, 2021. It is now read-only."; [A] Status "Discontinued"; "As of June 2021 this web-based app can no longer be accessed."; "the GitHub repository was last updated Jan 25, 2020 and is archived"; Official website https://monod.lelab.tailordev.fr/ "(the site no longer exists, per the status note)"; [S] curl: could not resolve host
 
 ## V28 Finding the way around a long document
 
@@ -145,7 +146,7 @@ silent
 
 ## V35 Who else uses it
 
-[R] "Star 864"; "Fork 51"
+[R] "Star 864"; "Fork 51"; [A] "3 likes, 0 comments"; "GitHub: 865 stars, 51 forks, 28 open issues"
 
 ## V36 AI-related claims
 

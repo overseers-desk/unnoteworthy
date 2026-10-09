@@ -7,13 +7,14 @@ Names as published: "MultiMarkdown Composer 4" [A]; "MultiMarkdown Composer" [B]
 Pages read (all 2026-10-09):
 - [L1] https://alternativeto.net/software/marked/?p=4 : HTTP 403 by curl (Cloudflare "Just a moment..." challenge page); unreachable
 - [L2] https://alternativeto.net/software/glow/?p=3 : HTTP 403 by curl (same challenge page); unreachable
+- [E] https://alternativeto.net/software/multimarkdown-composer/about/ (slug guessed from the product name, not found by search) : read through the WebFetch tool (summarising; quotes are as returned, not checked against raw HTML)
 - [A] https://apps.apple.com/us/app/multimarkdown-composer-4/id1275176220?mt=12&uo=4 : HTTP 200
 - [B] http://multimarkdown.com/ (the listing's "Developer Website" link) : HTTP 200
 No AlternativeTo entry page was reached for this product.
 
 ## V02 Name as published
 
-[A] "MultiMarkdown Composer 4"; [B] "MultiMarkdown Composer"
+[A] "MultiMarkdown Composer 4"; [B] "MultiMarkdown Composer"; [E] "MultiMarkdown Composer: Text editor for Mac"
 
 ## V03 Name form
 
@@ -45,7 +46,7 @@ silent
 
 ## V10 Platforms
 
-[A] "Only for Mac"; Compatibility "Requires macOS 10.11 or later."; [B] "text editor for Mac"
+[A] "Only for Mac"; Compatibility "Requires macOS 10.11 or later."; [B] "text editor for Mac"; [E] Platforms "Mac"
 
 ## V11 Prerequisites
 
@@ -57,7 +58,7 @@ silent
 
 ## V13 Markdown forms claimed
 
-[A] "specifically designed for writing in MultiMarkdown (or regular Markdown)"; "Supports MultiMarkdown v6 (including regular Markdown compatibility mode)"; "CriticMarkup support, including live change tracking"
+[A] "specifically designed for writing in MultiMarkdown (or regular Markdown)"; "Supports MultiMarkdown v6 (including regular Markdown compatibility mode)"; "CriticMarkup support, including live change tracking"; [E] Features "WYSIWYG Support" and "Support for MarkDown"
 
 ## V14 Whether files stay local
 
@@ -69,7 +70,7 @@ silent
 
 ## V16 Price and licence
 
-[A] "Free · In‑App Purchases"; In-App Purchases "Composer 4 Pro Upgrade $29.99; Composer 4 Standard Upgrade $14.99; Migrate From Standard to Pro $14.99"
+[A] "Free · In‑App Purchases"; In-App Purchases "Composer 4 Pro Upgrade $29.99; Composer 4 Standard Upgrade $14.99; Migrate From Standard to Pro $14.99"; [E] "Proprietary and Commercial product." (no price stated there) — compare [A]: "Free · In‑App Purchases"
 
 ## V17 Cost beyond the price
 
@@ -109,7 +110,7 @@ silent
 
 ## V26 Release cadence and timing
 
-[A] Copyright "© 2016-2019 MultiMarkdown Software, LLC"; "Composer 4 represents a complete rewrite."; [B] "Copyright (c) 2011-2017"
+[A] Copyright "© 2016-2019 MultiMarkdown Software, LLC"; "Composer 4 represents a complete rewrite."; [B] "Copyright (c) 2011-2017"; [E] "Added: Jun 23, 2012"; "Updated: Sep 9, 2022"
 
 ## V27 Last release and archived status
 

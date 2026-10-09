@@ -8,6 +8,7 @@ Pages read (all 2026-10-09):
 - [L1] https://alternativeto.net/software/typora/?p=6 : HTTP 403 by curl (Cloudflare challenge); unreachable
 - [L2] https://alternativeto.net/software/marked/?p=4 : HTTP 403 by curl; unreachable
 - [L3] https://alternativeto.net/software/glow/?p=2 : HTTP 403 by curl; unreachable
+- [E] https://alternativeto.net/software/mweb/about/ (slug guessed from the product name, not found by search) : read through the WebFetch tool (summarising; quotes are as returned, not checked against raw HTML)
 - [H] https://formulae.brew.sh/cask/mweb-pro : HTTP 200
 - [A] https://apps.apple.com/us/app/mweb-markdown-writing-notes/id1183407767?uo=4 : HTTP 200
 - [B] https://www.mweb.im/ (the cask's homepage field and no other link) : HTTP 200
@@ -15,7 +16,7 @@ The listing in [A] gives no Developer Website link; [B] was reached from [H].
 
 ## V02 Name as published
 
-[A] "MWeb - Markdown Writing, Notes"; [H] "MWeb Pro"; [B] "MWeb Pro for Mac, iPad and iPhone"
+[A] "MWeb - Markdown Writing, Notes"; [H] "MWeb Pro"; [B] "MWeb Pro for Mac, iPad and iPhone"; [E] "MWeb: Can handle professional-level markdown with support for markdown extensions."
 
 ## V03 Name form
 
@@ -47,7 +48,7 @@ silent
 
 ## V10 Platforms
 
-[A] Compatibility: "iPhone Requires iOS 14.1 or later. iPad Requires iPadOS 14.1 or later. iPod touch Requires iOS 14.1 or later. Mac Requires macOS 10.13 or later. Apple Vision Requires visionOS 1.0 or later."; [B] "MWeb Pro for Mac, iPad and iPhone"; [H] "Requirements: macOS"
+[A] Compatibility: "iPhone Requires iOS 14.1 or later. iPad Requires iPadOS 14.1 or later. iPod touch Requires iOS 14.1 or later. Mac Requires macOS 10.13 or later. Apple Vision Requires visionOS 1.0 or later."; [B] "MWeb Pro for Mac, iPad and iPhone"; [H] "Requirements: macOS"; [E] Platforms "Mac"
 
 ## V11 Prerequisites
 
@@ -59,7 +60,7 @@ silent
 
 ## V13 Markdown forms claimed
 
-[A] "Base on CommonMark syntax and GitHub Flavored Markdown (GFM) extended syntax, supporting TOC, tables, code blocks, math formulas, task lists, footnotes, etc."; "Create Markdown, Textbundle documents"
+[A] "Base on CommonMark syntax and GitHub Flavored Markdown (GFM) extended syntax, supporting TOC, tables, code blocks, math formulas, task lists, footnotes, etc."; "Create Markdown, Textbundle documents"; [E] "Full GFM (GitHub Flavored Markdown) supported"
 
 ## V14 Whether files stay local
 
@@ -71,7 +72,7 @@ silent
 
 ## V16 Price and licence
 
-[A] "Free · In‑App Purchases"; In-App Purchases "MWeb for iPhone/iPad $14.99; MWeb Yearly Subscription $9.99; MWeb for Mac $24.99"; [B] "or buy MWeb Pro Lifetime Version for $34.99 on MWeb Store."
+[A] "Free · In‑App Purchases"; In-App Purchases "MWeb for iPhone/iPad $14.99; MWeb Yearly Subscription $9.99; MWeb for Mac $24.99"; [B] "or buy MWeb Pro Lifetime Version for $34.99 on MWeb Store."; [E] "Proprietary and Commercial product." "One time purchase (perpetual license) that costs $10." — compare [A] and [B] in this section (Free with in-app purchases up to $24.99; Pro lifetime $34.99)
 
 ## V17 Cost beyond the price
 
@@ -111,7 +112,7 @@ silent
 
 ## V26 Release cadence and timing
 
-[H] "Current version: 4.8.2"; [A] "MWeb was born in 2015."; Copyright "© 2025 CoderForArt Inc"; [B] "Copyright © 2025"
+[H] "Current version: 4.8.2"; [A] "MWeb was born in 2015."; Copyright "© 2025 CoderForArt Inc"; [B] "Copyright © 2025"; [E] "Added: Feb 29, 2016"; "Updated: Apr 7, 2021"
 
 ## V27 Last release and archived status
 
@@ -139,7 +140,7 @@ silent
 
 ## V33 Print, export, send on
 
-[A] "Export documents or notes to PDF (with Table of Contents in macOS version)."; "Export documents or notes to Epub or image."; "Export the entire category of notes to PDF or Epub e-book."
+[A] "Export documents or notes to PDF (with Table of Contents in macOS version)."; "Export documents or notes to Epub or image."; "Export the entire category of notes to PDF or Epub e-book."; [E] "Live preview and export to PDF/HTML/RTF/DOCX"
 
 ## V34 Help and what happens when it breaks
 
