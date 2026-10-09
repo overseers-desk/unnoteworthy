@@ -9,7 +9,7 @@ status: "Findings numbered SD-n; none decides anything alone. No volume exists i
 
 - Rank database: no API units this month. Every term's volume column below reads "not searched". No volume, difficulty, density or intent label was pulled for any term.
 - Located results-page captures, through the serpapi skill's `search` subcommand, 2026-10-09 about 07:20 to 07:21 UTC. Every capture reports: location requested "Austin, Texas, United States", location used "Austin,Texas,United States", google.com, language en, desktop. The location is my choice: the files open to me do not name the operator's national market. Ten organic results were asked for per term; "first page" below means those ten as returned. SerpApi's "total_results" (100 to 159) is an instrument figure, not a demand figure, and is not used.
-- Relative interest over time (Google Trends): not made. The serpapi skill as documented offers flights, search, maps, reviews and hotels; its script has no Trends command (zero occurrences of "trends" in it). I did not call the API's Trends engine by hand, since the skill does not offer it. The season (step 3) is therefore unread; see SD-14.
+- Relative interest over time (Google Trends), through SerpApi's google_trends engine called by the serpapi skill's own request function, which reads the key where the skill reads it: 32 requests on 2026-10-09, each term alone worldwide over five years and twelve months, and two comparison groups of five terms over the same windows for the United States, Australia and Texas (the capture's state). The raw responses are in `season/`, one file a request. The reading is SD-14.
 - Read, in order: standing block, venue situation, survey section 2 "What buyers type", the day-one pull. Nothing else.
 
 # Readings (one sentence each, text generator against product designer)
@@ -54,7 +54,7 @@ Internal term against buyer term:
 | markdown file viewer | md file viewer; "Markdown Document Viewer" (Microsoft store title) | yes |
 | foldable sections, fold | no appearance in any people-also-ask or related search captured; "collapsible sections" appears only in Marked 2's own claims in the day-one pull | no buyer-side wording found; not tested by a capture |
 | table of contents | "TOC" and "ToC" in comparables (simov, Markdown Preview Plus); not in suggestions | not in buyer-side suggestions |
-| find -xdev | not in suggestions | not seen |
+| find | not in suggestions | not seen |
 | reload | "live reload" (Markdown Preview Plus), "Auto reload on file change" (simov), "Markdown Hot Reload" (Snap title) on the trade side; not in suggestions | trade side only |
 
 # Step 2: results-page captures
@@ -139,7 +139,22 @@ SD-12. Every one of the seven pages carried an AI overview, and five of the seve
 
 SD-13. Operator words fold, table of contents, find and reload have no sign in the buyer-side suggestions captured. Silence on a page is a value, not a fact about the product: these words were not captured as terms, so their absence from the suggestions of seven pages says only that they did not surface there. Reload surfaces on the trade side (Hot Reload, live reload, auto reload).
 
-SD-14. The season is unread. No Trends reading was made (the skill offers none), so there is no statement about the teaching year or editor release cycles. Interest, had it been read, would be relative and never money.
+SD-14. The season, read as relative interest over time. Worldwide, each term alone over twelve months (5 October 2025 to 10 October 2026, weekly): interest peaks in June for markdown viewer, markdown reader, markdown renderer, markdown preview and markdown viewer windows, in May for how to open md file, in July for markdown editor, in August for md file viewer, and in March for markdown viewer mac; the trough is December for eight of the ten terms. The shape does not follow the teaching year's starts, since nothing rises in September or February, and it dips with the December holiday. Over five years (October 2021 to October 2026, monthly), every term's yearly mean rises steeply through 2025 and 2026; the table below gives them. Trends scales each series to its own peak and 2026 runs only to October, so early years read small by construction and the figures compare a term with itself, never one term with another. Two platform terms return zero for most weeks (markdown viewer linux 36 of 53, markdown viewer mac 17 of 53), which is the instrument's floor for thin data and not a count of nothing. By country over twelve months, one comparison per group, the figures are relative to the group's largest term: United States, markdown editor 32, markdown preview 24, markdown viewer 17, markdown reader 5, markdown renderer 2, and how to open md file 29, md file viewer 15, the three platform terms 2 each; Australia, editor 22, preview 10, viewer 7, reader 1, with the buyer and platform terms at 0 to 2; Texas, 0 to 15 throughout, too thin to read. Interest is relative and never money.
+
+The seasonality table. Method: SerpApi google_trends, data_type TIMESERIES, date "today 12-m" and "today 5-y", geo empty for worldwide and US, AU, US-TX for the groups; captured 2026-10-09. Yearly means are of the monthly points in the five-year series, each term scaled to its own peak of 100.
+
+| term (worldwide, alone) | peak month | trough month | 2021 | 2022 | 2023 | 2024 | 2025 | 2026 to Oct | zero weeks of 53 |
+|---|---|---|---|---|---|---|---|---|---|
+| markdown viewer | Jun | Dec | 5 | 8 | 10 | 15 | 32 | 66 | 0 |
+| markdown reader | Jun | Dec | 1 | 4 | 4 | 8 | 17 | 52 | 0 |
+| markdown preview | Jun | Sep | 6 | 10 | 11 | 13 | 21 | 43 | 0 |
+| markdown editor | Jul | Aug | 8 | 15 | 15 | 18 | 25 | 41 | 0 |
+| markdown renderer | Jun | Dec | 0 | 3 | 6 | 12 | 22 | 37 | 0 |
+| md file viewer | Aug | Dec | 1 | 1 | 1 | 2 | 15 | 61 | 0 |
+| how to open md file | May | Dec | 0 | 5 | 4 | 8 | 20 | 62 | 1 |
+| markdown viewer linux | Jun | Apr | 0 | 0 | 0 | 2 | 6 | 27 | 36 |
+| markdown viewer windows | Jun | Dec | 0 | 1 | 1 | 3 | 8 | 57 | 5 |
+| markdown viewer mac | Mar | Dec | 0 | 0 | 0 | 1 | 3 | 47 | 17 |
 
 SD-15. There is no capacity ceiling for copies; the maker's hours are unrecorded. Demand above a ceiling cannot be separated from opportunity, because no ceiling is recorded.
 
