@@ -1,0 +1,49 @@
+# The blind reliability sample
+
+Every tenth slug of the collection list in sorted order, positions 1, 11, 21 and so on: 45 of 449. Drawn before any coding was read, by this rule and no other.
+
+- 0xgg-crossnote-app
+- auto-open-markdown-preview
+- busymark
+- clearance
+- deckset
+- editor-markdown-notes
+- fastmd-fast-markdown-editor
+- foldingtext
+- ghostwriter
+- growilabs-growi
+- ianks-octodown
+- joplin
+- kite-markdown-editor
+- linotes
+- mandown
+- markary-markdown-notes
+- markdown-editor-for-safari
+- markdown-mate-writing-notes
+- markdown-pro
+- markdown-to-pdf-converter-fast
+- markdownmeister
+- marklens-markdown-reader
+- markrahq-markra
+- marp-for-vs-code
+- md-reader-md-reader
+- mdcat
+- mdserve
+- minimark
+- neverwrite
+- notepad-app
+- obsidian
+- ownsync-note
+- pixley-markdown
+- qingmo-markdown-editor
+- read-md
+- richardr1126-openreader
+- scriptum-markdown-editor
+- simov-markdown-viewer
+- steelnote-markdown-notes
+- taio-markdown-text-actions
+- texts-io
+- toolstack-folio
+- ufocus
+- vsch-idea-multimarkdown
+- xlsx-csv-tsv-markdown-editor
