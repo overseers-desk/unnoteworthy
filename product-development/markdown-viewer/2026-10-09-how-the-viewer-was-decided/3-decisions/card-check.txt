@@ -1,3 +1,17 @@
 card 0: 5 figured options; prior match: True; held value: matches; third derivation: True; rests on: market; chosen: One program | runner-up: A family of related tools from one maker
-card 1: 11 figured options; prior match: False; held value: none held; third derivation: True; rests on: market; chosen: Developers and coders | runner-up: Writers and authors
-2 cards; 1 hold a value; 1 match it; 0 leave it; 0 withheld; 1 third derivations; 0 outstanding; 0 mismatched margin units; 7 legs marked differs
+card 1: 11 figured options; prior match: False; held value: withheld; third derivation: True; rests on: market; chosen:  | runner-up: 
+card 10: 4 figured options; prior match: False; held value: withheld held; third derivation: True; rests on: market; chosen:  | runner-up: 
+card 11: 4 figured options; prior match: False; held value: leaves; third derivation: True; rests on: market; chosen: A contents outline beside the text | runner-up: Folding sections by heading
+card 12: 5 figured options; prior match: False; held value: withheld held; third derivation: True; rests on: market; chosen:  | runner-up: 
+NOTE card 13: the stamp says keeps and the script reads no match
+card 13: 4 figured options; prior match: True; held value: matches; third derivation: True; rests on: market; chosen: Nothing leaves the machine and the page says so | runner-up: Local by default with an optional upload or sync
+card 14: 5 figured options; prior match: False; held value: leaves; third derivation: True; rests on: market; chosen: Export to PDF, with or without print or other formats | runner-up: Print with no file export
+card 2: 6 figured options; prior match: False; held value: withheld; third derivation: True; rests on: ; chosen:  | runner-up: 
+card 3: 6 figured options; prior match: False; held value: withheld; third derivation: True; rests on: ; chosen:  | runner-up: 
+card 4: 8 figured options; prior match: False; held value: withheld held; third derivation: True; rests on: ; chosen:  | runner-up: 
+card 5: 6 figured options; prior match: False; held value: withheld; third derivation: True; rests on: ; chosen:  | runner-up: 
+card 6: 7 figured options; prior match: False; held value: none held; third derivation: True; rests on: market; chosen: Open-source licence, work use left to the licence | runner-up: No licence stated, source readable
+card 7: 7 figured options; prior match: False; held value: leaves; third derivation: True; rests on: market; chosen: All three systems | runner-up: Linux and macOS
+card 8: 4 figured options; prior match: False; held value: withheld held; third derivation: True; rests on: market; chosen:  | runner-up: 
+card 9: 3 figured options; prior match: False; held value: leaves; third derivation: True; rests on: market; chosen: An editor | runner-up: A reader that says it never edits
+15 cards; 10 hold a value; 2 match it; 4 leave it; 8 withheld; 10 third derivations; 0 outstanding; 0 mismatched margin units; 45 legs marked differs

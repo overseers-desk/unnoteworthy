@@ -17,7 +17,7 @@ Silent on finding their way, counted once and in no figure above: 296 weighted r
 
 **Ruled:** open
 
-**Chip:** derived
+**Chip:** derived, both citations carried: this card's Recommended line (a contents outline beside the text, at least 12 weighted rows over folding sections by heading) and `3-decisions/third-card-11.md` (an outline beside the text, 29 rows over a jump to a heading, 33 against 4 of 86 reader rivals). Both land away from the value held.
 
 **Measured in:** Comparables naming developers and writers together, 39 weighted rows of 496: outline 22/39, folding 5/39; inside the Mac App Store outline 11/24 against 40/86 of the store's rows that name no buyer; outside it 11/15 against 66/262, resting on 8 products; in the free shape-sharing population 9/19 against 50/150, and in its free Mac App Store rows 5/12 against 9/31. Readers of AI output outline 9/12, 5 of their 6 Mac App Store rows; folding 0/12. Developers without writers outline 9/27. Reader rivals 34/86 claim an outline (33 without folding, 1 with). All comparables, the Mac App Store and AlternativeTo [d d d s]; the free shape-sharing population [s for its GitHub rows, d for its store-only rows; s; s; s]; the 28 readers shaped like the operator [s s s s], outline 7/28. The 9 reader rivals naming readers of AI output are the 8 that `leading-buyers.md` lists and ViewMD (R84), which finding 31 places among the AI rows as well as among those naming developers and writers. How one moves around a document turns on none of dimensions 1 to 3, so the rates stand as the leg.
 
@@ -35,6 +35,10 @@ Silent on finding their way, counted once and in no figure above: 296 weighted r
 
 **Buyer:** If the outline carries the developer reader on Homebrew, leaf-markdown-viewer ("Sidebar TOC with heading hierarchy", "jump with 1-9"; 1,244 installs in its first 90 days, 431 in the last 30, N1) keeps its 30-day count above one twelfth of its year at the next reading. If it carries the AI reader on the Mac, Read.md ("Auto-generated table of contents from your headings"; 84 ratings since 2026-03-25, N6) gains ratings at the next store pull. Glow, which claims none, is the control: its 59,634 a year holding while those two stall would say an outline is not what carries take-up.
 
-**Third derivation:** none recorded.
+**Held:** leaves. The program as it stands folds a section at each heading and gives its table of contents by folding all; the recommended line is an outline beside the text.
+
+**Third derivation:** `3-decisions/third-card-11.md`; agrees; an outline beside the text, without folding, 29 rows over a jump to a heading with no outline or folding (33 against 4 of 86 reader rivals); among the 28 operator-shaped readers 4 rows (6 against 2), thin. Cost line: the program has folding and a fold-all contents view and no outline pane (capability note); an outline beside the text would be built, and its landing without folding sets the existing folding aside.
 
 **Corrections:** none.
+
+**Priors:** `viewer.tcl` header, 2026-10-09: "Click a heading to fold its section"; "Fold all gives the table of contents"; "#anchor by scrolling to the section". streamdoc man page, 2026-10-09: "folding everything leaves one header per line, a table of contents". Session memory note (design agreement), 2026-10-09: "Folds are flat, one region per heading". Sibling product README, 2026-08-29: "Each turn folds to its first line"; "a Turns tab above the transcript jumps anywhere".

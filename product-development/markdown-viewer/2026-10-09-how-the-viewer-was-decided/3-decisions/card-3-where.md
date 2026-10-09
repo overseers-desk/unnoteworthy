@@ -19,7 +19,7 @@ Rows state several routes at once (taxonomy V21: 108 of 496 weighted name two ch
 
 **Ruled:** open
 
-**Chip:** derived
+**Chip:** two readings, not stamped derived: the first derivation withholds between a release download and a store listing (release over store 47–17 and 13–5 in operator-shaped repositories); the third derivation recommends a release download together with a package-manager entry (20 against 3 and 3 of 28 operator-shaped readers). Nothing is held, so neither inherited nor anchored.
 
 **Measured in:** Re-measured within the sub-population that shares the operator's shape on all four dimensions, the GitHub editor topic (84) and viewer topic (21), read apart: release download 47/84 and 13/21, clone 46/84 and 13/21, package manager 36/84 and 11/21, store 17/84 and 5/21, browser 17/84 and 2/21 [shared, shared, shared, shared]. Kept as context: the free products shaped like the operator, 204 [D1 shared for its 89 GitHub rows and differs for its 115 store-only rows; D2 shared; D3 shared; D4 shared]; the whole corpus, 496 weighted [differs, differs, differs, shared]. This card rules dimension 1, so the rates from the store cells and the whole corpus do not stand as its leg. By buyer (finding 35): documentation reader, store listing 29/39 and repository page 8/39 in the whole corpus, 5/15 and 8/15 outside the Mac App Store, store listing 15/19 in the free shaped products with 12 of them App Store rows [App Store and whole corpus differs, differs, differs, shared]. Search leg: SD-5 to SD-10, seven located captures, Austin, Texas, United States, desktop, 2026-10-09; no volume (SD-1). The operator's current share of every captured first page is nil: the offering has no page (sales record).
 
@@ -39,6 +39,10 @@ Rows state several routes at once (taxonomy V21: 108 of 496 weighted name two ch
 
 **Buyer:** No enquiry exists (rival register D3). Prediction against named rivals' buyers: if the release-and-package reading is right, the reader entries new to Homebrew this year (leaf-markdown-viewer 1,244 installs a year at growth 4.16, markdown-preview 2,618 at 2.08, N1) keep a 30-day count above their twelve-month average at the next reading; if the store reading is right, the Homebrew entrants fall back to their average while Read.md's rating count (84 on 2026-10-09, N6) keeps rising. Each figure is read against its own earlier reading, never against the other instrument's. A second reading of N1 and N6 a month on settles it for these rivals, not for the buyer.
 
-**Third derivation:** none recorded
+**Held:** nothing held. No source states where the viewer is had; the routes in the sibling READMEs are those products'.
+
+**Third derivation:** `3-decisions/third-card-3.md`; differs; recommends a release download together with a package-manager entry, 17 operator-shaped readers over the runners-up, a store listing and the repository only, which tie (20 against 3 and 3 of 28); on who I am dealing with it withholds between a repository page only and a repository page with the maker's own website, 40 to 44 of 84 and 11 to 10 of 21. The first derivation withholds between a release download and a store listing. Cost line: no release, package or installer exists in this repository; the questlog packaging scripts would be adapted and a Homebrew formula and Debian package written for a program with no thread dependency (capability note).
 
 **Corrections:** none
+
+**Priors:** `viewer.tcl` header, 2026-10-09: "wish9.0 viewer.tcl README.md"; no route to getting it stated. Session memory note (design agreement), 2026-10-09: "vendors each draft by exact version in vendor/". Sibling product README, 2026-08-29: "the releases page"; "sudo apt install", "sudo dnf install", "brew tap overseers-desk/od && brew install questlog"; "questlog-<version>-macos-arm64.dmg"; "questlog-<version>-windows-x86_64.exe". Module repository README, 2026-09-08: "git clone https://github.com/teatotal/teatotal.git"; "Drop a single module on your `::tcl::tm::path`"; "the one stable place its updates will keep arriving". Method test case, 2026-10-09: "in its own repository".

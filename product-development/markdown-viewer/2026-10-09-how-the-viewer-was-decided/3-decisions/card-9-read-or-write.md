@@ -16,7 +16,7 @@ Silent on whether they edit, counted once and in no figure above: 4 of all 496 w
 
 **Ruled:** open
 
-**Chip:** derived
+**Chip:** derived, both citations carried: this card's Recommended line (an editor, at least 10 weighted rows over a reader that says it never edits, thin inside the Mac App Store) and `3-decisions/third-card-9.md` (write in it, 332 weighted rows over only read, 398 against 66). Both land away from the value held.
 
 **Measured in:** Comparables whose pages name developers and writers together, 39 weighted rows of the 496 (36 products): readers 12/39, stated read-only 7/39; inside the Mac App Store 9/24 readers; in the free shape-sharing population 5/19 readers, all of them free Mac App Store rows. Readers of AI output 9/12 readers, 8/12 stated read-only (5 of 6 inside the Mac App Store). Developers without writers 25/27 editors. All comparables [d d d s]; the free shape-sharing population [s for its GitHub rows, d for its store-only rows; s; s; s]; the Mac App Store [d d d s]. Whether the product edits turns on none of dimensions 1 to 3, so the rates stand as the leg; the free shape-sharing figures are quoted beside them and run the same way (readers 37 of 204, editors 163).
 
@@ -33,6 +33,10 @@ Silent on whether they edit, counted once and in no figure above: 4 of all 496 w
 
 **Buyer:** If the reader that says it never edits carries readers of AI output, the read-only readers first listed this year keep drawing take-up: MacMD Viewer's Homebrew count (627 a year, growth 1.84, N1) stays above its twelve-month average at the next 30-day reading, and Read.md (84 ratings, first released 2026-03-25, N6) shows more ratings at the next store pull. If the editor carries developers and writers together, MarkEdit, an editor addressed to the same Mac buyer, holds its Homebrew rate (17,031 a year, growth 0.81, N1) while the new read-only Mac readers stay under 100 ratings. A second reading of N1 and N6 a month on tests both.
 
-**Third derivation:** none recorded.
+**Held:** leaves. The program as it stands only reads a file (it opens it for reading and renders it into a read-only widget) and says nothing about editing; the recommended line is an editor.
+
+**Third derivation:** `3-decisions/third-card-9.md`; agrees; write in it, 332 weighted rows over only read with editing not mentioned (the whole corpus, 398 against 66), 133 among the 204 free products shaped like this viewer (163 against 30); with the whole Mac App Store cell set aside, 316 against 64. It lands by buyer: for the reader of what AI agents write the landing is the opposite option. Cost line: the program does not edit (capability note, what it does not do); an edit mode would be built.
 
 **Corrections:** none.
+
+**Priors:** `viewer.tcl` header, 2026-10-09: "A markdown file viewer"; the file is opened with "open $path r". `vendor/streamdoc-1.3.tm`, 2026-10-09: "read-only text widget". Session memory notes, 2026-10-09: "the viewer"; "this app". Old branch README, 2019: "take note". Sibling product README, 2026-08-29: "reads the local JSONL Claude Code already writes, and nothing more". Method test case, 2026-10-09: "a Tcl/Tk Markdown viewer".

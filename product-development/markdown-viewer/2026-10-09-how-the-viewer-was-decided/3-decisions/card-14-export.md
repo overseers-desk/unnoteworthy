@@ -18,9 +18,9 @@ Saying nothing is itself an option here, and it is also the program as it stands
 
 **Ruled:** open
 
-**Chip:** derived
+**Chip:** two readings, not stamped derived: the first derivation recommends export to PDF, with or without print or other formats (5 products over print with no file export, thin); the third derivation declines, withholding between PDF with no other file format and HTML or another format with no PDF (12 to 11 of the 38 readers that state any).
 
-**Measured in:** The 11 documentation-reader rivals of the register (the products naming developers and writers together), each product's print-and-export line read as its strongest claim: 6/11 against 1/11, silent 4/11; 9 of 11 are Mac App Store listings, dimensions 1 to 3 differ, 4 shared. Print and export are not one of the four dimensions, so the rate stands as the leg. Re-measured within the readers shaped like the operator (finding 28), 28 rows shared on dimensions 1 to 4 at row level: PDF 0/28, HTML or another format 4/28, print 2/28, copy 1/28, silent 13/28, cut off 8/28; kept as the counter-reading. Context, kept as rates: SHAPE PDF 78/204, silent 82/204 (taxonomy V33; finding 19), 163 of the 204 being editors (finding 4), dimension 1 shared for its 89 GitHub rows and differs for its 115 store-only rows, 2 to 4 shared.
+**Measured in:** The 11 documentation-reader rivals of the register (the products naming developers and writers together), each product's print-and-export line read as its strongest claim: 6/11 against 1/11, silent 4/11; 9 of 11 are Mac App Store listings, dimensions 1 to 3 differ, 4 shared. Print and export are not one of the four dimensions, so the rate stands as the leg. Re-measured within the readers shaped like the operator (finding 28), 28 rows shared on dimensions 1 to 4 at row level: PDF 0/28, HTML or another format 4/28, print 2/28, copy 1/28, silent 13/28, cut off 8/28; kept as the counter-reading. Context, kept as rates: the free products shaped like this viewer PDF 78/204, silent 82/204 (taxonomy V33; finding 19), 163 of the 204 being editors (finding 4), dimension 1 shared for its 89 GitHub rows and differs for its 115 store-only rows, 2 to 4 shared.
 
 **Cost lines:**
 - The program does not export, print or copy as anything (capability note, what it does not do).
@@ -35,6 +35,10 @@ Saying nothing is itself an option here, and it is also the program as it stands
 
 **Buyer:** No live buyer is held: no enquiry exists (register D3). A prediction against named rivals' buyers instead. Developers already add PDF and print to the preview they have: Markdown PDF has 4,203,421 VS Code installs and Print has 740,400 (N3). zerdo sells PDF-first to technical authors and developers, with an early-supporter licence, and its AlternativeTo entry shows "Like" with no number today. If PDF is what the documentation reader acts on, zerdo's entry gains likes by the next reading of that list. If it stays without a figure, that weakens the PDF reading against the HTML one.
 
-**Third derivation:** none recorded
+**Held:** leaves. The program as it stands has no print, export or copy-as command; the recommended line is export to PDF.
+
+**Third derivation:** `3-decisions/third-card-14.md`; declines; withheld between PDF with no other file format and HTML or another format with no PDF, standing at 12 to 11 of the 38 readers that state any (App Store 8 to 1, elsewhere 4 to 10), 48 silent. Both options it names lie away from the held value. Cost line: the program does not export, print or copy as anything (capability note, what it does not do); either landing would be built.
 
 **Corrections:** none
+
+**Priors:** `viewer.tcl` header, 2026-10-09: keys named are F5, Ctrl-O and Ctrl-F; no print or export named. Sibling product README, 2026-08-29: "Copy session as Markdown"; "Export to .md...".

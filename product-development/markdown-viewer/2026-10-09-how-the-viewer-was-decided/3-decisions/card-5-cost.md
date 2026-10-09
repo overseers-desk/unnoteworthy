@@ -19,7 +19,7 @@ How a reader was placed in one option: a reader naming a paid tier is under "Fre
 
 **Ruled:** open
 
-**Chip:** derived
+**Chip:** two readings, not stamped derived: the first derivation withholds between Free, nothing asked and Free to read, paid tier (5–3 of the 11 documentation-reader readers); the third derivation recommends free, stated in words, no paid tier and no ask (29 against 12 of 86 reader rivals). Nothing is held, so neither inherited nor anchored.
 
 **Measured in:** The leg is taken from the rival register's 86 readers (R1 to R86), mixed cells, 31 of them Mac App Store listings [store and directory rows differs, differs, differs, shared; GitHub-topic and free release rows shared, shared, shared, shared]; by buyer from their "Whom its pages address" lines as tallied in the leading-buyers file (11 documentation-reader readers, 9 of them App Store listings; 8 AI-output readers; 2 developers-only). The whole corpus is kept as context (496 weighted) [differs, differs, differs, shared]: it differs on dimension 2, the dimension this card rules, so its rates may not stand as the leg. The free products shaped like the operator (204) are free by definition and could not have shown a paid option [D1 shared for its 89 GitHub rows and differs for its 115 store-only rows; D2 shared; D3 shared; D4 shared]. Within them, by buyer (finding 37): developers alone 8 of 9 free, writers alone 3 of 4, documentation reader 18/19, AI-output readers 4 of 4; no sale taken stated by the documentation reader 7/19 against 34/150 of rows naming no buyer.
 
@@ -36,6 +36,10 @@ How a reader was placed in one option: a reader naming a paid tier is under "Fre
 
 **Buyer:** No enquiry exists (rival register D3), and the operator has never offered this program at any price, so no sale is on record. Of the eleven documentation-reader readers only md-reader (R50, a paid tier, 475 GitHub stars, a Chrome extension with 100,000 users) publishes a count; the App Store ones report a rating count of 0, which the register reads as an instrument artefact of Mac-only listings. Prediction, one-sided for that reason: if a paid tier keeps this buyer, md-reader's star count keeps rising at the next reading while its paid tier stands. A free reader's take-up by this buyer cannot be read from public counts, which is part of why the line is withheld.
 
-**Third derivation:** none recorded
+**Held:** nothing held. No source states a price for the viewer; the owner's words say it may be sold and name no price.
+
+**Third derivation:** `3-decisions/third-card-5.md`; differs; recommends free, stated in words, with no paid tier and no ask, 17 reader rivals over free with a paid tier (29 against 12 of 86); counted with saying nothing as an option, silence leads by 5 (34 against 29). The first derivation withholds between the same two paid-or-not shapes. No capability cost: every public product of the operator ships free.
 
 **Corrections:** none
+
+**Priors:** `viewer.tcl`, 2026-10-09: no price stated. Sibling product README, 2026-08-29: no price stated. Module repository README, 2026-09-08: no price stated. Method test case, 2026-10-09, owner's words: "sold as is"; "make it sell".

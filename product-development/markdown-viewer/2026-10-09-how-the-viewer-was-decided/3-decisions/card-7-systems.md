@@ -22,9 +22,9 @@ What a buyer needs installed first, the question's second half: of the 204 free 
 
 **Ruled:** open
 
-**Chip:** derived
+**Chip:** derived, both citations carried: this card's Recommended line (all three systems, 3 products over Linux and macOS, thin) and `3-decisions/third-card-7.md` (Linux, macOS and Windows, 3 rows over Linux and macOS among 28 operator-shaped readers, 9 to 6, thin). Both land away from the value held.
 
-**Measured in:** Readers shaped like the operator (finding 28), 28 rows drawn across cells, each shared on dimensions 1 to 4 at row level: 9/28 against 6/28. Platform is not one of the four dimensions, so the rate stands as the leg. Context, kept as rates: the 86 reader rivals (register R1 to R86), 14/86 against 12/86, mixed cells with 31 Mac App Store listings, dimensions 1 to 3 differ for the store and directory rows and are shared for the GitHub-topic rows, 4 shared; the 11 documentation-reader rivals, 1/11 against 0/11 (macOS only 7/11), 9 of 11 Mac App Store, dimensions 1 to 3 differ, 4 shared; SHAPE marginals macOS 120/204, Linux 81/204, Windows 70/204 (finding 6), dimension 1 shared for its 89 GitHub rows and differs for its 115 store-only rows, dimensions 2 to 4 shared. Finding 6 forbids reading one platform against another through a cell; every count here is of what a product's own page names, not of a cell's list.
+**Measured in:** Readers shaped like the operator (finding 28), 28 rows drawn across cells, each shared on dimensions 1 to 4 at row level: 9/28 against 6/28. Platform is not one of the four dimensions, so the rate stands as the leg. Context, kept as rates: the 86 reader rivals (register R1 to R86), 14/86 against 12/86, mixed cells with 31 Mac App Store listings, dimensions 1 to 3 differ for the store and directory rows and are shared for the GitHub-topic rows, 4 shared; the 11 documentation-reader rivals, 1/11 against 0/11 (macOS only 7/11), 9 of 11 Mac App Store, dimensions 1 to 3 differ, 4 shared; the free products shaped like this viewer marginals macOS 120/204, Linux 81/204, Windows 70/204 (finding 6), dimension 1 shared for its 89 GitHub rows and differs for its 115 store-only rows, dimensions 2 to 4 shared. Finding 6 forbids reading one platform against another through a cell; every count here is of what a product's own page names, not of a cell's list.
 
 **Cost lines:**
 - The program runs wherever Tcl 9 and Tk are installed; the buyer installs them today (capability note, the program).
@@ -43,6 +43,10 @@ What a buyer needs installed first, the question's second half: of the 204 free 
 
 **Buyer:** No live buyer is held: no enquiry exists (register D3). A prediction against named rivals' buyers instead: glow and leaf both name all three systems. If all three is right, their GitHub release assets split by system (glow had 285,591 release-asset downloads in the year, N5; leaf's Homebrew growth is 4.16, N1) show the Windows assets drawing a real share of each release. A Windows share near nothing would carry Linux and macOS. N5 holds the per-asset counts and did not split them by system; one tabulation of that response settles the prediction for these two rivals.
 
-**Third derivation:** none recorded
+**Held:** leaves. The program as it stands is launched under wish9.0 and opens links through `xdg-open`, a Linux desktop command, with Tcl 9 and Tk installed first; the recommended line names all three systems.
+
+**Third derivation:** `3-decisions/third-card-7.md`; agrees; Linux, macOS and Windows, 3 rows over Linux and macOS among the 28 operator-shaped readers (9 to 6) and 1 row among the 55 readers outside the App Store (13 to 12), thin. What to install first it withholds, between a runtime installed first and nothing else to install, 17 to 2 outside the App Store and 9 to 1 operator-shaped. Cost line: the link call is `xdg-open`, absent on macOS and Windows, and the program is tested on Linux only; macOS Intel is not built by the packaging pipeline (capability note).
 
 **Corrections:** none
+
+**Priors:** `viewer.tcl`, 2026-10-09: "exec xdg-open $url &"; "#!/usr/bin/env wish9.0"; "package require Tcl 9"; "package require Tk". `vendor/streamdoc-1.3.tm` and `vendor/tkdown-2.1.tm`, 2026-10-09: "package require Tcl 9". Sibling product README, 2026-08-29: "on Linux and macOS"; "on Windows, run questlog-<version>-windows-x86_64.exe". Module repository README, 2026-09-08: "Every module here runs on Tcl 9"; "wish9.0 where Tk is involved".

@@ -20,7 +20,7 @@ Saying nothing is itself an option here (the first row, which is the program as 
 
 **Ruled:** open
 
-**Chip:** derived
+**Chip:** derived, both citations carried: this card's Recommended line (open-source licence, work use left to the licence, 4 of the documentation reader's 15 rows outside the App Store over no licence stated, thin) and `3-decisions/third-card-6.md` (a named permissive open-source licence, 35 against 8 of 86 reader rivals over a named copyleft one; work use left to the licence). Nothing is held, so neither inherited nor anchored.
 
 **Measured in:** Re-measured within the sub-population that shares the operator's shape on all four dimensions, the GitHub editor topic (84) and viewer topic (21), read apart: open-source 78/84 and 21/21, silent 2/84 and 0/21, proprietary 3/84 and 0/21 [shared, shared, shared, shared]; a repository page shows a licence field, so that cell leans to a stated licence. Free products shaped like the operator: open-source 137/204, silent 59/204, proprietary 6/204 [D1 shared for its 89 GitHub rows and differs for its 115 store-only rows; D2 shared; D3 shared; D4 shared]. Whole corpus kept as context, 496 weighted [differs, differs, differs, shared]. Licence is none of the four dimensions; work use touches dimension 3 where a paid work licence is the sale, and no free product shaped like the operator offers one. By buyer (finding 38): documentation reader in the whole corpus, open-source 7/39 and silent 25/39 with 22 of the 25 App Store rows; outside the App Store 7/15 against 3/15, resting on 12 products [outside the App Store differs, differs, differs, shared]; in the free shaped products 4/19, and 0/12 on its free App Store rows [free App Store rows differ, shared, shared, shared].
 
@@ -38,6 +38,10 @@ Saying nothing is itself an option here (the first row, which is the program as 
 
 **Buyer:** No enquiry exists (rival register D3). Prediction against named rivals' buyers: the readers that a developer installs through Homebrew and that state MIT (glow 59,634 installs a year, mdserve 371, leaf 1,244; N1) are the comparison a work buyer makes; if the open-source reading is right, the next reader to enter the Homebrew formula list with a growth above 1.00 states an open-source licence, as glow, grip, mdcat, mdless, mdfried, mdserve and leaf do in their register sections. A second reading of N1 a month on tests it for those entrants, not for the buyer.
 
-**Third derivation:** none recorded
+**Held:** nothing held. No source states a licence for the viewer; the licence the siblings and the vendored modules carry is theirs.
+
+**Third derivation:** `3-decisions/third-card-6.md`; agrees; Part A, a named permissive open-source licence, 27 reader rivals over a named copyleft licence (35 against 8 of 86), 34 over a closed one (35 against 1); Part B, say nothing about work use beyond the licence, 197 rows of the free products shaped like this viewer over work use stated free (199 against 2). Cost line: the repository holds no LICENSE file; a licence text would be added (capability note).
 
 **Corrections:** none
+
+**Priors:** `viewer.tcl` and `vendor/streamdoc-1.3.tm`, `vendor/tkdown-2.1.tm`, 2026-10-09: no licence stated. Old branch README, 2019: no licence stated. Sibling product README, 2026-08-29: "MIT". Module repository README, 2026-09-08: "MIT licensed"; "[MIT](LICENSE)".

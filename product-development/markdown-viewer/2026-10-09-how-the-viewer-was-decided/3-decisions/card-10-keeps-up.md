@@ -17,7 +17,7 @@ Silent on keeping up, counted once and in no figure above: 294 weighted rows of 
 
 **Ruled:** open
 
-**Chip:** derived
+**Chip:** two readings, not stamped derived: the first derivation withholds between updates as you type and reloads by itself when the file changes (13 to 9 of 39 weighted rows naming developers and writers together); the third derivation recommends previews its own typing instead (42 weighted rows over follows the file, 98 against 56), and under a read-only ruling on card 9 withholds between follows the file and you reload it yourself (25 to 2 of 86 reader rivals, 51 silent).
 
 **Measured in:** Comparables naming developers and writers together, 39 weighted rows of 496: reload 9/39, typing preview 13/39; inside the Mac App Store reload 6/24 against 24/86 of the store's rows that name no buyer; in the free shape-sharing population 5/19 against 24/150, and in its free Mac App Store rows 3/12 against 10/31, so the shape-sharing gap is the cell. Readers of AI output reload 6/12, 5 of the 6 outside the Mac App Store (Homebrew and Snap rows). Developers without writers reload 3/27, typing preview 8/27. Reader rivals 25/86 reload. All comparables and the Mac App Store [d d d s]; the free shape-sharing population [s for its GitHub rows, d for its store-only rows; s; s; s]; the reader rivals mixed cells, the 28 shaped like the operator [s s s s] (11/28 reload). The 9 reader rivals naming readers of AI output are the 8 that `leading-buyers.md` lists and ViewMD (R84), whose audience line is clipped in the register and which finding 31 places among the AI rows as well as among those naming developers and writers. Keeping up with a file turns on none of dimensions 1 to 3, so the rates stand as the leg; the shape-sharing counts are quoted beside them.
 
@@ -35,6 +35,10 @@ Silent on keeping up, counted once and in no figure above: 294 weighted rows of 
 
 **Buyer:** If reload on change carries the developer and AI readers on Homebrew, leaf-markdown-viewer (states "Auto-reload when the file changes on disk"; 1,244 installs in its first 90 days, 431 in the last 30, N1) keeps a 30-day count above 104, one twelfth of its year, at the next reading, and MacMD Viewer's growth (1.84) stays above 1.00. If keeping up is not what carries them, glow, which states none, keeps its 59,634 a year while those two fall below their averages. A second reading of N1 a month on decides it for these rivals.
 
-**Third derivation:** none recorded.
+**Held:** held. Reloads when you ask it to: F5 reloads the file from disk and keeps the folds and the scroll position. The recommended line is withheld, so it neither keeps nor leaves it.
+
+**Third derivation:** `3-decisions/third-card-10.md`; differs; previews its own typing instead, 42 weighted rows over follows the file (the whole corpus 98 against 56; the free products shaped like this viewer 44 against 23), a landing that stands or falls with card 9. Under a read-only ruling it withholds between follows the file and you reload it yourself, 25 to 2 of 86 reader rivals with 51 silent, 11 to 1 of 28 operator-shaped readers with 15 silent. Cost line: the program neither edits nor watches a file (capability note, what it does not do); typing preview needs an edit mode and following the file needs a watch, each built.
 
 **Corrections:** none.
+
+**Priors:** `viewer.tcl`, 2026-10-09: "F5 reloads the file from disk"; "so a file under edit does not unfold on every save". Sibling product README, 2026-08-29: "not via a watcher or a sync protocol".

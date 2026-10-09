@@ -19,9 +19,9 @@ Whether it needs the network, the question's first half, which one product can a
 
 **Ruled:** open
 
-**Chip:** derived
+**Chip:** derived, both citations carried: this card's Recommended line (nothing leaves the machine and the page says so, 7 products over local by default with an optional upload, among the 11 documentation-reader products) and `3-decisions/third-card-13.md` (local, stated, 24 rows over local by default with optional upload, 26 to 2 of 86 readers). Both land on the value held.
 
-**Measured in:** The 11 documentation-reader rivals of the register (the products naming developers and writers together), each product's files-stay-local line: 7/11 against 0/11, silent 4/11; 9 of 11 are Mac App Store listings, dimensions 1 to 3 differ, 4 shared. Where files go is not one of the four dimensions, so the rate stands as the leg. Context, kept as rates: SHAPE 47/204 against 35/204, silent 113/204 (taxonomy V14), dimension 1 shared for its 89 GitHub rows and differs for its 115 store-only rows, 2 to 4 shared. The readers shaped like the operator (finding 28) were read too, and they cannot carry this card: 2 of 28 state local, none states another posture, 18 say nothing and 8 lines are cut off before this could be read. The files-stay-local variable is weak (adjusted agreement 0.89; sync to the buyer's own cloud fits no value; finding 29).
+**Measured in:** The 11 documentation-reader rivals of the register (the products naming developers and writers together), each product's files-stay-local line: 7/11 against 0/11, silent 4/11; 9 of 11 are Mac App Store listings, dimensions 1 to 3 differ, 4 shared. Where files go is not one of the four dimensions, so the rate stands as the leg. Context, kept as rates: 47 of the 204 free products shaped like this viewer against 35/204, silent 113/204 (taxonomy V14), dimension 1 shared for its 89 GitHub rows and differs for its 115 store-only rows, 2 to 4 shared. The readers shaped like the operator (finding 28) were read too, and they cannot carry this card: 2 of 28 state local, none states another posture, 18 say nothing and 8 lines are cut off before this could be read. The files-stay-local variable is weak (adjusted agreement 0.89; sync to the buyer's own cloud fits no value; finding 29).
 
 **Cost lines:**
 - The program uses no network (capability note, what it does not do; the program).
@@ -38,6 +38,10 @@ Whether it needs the network, the question's first half, which one product can a
 
 **Buyer:** No live buyer is held: no enquiry exists (register D3). A prediction against a named rival's buyers instead. Read.md holds 84 ratings averaging 4.96 under a listing that says file contents are never uploaded and reading works fully offline (N6). If locality is what this buyer weighs, its review feed, which N6 did not read (N6 read the five most-rated apps), names privacy or offline reading in more than one of its newest fifty reviews. A feed silent on both says locality is a promise this buyer takes for granted rather than chooses on.
 
-**Third derivation:** none recorded
+**Held:** keeps. The program as it stands reads a file from disk and hands a clicked link to the system browser; it requires no network package and says nothing about it anywhere. The recommended line says the same of the files and adds the sentence.
+
+**Third derivation:** `3-decisions/third-card-13.md`; agrees; local, stated, 24 rows over local by default with optional upload among the 86 readers (26 to 2), 5 outside the App Store (6 to 1), 12 among the 204 free products shaped like this viewer (47 to 35); no telemetry, stated, 76 rows over telemetry sent inside the App Store (101 to 25 of 134). On whether the network is used at all it withholds, between never uses the network and works offline with network only for features it names, 151 and 110 of 496. Cost line: no page exists to carry the sentence; the repository holds no README (capability note).
 
 **Corrections:** none
+
+**Priors:** `viewer.tcl` header, 2026-10-09: "anything with a URL scheme in the system browser"; "package require Tcl 9"; "package require Tk". Sibling product README, 2026-08-29: "nothing leaves it". Module repository README, 2026-09-08: "No server, no client, no build farm, no registry format".

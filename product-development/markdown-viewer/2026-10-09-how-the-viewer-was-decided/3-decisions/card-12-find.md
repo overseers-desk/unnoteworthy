@@ -18,7 +18,7 @@ Silent on finding a word, counted once and in no figure above: 241 weighted rows
 
 **Ruled:** open
 
-**Chip:** derived
+**Chip:** two readings, not stamped derived: the first derivation withholds between search within the document and search across files or a folder (reader rivals 4 to 2); the third derivation recommends find within the open document only (18 against 4 and 4 of 86 reader rivals), and withholds among the 28 operator-shaped readers (3 to 2).
 
 **Measured in:** Comparables naming developers and writers together, 39 weighted rows of 496: within the document 9/39, find and replace 2/39, undecidable 4/39, across files not reported; in the free shape-sharing population within 4/19 against 24/150, find and replace 2/19 against 25/150. Readers of AI output within 6/12, inside the Mac App Store 4 of 6 against 23/86 of the store's rows that name no buyer. Developers without writers within 8/27, find and replace 5/27, undecidable 6/27. Writers alone find and replace 10/32, 6/22 inside AlternativeTo. Reader rivals: within only 18/86, across only 4/86, both 4/86, undecidable 5/86. All comparables, the Mac App Store and AlternativeTo [d d d s]; the free shape-sharing population [s for its GitHub rows, d for its store-only rows; s; s; s]; the 28 readers shaped like the operator [s s s s], within only 3/28, both 2/28, across only 1/28. The 9 reader rivals naming readers of AI output are the 8 that `leading-buyers.md` lists and ViewMD (R84), which finding 31 places among the AI rows as well as among those naming developers and writers. Finding a word turns on none of dimensions 1 to 3, so the rates stand as the leg.
 
@@ -36,6 +36,10 @@ Silent on finding a word, counted once and in no figure above: 241 weighted rows
 
 **Buyer:** If search within the document carries the developer reader on Homebrew, the new terminal readers that sell it keep running above their yearly average at the next reading: md-tui ("f or / Search"; 421 a year, growth 2.08, N1) and leaf ("Press / to search. Matches are highlighted with a counter."; 1,244 in its first 90 days, N1). Glow, which claims no search, is the control: its 59,634 a year holding while those two fall back would say search is not what carries take-up.
 
-**Third derivation:** none recorded.
+**Held:** held. Search within the document: Ctrl-F, reaching into folded sections and table cells. The recommended line is withheld, so it neither keeps nor leaves it.
+
+**Third derivation:** `3-decisions/third-card-12.md`; differs, landing on the held scope; find within the open document only, 14 rows over either runner-up (18 against 4 for across files only and 4 for both, of 86 reader rivals). Among the 28 operator-shaped readers it withholds between within the document only and both, 3 to 2 with 3 unscoped and 19 silent. The first derivation withholds between within the document and across files. No capability cost: the program searches the open document.
 
 **Corrections:** none.
+
+**Priors:** `viewer.tcl` header, 2026-10-09: "Ctrl-F finds text, into folded sections and table cells". streamdoc header, 2026-10-09: "a bar under the text whose entry collects every literal hit, folded and hidden text included". Session memory note (design agreement), 2026-10-09: "Ctrl-F find bar". Sibling product README, 2026-08-29: "`Ctrl-F` opens an inline find within the session"; "a typed search that streams matches across all projects".

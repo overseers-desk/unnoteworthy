@@ -21,7 +21,7 @@ No product in the corpus is silent on its name form (taxonomy V03, silent 0 ever
 
 **Ruled:** open
 
-**Chip:** derived
+**Chip:** two readings, not stamped derived: the first derivation withholds between mdfold and Pleat (coined over markdown word 43–25, a lead the cell accounts for); the third derivation recommends a coinage on "md", mdread first and mdfold second, by collision (3 clear candidates against 0), with prevalence a tie (22 against 24 of 86 reader rivals). No name is held as a value, so neither inherited nor anchored.
 
 **Measured in:** Re-measured within the sub-population that shares the operator's shape on all four dimensions, the GitHub editor topic (84) and viewer topic (21), each read alone, never summed (finding 32: 8 of the 32 free rows naming developers or writers are GitHub-topic rows, a handful): coined names 43/84 and 11/21, function word 26/84 and 4/21, markdown word 25/84 and 8/21, maker's name 3/84 and 2/21 [shared, shared, shared, shared]. Kept as context: the free products shaped like the operator, 85, 83, 83 and 4 of 204 [D1 shared for its 89 GitHub rows and differs for its 115 store-only rows; D2 shared; D3 shared; D4 shared]; the whole corpus, 216, 218, 194 and 7 of 496 weighted [differs, differs, differs, shared]. By buyer (finding 34), the markdown word: documentation reader 25/39 in the whole corpus, 21/24 inside the Mac App Store, 4/15 outside it, 11/19 in the free shaped products with 10 of the 11 on free App Store listings [App Store and whole corpus differs, differs, differs, shared]. The name card turns on dimension 1, since the name form follows the surface the buyer reaches the product through (finding 34), and that is why the leg is re-measured in the GitHub cells. The search leg's condition: one capture per candidate, Austin, Texas, United States, desktop, English, 2026-10-09; no volume, no difficulty.
 
@@ -38,6 +38,10 @@ No product in the corpus is silent on its name form (taxonomy V03, silent 0 ever
 
 **Buyer:** No enquiry exists (rival register D3), so a named rival's buyers stand in. The reader entries new to Homebrew inside the year are listed almost all under the markdown word (markdown-preview 2,618 installs a year, leaf-markdown-viewer 1,244, markviewer 244, mdhero 208, markpad 186) and one under a coined word (telari, 14) (distributor note N1). Prediction under the markdown-word reading: in the next 30-day window the markdown-word entrants stay above their twelve-month average (growth above 1.00 by N1's measure) and telari stays at the floor; under the coined reading, telari moves. A second reading of the Homebrew analytics a month on tests this for these entrants, not for the buyer.
 
-**Third derivation:** none recorded
+**Held:** nothing held. The owner calls the only name in use a placeholder, so he holds no name as a value; the sources that carry it are listed in Priors.
+
+**Third derivation:** `3-decisions/third-card-2.md`; differs; Part A recommends a coinage on "md" (mdread first, mdfold second), 3 collision-clear candidates against 0 for the name with the full word "Markdown", the market's naming count a tie at 22 against 24 of 86 reader rivals, thin; the first derivation withholds between mdfold and Pleat. Part B (the descriptive term beside the name) withholds between "markdown viewer" and "markdown preview", rival names 19 to 10, US relative interest 17 to 24 the other way. No capability cost: a name needs no mechanism.
 
 **Corrections:** none
+
+**Priors:** Old branch README, 2019: heading "unnoteworthy" (the placeholder name); "A screenshot based note taking software". Session memory note (name), 2026-10-09: "placeholder"; the real name "undecided"; to be called "the viewer" or "this app". Method test case, 2026-10-09, owner's words: "the current name was a placeholder". `viewer.tcl` header, 2026-10-09: "A markdown file viewer"; the file is named `viewer.tcl`. Sibling product README, 2026-08-29: "questlog". Module repository README, 2026-09-08: "teatotal".
